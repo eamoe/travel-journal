@@ -20,9 +20,9 @@ export default function App() {
       })
       .then((data) => {
         if (cancelled) return
-        // Sort chronologically (oldest → newest), so the journal reads as a timeline.
+        // Sort reverse-chronologically (newest → oldest).
         const sorted = [...data].sort(
-          (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime(),
+          (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
         )
         setPosts(sorted)
       })
