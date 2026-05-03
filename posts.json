@@ -5,8 +5,14 @@
     "location": "Rome, Italy",
     "date": "2026-04-12T14:30:00",
     "image": "images/rome.jpg",
-    "alt": "View of the Colosseum at sunset, warm stone glowing in golden light",
-    "content": "Arrived in Rome on a Saturday afternoon, the kind of afternoon where the city seems to soften at the edges. The cab driver took the long way through Trastevere, past laundry strung between shutters and a man tuning a violin in a doorway.\n\nI walked to the **Colosseum** as the sun began to drop. There is something disarming about its scale — not the size, exactly, but the way it has *settled* into the city, as if Rome had decided long ago to live around it rather than against it.\n\n> *«Здесь даже камни умеют ждать.»*\n\nLater, a small trattoria off Via dei Funari. Cacio e pepe, a single glass of Frascati, and the ordinary miracle of being somewhere new."
+    "alt": {
+      "en": "View of the Colosseum at sunset, warm stone glowing in golden light",
+      "local": "Вид на Колизей на закате, теплый камень светится в золотистом свете"
+    },
+    "content": {
+      "en": "Arrived in Rome on a Saturday afternoon, the kind of afternoon where the city seems to soften at the edges. The cab driver took the long way through Trastevere, past laundry strung between shutters and a man tuning a violin in a doorway.\n\nI walked to the **Colosseum** as the sun began to drop. There is something disarming about its scale — not the size, exactly, but the way it has *settled* into the city, as if Rome had decided long ago to live around it rather than against it.\n\n> *«Здесь даже камни умеют ждать.»*\n\nLater, a small trattoria off Via dei Funari. Cacio e pepe, a single glass of Frascati, and the ordinary miracle of being somewhere new.",
+      "local": "Прибыл в Рим в субботний полдень — из тех дней, когда город кажется мягче по краям. Таксист поехал долгим путем через Трастевере, мимо белья, развешанного между ставнями, и человека, настраивающего скрипку в дверном проеме.\n\nЯ дошел до **Колизея**, когда солнце начало садиться. В его масштабе есть что-то обезоруживающее — не в размере, а в том, как он *устроился* в городе, словно Рим давным-давно решил жить вокруг него, а не вопреки.\n\n> *«Здесь даже камни умеют ждать.»*\n\nПозже — маленькая траттория у виа деи Фунари. Качо-э-пепе, бокал Фраскати и обыкновенное чудо пребывания в новом месте."
+    }
   },
   {
     "id": "2026-04-19-0915-florence",
@@ -14,8 +20,14 @@
     "location": "Florence, Italy",
     "date": "2026-04-19T09:15:00",
     "image": "images/florence.jpg",
-    "alt": "Terracotta rooftops of Florence with the Duomo in soft afternoon light",
-    "content": "Florence is a city best read slowly. I climbed to a small terrace above Oltrarno before breakfast and watched the light find the **Duomo** one rooftop at a time.\n\nThe Uffizi was crowded, of course, but there is a quiet room near the end where almost no one stops — a single Botticelli, a wooden bench, and a window that frames the Arno like a painting of its own.\n\nNotes from the day:\n\n- A bakery on Via dei Neri that opens at seven\n- The smell of stone after a brief rain\n- A bookshop with one English shelf, three Russian, and a sleeping cat"
+    "alt": {
+      "en": "Terracotta rooftops of Florence with the Duomo in soft afternoon light",
+      "local": "Терракотовые крыши Флоренции с видом на Дуомо в мягком дневном свете"
+    },
+    "content": {
+      "en": "Florence is a city best read slowly. I climbed to a small terrace above Oltrarno before breakfast and watched the light find the **Duomo** one rooftop at a time.\n\nThe Uffizi was crowded, of course, but there is a quiet room near the end where almost no one stops — a single Botticelli, a wooden bench, and a window that frames the Arno like a painting of its own.\n\nNotes from the day:\n\n- A bakery on Via dei Neri that opens at seven\n- The smell of stone after a brief rain\n- A bookshop with one English shelf, three Russian, and a sleeping cat",
+      "local": "Флоренция — это город, который лучше читать медленно. Перед завтраком я поднялся на небольшую террасу над Ольтрарно и наблюдал, как свет находит **Дуомо**, крыша за крышей.\n\nВ Уффици, конечно, было многолюдно, но в самом конце есть тихая комната, где почти никто не задерживается — одна работа Боттичелли, деревянная скамья и окно, обрамляющее Арно, словно живая картина.\n\nЗаметки дня:\n\n- Пекарня на виа деи Нери, которая открывается в семь\n- Запах камня после короткого дождя\n- Книжный магазин с одной полкой на английском, тремя на русском и спящим котом"
+    }
   },
   {
     "id": "2026-05-03-0745-cinque-terre",
@@ -23,8 +35,14 @@
     "location": "Cinque Terre, Italy",
     "date": "2026-05-03T07:45:00",
     "image": "images/cinque-terre.jpg",
-    "alt": "Pastel cliffside houses of Cinque Terre at quiet morning light",
-    "content": "Took the early train from La Spezia and stepped out into a village still half-asleep. The path between Vernazza and Monterosso is steeper than the photographs suggest, and more beautiful.\n\nHalfway up, I sat on a low wall and ate an apricot. Below, the sea was doing what the sea does — *nothing in particular, very well*. A fisherman waved without looking up.\n\nBy the time I reached the next village the heat had arrived properly, and so had the boats."
+    "alt": {
+      "en": "Pastel cliffside houses of Cinque Terre at quiet morning light",
+      "local": "Пастельные домики на скалах Чинкве-Терре в тихом утреннем свете"
+    },
+    "content": {
+      "en": "Took the early train from La Spezia and stepped out into a village still half-asleep. The path between Vernazza and Monterosso is steeper than the photographs suggest, and more beautiful.\n\nHalfway up, I sat on a low wall and ate an apricot. Below, the sea was doing what the sea does — *nothing in particular, very well*. A fisherman waved without looking up.\n\nBy the time I reached the next village the heat had arrived properly, and so had the boats.",
+      "local": "Сел на ранний поезд из Ла-Специи и вышел в деревне, которая еще наполовину спала. Тропа между Вернаццей и Монтероссо круче, чем кажется на фотографиях, и гораздо красивее.\n\nНа полпути я присел на низкую стену и съел абрикос. Внизу море делало то, что обычно делает море — *ничего особенного, но очень искусно*. Рыбак помахал рукой, не поднимая глаз.\n\nК тому времени, как я добрался до следующей деревни, пришла настоящая жара, а вместе с ней и лодки."
+    }
   },
   {
     "id": "2026-05-14-1820-tuscany",
@@ -32,8 +50,14 @@
     "location": "Val d'Orcia, Tuscany",
     "date": "2026-05-14T18:20:00",
     "image": "images/tuscany.jpg",
-    "alt": "Rolling Tuscan hills with a cypress-lined road at sunrise",
-    "content": "Three days in a small farmhouse outside Pienza. No cell service to speak of, which turned out to be a kindness.\n\nThe owner, Giulia, kept apologizing for the simplicity of it — the iron bed, the single lamp, the kitchen with one pot — and I kept trying to explain that this was exactly the point. Eventually she laughed and brought me a jar of honey from her father's hives.\n\nIn the evenings I walked the road between the cypresses until the light went amber, then violet, then gone. There are landscapes that look like paintings, and then there is **Val d'Orcia**, which looks like the idea of a painting."
+    "alt": {
+      "en": "Rolling Tuscan hills with a cypress-lined road at sunrise",
+      "local": "Холмы Тосканы с дорогой, обсаженной кипарисами, на рассвете"
+    },
+    "content": {
+      "en": "Three days in a small farmhouse outside Pienza. No cell service to speak of, which turned out to be a kindness.\n\nThe owner, Giulia, kept apologizing for the simplicity of it — the iron bed, the single lamp, the kitchen with one pot — and I kept trying to explain that this was exactly the point. Eventually she laughed and brought me a jar of honey from her father's hives.\n\nIn the evenings I walked the road between the cypresses until the light went amber, then violet, then gone. There are landscapes that look like paintings, and then there is **Val d'Orcia**, which looks like the idea of a painting.",
+      "local": "Три дня в маленьком фермерском доме под Пьенцей. Сотовой связи почти нет, что оказалось сущей благодатью.\n\nХозяйка, Джулия, все время извинялась за простоту — железную кровать, одну лампу, кухню с единственной кастрюлей, — а я пытался объяснить, что в этом-то и вся суть. В конце концов она рассмеялась и принесла мне баночку меда с пасеки своего отца.\n\nПо вечерам я гулял по дороге между кипарисами, пока свет не становился янтарным, затем фиолетовым и, наконец, не исчезал совсем. Есть пейзажи, похожие на картины, а есть **Валь-д'Орча**, которая выглядит как сама идея живописи."
+    }
   },
   {
     "id": "2026-05-22-0650-venice",
@@ -41,8 +65,14 @@
     "location": "Venice, Italy",
     "date": "2026-05-22T06:50:00",
     "image": "images/venice.jpg",
-    "alt": "A quiet Venetian canal at dawn with soft mist on the water",
-    "content": "Venice at six in the morning is a different city. The canals are still, the deliveries haven't started, and you can hear your own footsteps echo down the calli.\n\nI got lost twice on the way to **San Giorgio Maggiore**, which I now understand is part of the design. The bell tower is worth the slow elevator and the small fee. From the top, the lagoon looks less like a city and more like *a pattern of intentions*.\n\nLunch was a single sarde in saor at a counter near Rialto. The man behind it asked where I was from, nodded once, and refilled my water without asking."
+    "alt": {
+      "en": "A quiet Venetian canal at dawn with soft mist on the water",
+      "local": "Тихий венецианский канал на рассвете с легким туманом над водой"
+    },
+    "content": {
+      "en": "Venice at six in the morning is a different city. The canals are still, the deliveries haven't started, and you can hear your own footsteps echo down the calli.\n\nI got lost twice on the way to **San Giorgio Maggiore**, which I now understand is part of the design. The bell tower is worth the slow elevator and the small fee. From the top, the lagoon looks less like a city and more like *a pattern of intentions*.\n\nLunch was a single sarde in saor at a counter near Rialto. The man behind it asked where I was from, nodded once, and refilled my water without asking.",
+      "local": "Венеция в шесть утра — совсем другой город. Каналы неподвижны, доставки еще не начались, и можно услышать эхо собственных шагов в переулках.\n\nЯ дважды заблудился по пути к **Сан-Джорджо-Маджоре**, что, как я теперь понимаю, было частью замысла. Колокольня стоит медленного лифта и небольшой платы. Сверху лагуна кажется не столько городом, сколько *узором чьих-то намерений*.\n\nНа обед была порция sarde in saor у стойки недалеко от Риальто. Человек за прилавком спросил, откуда я, кивнул и молча подлил мне воды."
+    }
   },
   {
     "id": "2026-06-04-1610-amalfi",
@@ -50,7 +80,13 @@
     "location": "Amalfi Coast, Italy",
     "date": "2026-06-04T16:10:00",
     "image": "images/amalfi.jpg",
-    "alt": "Amalfi coast cliffs and weathered houses in late afternoon light",
-    "content": "The drive from Sorrento to Positano is famous for being terrifying. It is, a little. It is also one of the most beautiful hours I have spent in a car.\n\nIn Positano I rented a small room above a lemon grove. The owner left a handwritten note — in three languages, including Russian — and a bowl of figs on the table. *«Будьте как дома»*, it said at the bottom, in careful blue ink.\n\nThe early summer heat has arrived in earnest now. I have begun the slow work of doing very little: a swim in the morning, a long lunch, an even longer afternoon with a book. This is, it turns out, what the journal was for all along."
+    "alt": {
+      "en": "Amalfi coast cliffs and weathered houses in late afternoon light",
+      "local": "Скалы побережья Амальфи и старые дома в лучах предзакатного солнца"
+    },
+    "content": {
+      "en": "The drive from Sorrento to Positano is famous for being terrifying. It is, a little. It is also one of the most beautiful hours I have spent in a car.\n\nIn Positano I rented a small room above a lemon grove. The owner left a handwritten note — in three languages, including Russian — and a bowl of figs on the table. *«Будьте как дома»*, it said at the bottom, in careful blue ink.\n\nThe early summer heat has arrived in earnest now. I have begun the slow work of doing very little: a swim in the morning, a long lunch, an even longer afternoon with a book. This is, it turns out, what the journal was for all along.",
+      "local": "Дорога из Сорренто в Позитано славится тем, что она ужасающая. Так и есть, немного. Но это также один из самых прекрасных часов, проведенных мною в машине.\n\nВ Позитано я снял комнатку над лимонной рощей. Хозяин оставил записку от руки — на трех языках, включая русский — и тарелку инжира на столе. *«Будьте как дома»*, было написано внизу аккуратными синими чернилами.\n\nНаступила настоящая летняя жара. Я занялся неспешным делом — ничегонеделанием: купание утром, долгий обед, еще более долгий день с книгой. Оказывается, именно для этого и заводился дневник."
+    }
   }
 ]
