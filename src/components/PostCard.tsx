@@ -114,7 +114,10 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
           {currentLocation}
         </a>
 
-        <time dateTime={post.date} className="text-[12.5px] uppercase tracking-[0.14em] text-ink/55">
+        <time
+            dateTime={post.date}
+            className="font-serif text-[14.5px] tracking-tight text-ink/45"
+        >
           {formatDate(post.date, currentLang)}
         </time>
       </div>
