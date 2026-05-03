@@ -9,17 +9,17 @@ export const UI_STRINGS: Record<Language, {
     showLess: string;
 }> = {
     en: {
-        journalTitle: "The World Travel Journal 2026",
+        journalTitle: "The Italian Journal 2026",
         tagline: "Tracing history through the lens of modern travel",
-        footerTitle: "The World Travel Journal · 2026",
+        footerTitle: "The Italian Journal · 2026",
         footerText: "Until the next journey",
         readMore: "Read more",
         showLess: "Show less",
     },
     local: { // Wildcard: Update to match your language
-        journalTitle: "The World Travel Journal 2026",
+        journalTitle: "Итальянский дневник 2026",
         tagline: "Прослеживая историю через призму современных путешествий",
-        footerTitle: "The World Travel Journal · 2026",
+        footerTitle: "Итальянский дневник · 2026",
         footerText: "До следующего путешествия",
         readMore: "Читать далее",
         showLess: "Свернуть",
