@@ -9,7 +9,7 @@ export default function Header() {
           The World Travel Journal 2026
         </h1>
         <p className="hidden sm:block text-balance text-[13px] leading-relaxed text-ink/65 sm:text-sm">
-          A record of travels from the spring bloom through the early summer heat.
+          Tracing history through the lens of modern travel.
         </p>
       </div>
     </header>
