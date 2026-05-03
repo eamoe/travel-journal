@@ -87,23 +87,29 @@ export default function PostCard({ post, index, onOpenImage }: PostCardProps) {
 
       {/* Metadata */}
       <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
-        <span className="inline-flex items-center gap-1.5 rounded-full border border-accent/30 bg-accent/10 px-2.5 py-1 text-[12px] font-medium tracking-wide text-accent">
+        <a
+            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(post.location)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group/loc inline-flex items-center gap-1.5 rounded-full border border-accent/30 bg-accent/10 px-2.5 py-1 text-[12px] font-medium tracking-wide text-accent transition-all hover:bg-accent/20 hover:border-accent/50"
+        >
           <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="h-3.5 w-3.5"
-            aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="h-3.5 w-3.5 transition-transform group-hover/loc:scale-110"
+              aria-hidden="true"
           >
             <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
             <circle cx="12" cy="10" r="3" />
           </svg>
           {post.location}
-        </span>
+        </a>
+
         <time dateTime={post.date} className="text-[12.5px] uppercase tracking-[0.14em] text-ink/55">
           {formatDate(post.date)}
         </time>
