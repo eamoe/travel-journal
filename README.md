@@ -131,7 +131,7 @@ This is required for GitHub Pages to work correctly.
 
 ## 📌 Future Improvements
 
-* Multi-language support (EN / RU):
+* Multi-language support (EN / `LANGUAGE`):
   * Store post content in multiple languages within `posts.json`
   * Add a language switcher in the header (EN / `LANGUAGE`)
   * Default to English with ability to toggle to `LANGUAGE`
