@@ -5,6 +5,7 @@ import Lightbox from "./components/Lightbox"
 import ScrollToTop from "./components/ScrollToTop"
 import type { Language, Post } from "./types"
 import { asset } from "./lib/format"
+import { UI_STRINGS } from "./translations.ts";
 
 export default function App() {
   const [lang, setLang] = useState<Language>('en');
@@ -79,10 +80,10 @@ export default function App() {
       <footer className="border-t border-muted/70 bg-paper">
         <div className="mx-auto max-w-[700px] px-5 py-10 text-center">
           <p className="font-serif text-[15px] italic text-ink/60">
-            Until the next journey.
+              {UI_STRINGS[lang].footerText}
           </p>
           <p className="mt-2 text-[11.5px] uppercase tracking-[0.2em] text-ink/40">
-            The Italian Journal · 2026
+              {UI_STRINGS[lang].footerTitle}
           </p>
         </div>
       </footer>

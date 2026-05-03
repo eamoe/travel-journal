@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react"
 import ReactMarkdown from "react-markdown"
 import type { Language, Post } from "../types"
 import { asset, formatDate } from "../lib/format"
+import { UI_STRINGS } from "../translations.ts";
 
 interface PostCardProps {
   post: Post
@@ -16,6 +17,7 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
   const [visible, setVisible] = useState(false)
   const contentRef = useRef<HTMLDivElement>(null)
   const articleRef = useRef<HTMLElement>(null)
+  const t = UI_STRINGS[currentLang];
 
   // Determine if the content overflows the collapsed height (so we only
   // show "Read more" when there's actually more to read).
@@ -146,7 +148,7 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
             aria-expanded={expanded}
             className="mt-3 inline-flex items-center gap-1.5 text-[13px] font-medium text-accent transition-colors hover:text-[#a85829]"
           >
-            <span>{expanded ? "Show less" : "Read more"}</span>
+            <span>{expanded ? t.showLess : t.readMore}</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"

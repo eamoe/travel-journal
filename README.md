@@ -9,13 +9,14 @@ modern aesthetic.
 ## ✨ Features
 
 * **Chronological Travel Feed** - A vertical timeline of journal entries sorted reverse-chronologically (newest first).
+* **Locality-Aware Date Formatting** - Timestamps automatically adapt their syntax, month names, and hour cycles (12h/24h) based on the selected language via the Intl API.
+* **Bilingual Narrative & UI Support** - A complete dual-language system where both journal content and interface elements (buttons, headers, footers) toggle dynamically.
 * **Location-Locked Timestamps** - Precise date and time formatting that preserves the local time of the destination, regardless of the viewer's timezone.
-* **Structured Content Architecture** - A clean `posts.json` schema with unique timestamp-based IDs and internal naming for easy editing.
+* **Structured Content Architecture** - A clean `posts.json` schema with localized content fields for easy multi-language editing.
 * **Mediterranean Design System** - A minimalist, mobile-first aesthetic inspired by coastal landscapes.
 * **Interactive Media** - High-quality photography with image lightboxes and zoom functionality.
 * **Flexible Narratives** - Support for markdown-based content with expandable "read more" sections for long-form observations.
-* **External Map Integration** – Interactive location badges that launch the destination directly in Google Maps or the user's native maps' app.
-* **Bilingual Narrative Support** - Integrated language toggle (EN / Wildcard) allowing users to switch between English and a secondary language.
+* **External Map Integration** – Interactive location badges that launch the destination directly in Google Maps or native map apps.
 
 ---
 
@@ -24,6 +25,7 @@ modern aesthetic.
 * React (Vite)
 * Tailwind CSS
 * react-markdown
+* Intl API (Native Browser Localization)
 * GitHub Pages (deployment)
 
 ---
@@ -82,11 +84,11 @@ Example structure:
 
 ## ⚙️ Wildcard Localization
 
-To change the secondary language and its associated flag:
+To change the secondary language (the "Wildcard"):
 
-1. Open `src/config.ts`.
-2. Update the `label` (e.g., "IT", "ES", FR").
-3. Place a new flag icon in `/public/flags/` and update the flag path in the config.
+1. **Configure Locale**: Open `src/config.ts` to update the label (e.g., "IT") and the locale tag (e.g., it-IT) for proper date formatting.
+2. **Translate Interface**: Open `src/translations.ts` and update the values under the `local` key (e.g., changing "Читать далее" to "Leggi tutto").
+3. **Update Assets**: Place a new flag icon in `/public/flags/` and update the path in `src/config.ts`.
 
 ## 🌍 Deployment (GitHub Pages)
 
@@ -148,7 +150,7 @@ This is required for GitHub Pages to work correctly.
 
 ## 📌 Future Improvements
 
-* **Full UI Localization** - Translate static interface strings (footer, metadata labels, and "Read more" buttons) based on the active language.
+* **Interactive Map View** - A global map overview showing all journal entry pins.
 * **Post filtering** – Categorize entries by region (e.g., Tuscany, Amalfi, Veneto).
 * **Search** – Simple client-side search for specific locations or keywords.
 * Smooth animations refinement

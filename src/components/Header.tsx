@@ -1,5 +1,6 @@
 import { Language } from "../types";
 import { LANG_CONFIG } from "../config.ts";
+import { UI_STRINGS } from "../translations.ts";
 
 interface HeaderProps {
   currentLang: Language;
@@ -9,6 +10,7 @@ interface HeaderProps {
 
 export default function Header({ currentLang, onLanguageToggle }: HeaderProps) {
   const isEn = currentLang === 'en';
+  const t = UI_STRINGS[currentLang];
 
   return (
     <header
@@ -18,10 +20,10 @@ export default function Header({ currentLang, onLanguageToggle }: HeaderProps) {
       <div className="mx-auto flex max-w-[760px] items-center justify-between px-5 py-5 sm:py-6">
         <div className="flex flex-col gap-1">
           <h1 className="font-serif text-xl font-semibold text-ink sm:text-2xl">
-            The World Travel Journal 2026
+            {t.journalTitle}
           </h1>
           <p className="hidden sm:block text-[13px] text-ink/65">
-            Tracing history through the lens of modern travel.
+            {t.tagline}
           </p>
         </div>
 
