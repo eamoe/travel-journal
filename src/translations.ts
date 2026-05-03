@@ -17,7 +17,7 @@ export const UI_STRINGS: Record<Language, {
         showLess: "Show less",
     },
     local: { // Wildcard: Update to match your language
-        journalTitle: "Итальянский дневник 2026",
+        journalTitle: "The Italian Journal 2026",
         tagline: "Прослеживая историю через призму современных путешествий",
         footerTitle: "Итальянский дневник · 2026",
         footerText: "До следующего путешествия",
