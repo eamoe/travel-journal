@@ -1,7 +1,9 @@
 {
-  "name": "italian-journal-2026",
-  "private": true,
+  "name": "world-travel-journal",
   "version": "0.1.0",
+  "private": false,
+  "license": "GPL-3.0-or-later",
+  "description": "A minimalist, editorial-style travel timeline documenting global journeys.",
   "type": "module",
   "homepage": "https://eamoe.github.io/travel-journal",
   "scripts": {
