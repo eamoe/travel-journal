@@ -8,12 +8,12 @@ modern aesthetic.
 
 ## ✨ Features
 
-* Vertical timeline of travel posts
-* Markdown-based content (`posts.json`)
-* Expandable "read more" sections
-* Image lightbox with zoom
-* Mobile-first responsive design
-* Minimalist Mediterranean-inspired design system
+* **Chronological Travel Feed** - A vertical timeline of journal entries sorted reverse-chronologically (newest first).
+* **Location-Locked Timestamps** - Precise date and time formatting that preserves the local time of the destination, regardless of the viewer's timezone.
+* **Structured Content Architecture** - A clean `posts.json` schema with unique timestamp-based IDs and internal naming for easy editing.
+* **Mediterranean Design System** - A minimalist, mobile-first aesthetic inspired by coastal landscapes.
+* **Interactive Media** - High-quality photography with image lightboxes and zoom functionality.
+* **Flexible Narratives** - Support for markdown-based content with expandable "read more" sections for long-form observations.
 
 ---
 
