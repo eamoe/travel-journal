@@ -1,6 +1,7 @@
 [
   {
-    "id": "rome-april",
+    "id": "2026-04-12-1430-rome",
+    "name": "Rome - First Arrival",
     "location": "Rome, Italy",
     "date": "2026-04-12T14:30:00",
     "image": "images/rome.jpg",
@@ -8,7 +9,8 @@
     "content": "Arrived in Rome on a Saturday afternoon, the kind of afternoon where the city seems to soften at the edges. The cab driver took the long way through Trastevere, past laundry strung between shutters and a man tuning a violin in a doorway.\n\nI walked to the **Colosseum** as the sun began to drop. There is something disarming about its scale — not the size, exactly, but the way it has *settled* into the city, as if Rome had decided long ago to live around it rather than against it.\n\n> *«Здесь даже камни умеют ждать.»*\n\nLater, a small trattoria off Via dei Funari. Cacio e pepe, a single glass of Frascati, and the ordinary miracle of being somewhere new."
   },
   {
-    "id": "florence-april",
+    "id": "2026-04-19-0915-florence",
+    "name": "Florence - Morning Light",
     "location": "Florence, Italy",
     "date": "2026-04-19T09:15:00",
     "image": "images/florence.jpg",
@@ -16,7 +18,8 @@
     "content": "Florence is a city best read slowly. I climbed to a small terrace above Oltrarno before breakfast and watched the light find the **Duomo** one rooftop at a time.\n\nThe Uffizi was crowded, of course, but there is a quiet room near the end where almost no one stops — a single Botticelli, a wooden bench, and a window that frames the Arno like a painting of its own.\n\nNotes from the day:\n\n- A bakery on Via dei Neri that opens at seven\n- The smell of stone after a brief rain\n- A bookshop with one English shelf, three Russian, and a sleeping cat"
   },
   {
-    "id": "cinque-terre-may",
+    "id": "2026-05-03-0745-cinque-terre",
+    "name": "Cinque Terre - Early Train",
     "location": "Cinque Terre, Italy",
     "date": "2026-05-03T07:45:00",
     "image": "images/cinque-terre.jpg",
@@ -24,7 +27,8 @@
     "content": "Took the early train from La Spezia and stepped out into a village still half-asleep. The path between Vernazza and Monterosso is steeper than the photographs suggest, and more beautiful.\n\nHalfway up, I sat on a low wall and ate an apricot. Below, the sea was doing what the sea does — *nothing in particular, very well*. A fisherman waved without looking up.\n\nBy the time I reached the next village the heat had arrived properly, and so had the boats."
   },
   {
-    "id": "tuscany-may",
+    "id": "2026-05-14-1820-tuscany",
+    "name": "Val d'Orcia - Evenings",
     "location": "Val d'Orcia, Tuscany",
     "date": "2026-05-14T18:20:00",
     "image": "images/tuscany.jpg",
@@ -32,7 +36,8 @@
     "content": "Three days in a small farmhouse outside Pienza. No cell service to speak of, which turned out to be a kindness.\n\nThe owner, Giulia, kept apologizing for the simplicity of it — the iron bed, the single lamp, the kitchen with one pot — and I kept trying to explain that this was exactly the point. Eventually she laughed and brought me a jar of honey from her father's hives.\n\nIn the evenings I walked the road between the cypresses until the light went amber, then violet, then gone. There are landscapes that look like paintings, and then there is **Val d'Orcia**, which looks like the idea of a painting."
   },
   {
-    "id": "venice-may",
+    "id": "2026-05-22-0650-venice",
+    "name": "Venice - Before the City Wakes",
     "location": "Venice, Italy",
     "date": "2026-05-22T06:50:00",
     "image": "images/venice.jpg",
@@ -40,7 +45,8 @@
     "content": "Venice at six in the morning is a different city. The canals are still, the deliveries haven't started, and you can hear your own footsteps echo down the calli.\n\nI got lost twice on the way to **San Giorgio Maggiore**, which I now understand is part of the design. The bell tower is worth the slow elevator and the small fee. From the top, the lagoon looks less like a city and more like *a pattern of intentions*.\n\nLunch was a single sarde in saor at a counter near Rialto. The man behind it asked where I was from, nodded once, and refilled my water without asking."
   },
   {
-    "id": "amalfi-june",
+    "id": "2026-06-04-1610-amalfi",
+    "name": "Amalfi Coast - Early Summer Arrival",
     "location": "Amalfi Coast, Italy",
     "date": "2026-06-04T16:10:00",
     "image": "images/amalfi.jpg",
