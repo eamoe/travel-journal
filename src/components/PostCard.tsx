@@ -65,7 +65,7 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
       aria-labelledby={`post-${post.id}-heading`}
     >
       <h2 id={`post-${post.id}-heading`} className="sr-only">
-        {post.location} — {formatDate(post.date)}
+        {post.location} — {formatDate(post.date, currentLang)}
       </h2>
 
       {/* Image */}
@@ -112,7 +112,7 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
         </a>
 
         <time dateTime={post.date} className="text-[12.5px] uppercase tracking-[0.14em] text-ink/55">
-          {formatDate(post.date)}
+          {formatDate(post.date, currentLang)}
         </time>
       </div>
 
