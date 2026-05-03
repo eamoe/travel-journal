@@ -17,3 +17,11 @@ node_modules
 
 # IDE / Project Settings
 .idea/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# TS Incremental build info
+*.tsbuildinfo
