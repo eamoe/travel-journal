@@ -83,7 +83,7 @@ export default function Lightbox({ post, lang, onClose }: LightboxProps) {
           className="mx-auto block max-h-[82vh] w-auto rounded-md object-contain shadow-[0_20px_60px_-20px_rgba(0,0,0,0.6)]"
         />
         <figcaption className="mt-3 text-center text-[12.5px] text-paper/80">
-          <span className="text-accent">{post.location}</span>
+          <span className="text-accent">{post.location[lang]}</span>
           <span className="mx-2 text-paper/40">·</span>
           <span className="text-paper/70">{currentAlt}</span>
         </figcaption>
