@@ -1,15 +1,16 @@
 import { useEffect, useRef, useState } from "react"
 import ReactMarkdown from "react-markdown"
-import type { Post } from "../types"
+import type { Language, Post } from "../types"
 import { asset, formatDate } from "../lib/format"
 
 interface PostCardProps {
   post: Post
   index: number
   onOpenImage: (post: Post) => void
+  currentLang: Language
 }
 
-export default function PostCard({ post, index, onOpenImage }: PostCardProps) {
+export default function PostCard({ post, index, onOpenImage, currentLang }: PostCardProps) {
   const [expanded, setExpanded] = useState(false)
   const [needsCollapse, setNeedsCollapse] = useState(false)
   const [visible, setVisible] = useState(false)
@@ -30,7 +31,7 @@ export default function PostCard({ post, index, onOpenImage }: PostCardProps) {
     const ro = new ResizeObserver(check)
     ro.observe(el)
     return () => ro.disconnect()
-  }, [post.content])
+  }, [post.content, currentLang])
 
   // Reveal-on-scroll entrance.
   useEffect(() => {
@@ -72,12 +73,12 @@ export default function PostCard({ post, index, onOpenImage }: PostCardProps) {
         type="button"
         onClick={() => onOpenImage(post)}
         className="group relative block w-full overflow-hidden rounded-md bg-muted/40 ring-0 transition-shadow duration-300 hover:shadow-[0_8px_30px_-12px_rgba(31,31,31,0.18)] focus-visible:outline-none"
-        aria-label={`Open image: ${post.alt}`}
+        aria-label={`Open image: ${post.alt[currentLang]}`}
       >
         <div className="aspect-[4/3] w-full overflow-hidden sm:aspect-[3/2]">
           <img
             src={asset(post.image) || "/placeholder.svg"}
-            alt={post.alt}
+            alt={post.alt[currentLang]}
             loading="lazy"
             decoding="async"
             className="h-full w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.025]"
@@ -124,7 +125,7 @@ export default function PostCard({ post, index, onOpenImage }: PostCardProps) {
           }}
         >
           <div ref={contentRef} className="prose-journal">
-            <ReactMarkdown>{post.content}</ReactMarkdown>
+            <ReactMarkdown>{post.content[currentLang]}</ReactMarkdown>
           </div>
           {!expanded && needsCollapse && (
             <div

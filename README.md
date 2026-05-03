@@ -15,6 +15,7 @@ modern aesthetic.
 * **Interactive Media** - High-quality photography with image lightboxes and zoom functionality.
 * **Flexible Narratives** - Support for markdown-based content with expandable "read more" sections for long-form observations.
 * **External Map Integration** – Interactive location badges that launch the destination directly in Google Maps or the user's native maps' app.
+* **Bilingual Narrative Support** - Integrated language toggle (EN / Wildcard) allowing users to switch between English and a secondary language.
 
 ---
 
@@ -60,11 +61,17 @@ Example structure:
 {
   "id": "2026-06-04-1610-amalfi",
   "name": "Amalfi Coast - Early Summer Arrival",
-  "location": "Rome, Italy",
-  "date": "2026-04-12T14:30:00",
-  "image": "images/rome.jpg",
-  "alt": "Colosseum at sunset",
-  "content": "Markdown content here..."
+  "location": "Amalfi Coast, Italy",
+  "date": "2026-06-04T16:10:00",
+  "image": "images/amalfi.jpg",
+  "alt": {
+    "en": "Amalfi coast cliffs",
+    "local": "Scogliere della Costiera Amalfitana"
+  },
+  "content": {
+    "en": "English Markdown content...",
+    "local": "Contenuto in un'altra lingua..."
+  }
 }
 ```
 
@@ -72,6 +79,14 @@ Example structure:
 * Images should be placed in `/public/images/`
 
 ---
+
+## ⚙️ Wildcard Localization
+
+To change the secondary language and its associated flag:
+
+1. Open `src/config.ts`.
+2. Update the `label` (e.g., "IT", "ES", FR").
+3. Place a new flag icon in `/public/flags/` and update the flag path in the config.
 
 ## 🌍 Deployment (GitHub Pages)
 
@@ -133,10 +148,7 @@ This is required for GitHub Pages to work correctly.
 
 ## 📌 Future Improvements
 
-* **Multi-language support (EN / `LANGUAGE`)**:
-  * Store post content in multiple languages within `posts.json`
-  * Language toggle in the Header (EN / `LANGUAGE`)
-  * Default to English with ability to toggle to `LANGUAGE`
+* **Full UI Localization** - Translate static interface strings (footer, metadata labels, and "Read more" buttons) based on the active language.
 * **Post filtering** – Categorize entries by region (e.g., Tuscany, Amalfi, Veneto).
 * **Search** – Simple client-side search for specific locations or keywords.
 * Smooth animations refinement

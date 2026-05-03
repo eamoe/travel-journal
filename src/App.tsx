@@ -3,10 +3,11 @@ import Header from "./components/Header"
 import PostCard from "./components/PostCard"
 import Lightbox from "./components/Lightbox"
 import ScrollToTop from "./components/ScrollToTop"
-import type { Post } from "./types"
+import type { Language, Post } from "./types"
 import { asset } from "./lib/format"
 
 export default function App() {
+  const [lang, setLang] = useState<Language>('en');
   const [posts, setPosts] = useState<Post[] | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [activePost, setActivePost] = useState<Post | null>(null)
@@ -37,7 +38,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-paper text-ink">
-      <Header />
+      <Header currentLang={lang} onLanguageToggle={setLang} />
 
       <main className="mx-auto w-full max-w-[700px] px-5 pb-32 pt-10 sm:pt-14">
         {error && (
@@ -64,7 +65,7 @@ export default function App() {
           <ol className="flex flex-col gap-20 sm:gap-24">
             {posts.map((post, i) => (
               <li key={post.id}>
-                <PostCard post={post} index={i} onOpenImage={setActivePost} />
+                <PostCard post={post} index={i} onOpenImage={setActivePost} currentLang={lang} />
               </li>
             ))}
           </ol>
@@ -86,7 +87,7 @@ export default function App() {
         </div>
       </footer>
 
-      <Lightbox post={activePost} onClose={() => setActivePost(null)} />
+      <Lightbox post={activePost} lang={lang} onClose={() => setActivePost(null)} />
       <ScrollToTop />
     </div>
   )
