@@ -2,7 +2,10 @@
   {
     "id": "2026-04-12-1430-rome",
     "name": "Rome - First Arrival",
-    "location": "Rome, Italy",
+    "location": {
+      "en": "Rome, Italy",
+      "local": "Рим, Италия"
+    },
     "date": "2026-04-12T14:30:00",
     "image": "images/rome.jpg",
     "alt": {
@@ -17,7 +20,10 @@
   {
     "id": "2026-04-19-0915-florence",
     "name": "Florence - Morning Light",
-    "location": "Florence, Italy",
+    "location": {
+      "en": "Florence, Italy",
+      "local": "Флоренция, Италия"
+    },
     "date": "2026-04-19T09:15:00",
     "image": "images/florence.jpg",
     "alt": {
@@ -32,7 +38,10 @@
   {
     "id": "2026-05-03-0745-cinque-terre",
     "name": "Cinque Terre - Early Train",
-    "location": "Cinque Terre, Italy",
+    "location": {
+      "en": "Cinque Terre, Italy",
+      "local": "Чинкве-Терре, Италия"
+    },
     "date": "2026-05-03T07:45:00",
     "image": "images/cinque-terre.jpg",
     "alt": {
@@ -47,7 +56,10 @@
   {
     "id": "2026-05-14-1820-tuscany",
     "name": "Val d'Orcia - Evenings",
-    "location": "Val d'Orcia, Tuscany",
+    "location": {
+      "en": "Val d'Orcia, Tuscany",
+      "local": "Валь-д'Орча, Тоскана"
+    },
     "date": "2026-05-14T18:20:00",
     "image": "images/tuscany.jpg",
     "alt": {
@@ -62,7 +74,10 @@
   {
     "id": "2026-05-22-0650-venice",
     "name": "Venice - Before the City Wakes",
-    "location": "Venice, Italy",
+    "location": {
+      "en": "Venice, Italy",
+      "local": "Венеция, Италия"
+    },
     "date": "2026-05-22T06:50:00",
     "image": "images/venice.jpg",
     "alt": {
@@ -77,7 +92,10 @@
   {
     "id": "2026-06-04-1610-amalfi",
     "name": "Amalfi Coast - Early Summer Arrival",
-    "location": "Amalfi Coast, Italy",
+    "location": {
+      "en": "Amalfi Coast, Italy",
+      "local": "Амальфитанское побережье, Италия"
+    },
     "date": "2026-06-04T16:10:00",
     "image": "images/amalfi.jpg",
     "alt": {
