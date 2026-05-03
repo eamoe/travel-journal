@@ -1,12 +1,21 @@
-// Format an ISO date into a human-readable string, e.g. "April 12, 2026"
+// Format an ISO date into a human-readable string, e.g. "April 12, 2026, 3:45 PM"
 export function formatDate(iso: string): string {
-  const d = new Date(iso)
-  if (Number.isNaN(d.getTime())) return iso
-  return d.toLocaleDateString("en-US", {
+  // We append 'Z' to the string if it's missing to force
+  // JavaScript to treat it as a "neutral" UTC time.
+  const dateString = iso.endsWith('Z') ? iso : `${iso}Z`;
+  const d = new Date(dateString);
+
+  if (Number.isNaN(d.getTime())) return iso;
+  
+  return d.toLocaleString("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
-  })
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true, // Set to false if you prefer 24-hour time
+    timeZone: "UTC" // This forces the display to match the string exactly
+  });
 }
 
 // Format relative to base path so assets work under any GitHub Pages subpath.
