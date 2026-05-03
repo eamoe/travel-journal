@@ -27,7 +27,7 @@ body {
 /* Selection */
 ::selection {
   background-color: rgba(196, 106, 58, 0.18);
-  color: var(--color-text);
+  color: var(--color-ink);
 }
 
 /* Focus rings */
@@ -58,7 +58,8 @@ body {
   transition: color 150ms ease;
 }
 .prose-journal a:hover {
-  color: #a85829;
+  color: var(--color-ink);
+  text-decoration-thickness: 2px;
 }
 .prose-journal em {
   font-style: italic;
@@ -104,45 +105,48 @@ body {
 
 /* Subtle entrance animation */
 @keyframes journal-rise {
-  from {
+  0% {
     opacity: 0;
-    transform: translateY(14px);
+    transform: translateY(25px);
+    filter: blur(8px);
   }
-  to {
+  100% {
     opacity: 1;
     transform: translateY(0);
+    filter: blur(0);
   }
 }
 
 .journal-rise {
-  animation: journal-rise 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: journal-rise 900ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  will-change: transform, opacity, filter;
 }
 
 /* Lightbox image fade-in */
 @keyframes lightbox-fade {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
+
 .lightbox-fade {
-  animation: lightbox-fade 220ms ease-out both;
+  /* Match the easing of the zoom for a synchronized "bloom" effect */
+  animation: lightbox-fade 450ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 @keyframes lightbox-zoom {
   from {
     opacity: 0;
-    transform: scale(0.96);
+    transform: scale(0.95); /* Slightly more pronounced scale start */
   }
   to {
     opacity: 1;
     transform: scale(1);
   }
 }
+
 .lightbox-zoom {
-  animation: lightbox-zoom 280ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation: lightbox-zoom 450ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  will-change: transform, opacity;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -153,5 +157,36 @@ body {
   }
   html {
     scroll-behavior: auto;
+  }
+}
+
+/* Micro-interactions */
+.hover-lift {
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+  background-color 0.3s ease,
+  box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+/* Custom easing utility for transitions (like Read More) */
+.transition-editorial {
+  transition-property: max-height, opacity;
+  transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  transition-duration: 700ms;
+}
+
+.lightbox-overlay {
+  background-color: rgba(19, 19, 19, 0.92);
+  transition: background-color 0.4s ease;
+}
+
+@supports (backdrop-filter: blur(4px)) {
+  .lightbox-overlay {
+    background-color: rgba(31, 31, 31, 0.82);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px); /* For Safari support */
   }
 }

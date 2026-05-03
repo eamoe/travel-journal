@@ -13,13 +13,13 @@ export default function Header({ currentLang, onLanguageToggle }: HeaderProps) {
   const t = UI_STRINGS[currentLang];
 
   return (
-    <header
-      className="sticky top-0 z-30 border-b border-muted/70 backdrop-blur-md backdrop-saturate-150"
-      style={{ backgroundColor: "rgba(248, 246, 242, 0.85)" }}
-    >
+      <header
+          className="sticky top-0 z-30 border-b border-muted/40 backdrop-blur-md"
+          style={{ backgroundColor: "rgba(248, 246, 242, 0.82)" }}
+      >
       <div className="mx-auto flex max-w-[760px] items-center justify-between px-5 py-5 sm:py-6">
-        <div className="flex flex-col gap-1">
-          <h1 className="font-serif text-xl font-semibold text-ink sm:text-2xl">
+        <div className="flex flex-col gap-0.5 sm:gap-1">
+          <h1 className="font-serif text-xl font-semibold text-ink sm:text-2xl leading-tight">
             {t.journalTitle}
           </h1>
           <p className="hidden sm:block text-[13px] text-ink/65">
@@ -35,7 +35,7 @@ export default function Header({ currentLang, onLanguageToggle }: HeaderProps) {
 
           <button
               onClick={() => onLanguageToggle(isEn ? 'local' : 'en')}
-              className="group relative h-7 w-14 rounded-full border border-ink/10 bg-paper shadow-inner overflow-hidden"
+              className="group relative h-7 w-14 rounded-full border border-ink/10 bg-paper shadow-inner transition-transform active:scale-95 hover:scale-105 overflow-hidden"
               aria-label="Toggle language"
           >
             {/* Flag Track */}

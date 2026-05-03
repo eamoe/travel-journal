@@ -61,12 +61,15 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
   }, [])
 
   return (
-    <article
-      ref={articleRef}
-      className={`scroll-mt-28 ${visible ? "journal-rise" : "opacity-0"}`}
-      style={{ animationDelay: visible ? `${Math.min(index, 3) * 60}ms` : undefined }}
-      aria-labelledby={`post-${post.id}-heading`}
-    >
+      <article
+          ref={articleRef}
+          className={`scroll-mt-28 ${visible ? "journal-rise" : "opacity-0"}`}
+          style={{
+            animationDelay: visible ? `${Math.min(index, 5) * 80}ms` : undefined,
+            willChange: "transform, opacity, filter"
+          }}
+          aria-labelledby={`post-${post.id}-heading`}
+      >
       <h2 id={`post-${post.id}-heading`} className="sr-only">
         {currentLocation} — {formatDate(post.date, currentLang)}
       </h2>
@@ -95,7 +98,7 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
             href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(currentLocation)}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="group/loc inline-flex items-center gap-1.5 rounded-full border border-accent/30 bg-accent/10 px-2.5 py-1 text-[12px] font-medium tracking-wide text-accent transition-all hover:bg-accent/20 hover:border-accent/50"
+            className="group/loc inline-flex items-center gap-1.5 rounded-full border border-accent/30 bg-accent/10 px-2.5 py-1 text-[12px] font-medium tracking-wide text-accent transition-all duration-300 hover:-translate-y-0.5 hover:bg-accent/20 hover:shadow-sm"
         >
           <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -125,10 +128,10 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
       {/* Content */}
       <div className="mt-4">
         <div
-          className="relative overflow-hidden transition-[max-height] duration-500 ease-in-out"
-          style={{
-            maxHeight: expanded || !needsCollapse ? "5000px" : "7.5rem",
-          }}
+            className={`relative overflow-hidden transition-[max-height] transition-editorial`}
+            style={{
+              maxHeight: expanded || !needsCollapse ? "1000px" : "7.5rem",
+            }}
         >
           <div ref={contentRef} className="prose-journal">
             <ReactMarkdown>{post.content[currentLang]}</ReactMarkdown>
