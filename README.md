@@ -14,6 +14,7 @@ modern aesthetic.
 * **Mediterranean Design System** - A minimalist, mobile-first aesthetic inspired by coastal landscapes.
 * **Interactive Media** - High-quality photography with image lightboxes and zoom functionality.
 * **Flexible Narratives** - Support for markdown-based content with expandable "read more" sections for long-form observations.
+* **External Map Integration** – Interactive location badges that launch the destination directly in Google Maps or the user's native maps' app.
 
 ---
 
@@ -132,12 +133,12 @@ This is required for GitHub Pages to work correctly.
 
 ## 📌 Future Improvements
 
-* Multi-language support (EN / `LANGUAGE`):
+* **Multi-language support (EN / `LANGUAGE`)**:
   * Store post content in multiple languages within `posts.json`
-  * Add a language switcher in the header (EN / `LANGUAGE`)
+  * Language toggle in the Header (EN / `LANGUAGE`)
   * Default to English with ability to toggle to `LANGUAGE`
-* Post filtering by location
-* Map integration
+* **Post filtering** – Categorize entries by region (e.g., Tuscany, Amalfi, Veneto).
+* **Search** – Simple client-side search for specific locations or keywords.
 * Smooth animations refinement
 
 ---
