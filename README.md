@@ -153,7 +153,6 @@ This is required for GitHub Pages to work correctly.
 * **Interactive Map View** - A global map overview showing all journal entry pins.
 * **Post filtering** – Categorize entries by region (e.g., Tuscany, Amalfi, Veneto).
 * **Search** – Simple client-side search for specific locations or keywords.
-* Smooth animations refinement
 
 ---
 
