@@ -57,10 +57,11 @@ Example structure:
 
 ```json
 {
-  "id": "1",
+  "id": "2026-06-04-1610-amalfi",
+  "name": "Amalfi Coast - Early Summer Arrival",
   "location": "Rome, Italy",
   "date": "2026-04-12T14:30:00",
-  "image": "/images/rome.jpg",
+  "image": "images/rome.jpg",
   "alt": "Colosseum at sunset",
   "content": "Markdown content here..."
 }
