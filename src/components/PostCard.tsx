@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import ReactMarkdown from "react-markdown"
 import type { Language, Post } from "../types"
-import { asset, formatDate } from "../lib/format"
+import { asset, buildImageSources, formatDate } from "../lib/format"
 import { UI_STRINGS } from "../translations.ts";
 
 interface PostCardProps {
@@ -75,22 +75,34 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
       </h2>
 
       {/* Image */}
-      <button
-        type="button"
-        onClick={() => onOpenImage(post)}
-        className="group relative block w-full overflow-hidden rounded-md bg-muted/40 ring-0 transition-shadow duration-300 hover:shadow-[0_8px_30px_-12px_rgba(31,31,31,0.18)] focus-visible:outline-none"
-        aria-label={`Open image: ${post.images[0].alt[currentLang]}`}
-      >
-        <div className="aspect-[4/3] w-full overflow-hidden sm:aspect-[3/2]">
-          <img
-            src={asset(post.images[0].src) || "/placeholder.svg"}
-            alt={post.images[0].alt[currentLang]}
-            loading="lazy"
-            decoding="async"
-            className="h-full w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.025]"
-          />
-        </div>
-      </button>
+      {(() => {
+        const hero = post.images[0]
+        const sources = buildImageSources(hero.src)
+        return (
+          <button
+            type="button"
+            onClick={() => onOpenImage(post)}
+            className="group relative block w-full overflow-hidden rounded-md bg-muted/40 ring-0 transition-shadow duration-300 hover:shadow-[0_8px_30px_-12px_rgba(31,31,31,0.18)] focus-visible:outline-none"
+            aria-label={`Open image: ${hero.alt[currentLang]}`}
+          >
+            <div className="aspect-[4/3] w-full overflow-hidden sm:aspect-[3/2]">
+              <picture>
+                {sources.avif && <source type="image/avif" srcSet={sources.avif} sizes="(min-width: 700px) 700px, 100vw" />}
+                {sources.webp && <source type="image/webp" srcSet={sources.webp} sizes="(min-width: 700px) 700px, 100vw" />}
+                <img
+                  src={sources.fallback || asset(hero.src) || "/placeholder.svg"}
+                  srcSet={sources.jpg || undefined}
+                  sizes="(min-width: 700px) 700px, 100vw"
+                  alt={hero.alt[currentLang]}
+                  loading="lazy"
+                  decoding="async"
+                  className="h-full w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.025]"
+                />
+              </picture>
+            </div>
+          </button>
+        )
+      })()}
 
       {/* Metadata */}
       <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2">
