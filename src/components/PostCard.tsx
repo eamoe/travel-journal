@@ -77,30 +77,78 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
       {/* Image */}
       {(() => {
         const hero = post.images[0]
-        const sources = buildImageSources(hero.src)
+        const heroSources = buildImageSources(hero.src)
+        const thumbs = post.images.slice(1, 5)
+        const extraCount = Math.max(0, post.images.length - 5)
         return (
-          <button
-            type="button"
-            onClick={() => onOpenImage(post, 0)}
-            className="group relative block w-full overflow-hidden rounded-md bg-muted/40 ring-0 transition-shadow duration-300 hover:shadow-[0_8px_30px_-12px_rgba(31,31,31,0.18)] focus-visible:outline-none"
-            aria-label={`Open image: ${hero.alt[currentLang]}`}
-          >
-            <div className="aspect-[4/3] w-full overflow-hidden sm:aspect-[3/2]">
-              <picture>
-                {sources.avif && <source type="image/avif" srcSet={sources.avif} sizes="(min-width: 700px) 700px, 100vw" />}
-                {sources.webp && <source type="image/webp" srcSet={sources.webp} sizes="(min-width: 700px) 700px, 100vw" />}
-                <img
-                  src={sources.fallback || asset(hero.src) || "/placeholder.svg"}
-                  srcSet={sources.jpg || undefined}
-                  sizes="(min-width: 700px) 700px, 100vw"
-                  alt={hero.alt[currentLang]}
-                  loading="lazy"
-                  decoding="async"
-                  className="h-full w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.025]"
-                />
-              </picture>
-            </div>
-          </button>
+          <>
+            <button
+              type="button"
+              onClick={() => onOpenImage(post, 0)}
+              className="group relative block w-full overflow-hidden rounded-md bg-muted/40 ring-0 transition-shadow duration-300 hover:shadow-[0_8px_30px_-12px_rgba(31,31,31,0.18)] focus-visible:outline-none"
+              aria-label={`Open image: ${hero.alt[currentLang]}`}
+            >
+              <div className="aspect-[4/3] w-full overflow-hidden sm:aspect-[3/2]">
+                <picture>
+                  {heroSources.avif && <source type="image/avif" srcSet={heroSources.avif} sizes="(min-width: 700px) 700px, 100vw" />}
+                  {heroSources.webp && <source type="image/webp" srcSet={heroSources.webp} sizes="(min-width: 700px) 700px, 100vw" />}
+                  <img
+                    src={heroSources.fallback || asset(hero.src) || "/placeholder.svg"}
+                    srcSet={heroSources.jpg || undefined}
+                    sizes="(min-width: 700px) 700px, 100vw"
+                    alt={hero.alt[currentLang]}
+                    loading="lazy"
+                    decoding="async"
+                    className="h-full w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.025]"
+                  />
+                </picture>
+              </div>
+            </button>
+
+            {thumbs.length > 0 && (
+              <ul className="mt-3 grid grid-cols-4 gap-2 sm:gap-3">
+                {thumbs.map((img, i) => {
+                  const fullIndex = i + 1
+                  const t = buildImageSources(img.src)
+                  const isLast = i === thumbs.length - 1 && extraCount > 0
+                  return (
+                    <li key={`${post.id}-thumb-${fullIndex}`}>
+                      <button
+                        type="button"
+                        onClick={() => onOpenImage(post, fullIndex)}
+                        className="group relative block w-full overflow-hidden rounded-md bg-muted/40 ring-0 transition-shadow duration-300 hover:shadow-[0_4px_18px_-8px_rgba(31,31,31,0.25)] focus-visible:outline-none"
+                        aria-label={`Open image: ${img.alt[currentLang]}`}
+                      >
+                        <div className="aspect-square w-full overflow-hidden">
+                          <picture>
+                            {t.avif && <source type="image/avif" srcSet={t.avif} sizes="120px" />}
+                            {t.webp && <source type="image/webp" srcSet={t.webp} sizes="120px" />}
+                            <img
+                              src={t.fallback || asset(img.src) || "/placeholder.svg"}
+                              srcSet={t.jpg || undefined}
+                              sizes="120px"
+                              alt={img.alt[currentLang]}
+                              loading="lazy"
+                              decoding="async"
+                              className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
+                            />
+                          </picture>
+                          {isLast && (
+                            <div
+                              aria-hidden="true"
+                              className="absolute inset-0 flex items-center justify-center bg-ink/45 font-serif text-[18px] tracking-tight text-paper"
+                            >
+                              +{extraCount}
+                            </div>
+                          )}
+                        </div>
+                      </button>
+                    </li>
+                  )
+                })}
+              </ul>
+            )}
+          </>
         )
       })()}
 
