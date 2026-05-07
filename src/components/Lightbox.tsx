@@ -86,16 +86,20 @@ export default function Lightbox({ post, startIndex, lang, onClose }: LightboxPr
 
   if (!open || !post) return null
 
-  const image = post.images[activeIndex]
+  // activeIndex may be stale from a previous (larger) post on the first
+  // render after `post` changes — the resetting useEffect runs after commit.
+  // Clamp synchronously so we never index out of bounds.
+  const safeIndex = total > 0 ? Math.min(Math.max(activeIndex, 0), total - 1) : 0
+  const image = post.images[safeIndex]
   const currentAlt = image.alt[lang]
-  const atStart = activeIndex === 0
-  const atEnd = activeIndex === total - 1
+  const atStart = safeIndex === 0
+  const atEnd = safeIndex === total - 1
 
   return (
     <div
       role="dialog"
       aria-modal="true"
-      aria-label={`Image ${activeIndex + 1} of ${total}: ${currentAlt}`}
+      aria-label={`Image ${safeIndex + 1} of ${total}: ${currentAlt}`}
       className="lightbox-fade lightbox-overlay fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-8"
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose()
@@ -180,12 +184,12 @@ export default function Lightbox({ post, startIndex, lang, onClose }: LightboxPr
                   {post.images.map((_, i) => (
                     <span
                       key={i}
-                      className={`block h-1.5 w-1.5 rounded-full transition-colors ${i === activeIndex ? "bg-paper" : "bg-paper/30"}`}
+                      className={`block h-1.5 w-1.5 rounded-full transition-colors ${i === safeIndex ? "bg-paper" : "bg-paper/30"}`}
                     />
                   ))}
                 </span>
               ) : null}
-              <span>{activeIndex + 1} / {total}</span>
+              <span>{safeIndex + 1} / {total}</span>
             </div>
           )}
         </figcaption>
