@@ -18,7 +18,7 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
   const contentRef = useRef<HTMLDivElement>(null)
   const articleRef = useRef<HTMLElement>(null)
   const t = UI_STRINGS[currentLang];
-  const currentLocation = post.location[currentLang];
+  const currentLocation = post.location.name[currentLang];
 
   // Determine if the content overflows the collapsed height (so we only
   // show "Read more" when there's actually more to read).
@@ -79,12 +79,12 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
         type="button"
         onClick={() => onOpenImage(post)}
         className="group relative block w-full overflow-hidden rounded-md bg-muted/40 ring-0 transition-shadow duration-300 hover:shadow-[0_8px_30px_-12px_rgba(31,31,31,0.18)] focus-visible:outline-none"
-        aria-label={`Open image: ${post.alt[currentLang]}`}
+        aria-label={`Open image: ${post.images[0].alt[currentLang]}`}
       >
         <div className="aspect-[4/3] w-full overflow-hidden sm:aspect-[3/2]">
           <img
-            src={asset(post.image) || "/placeholder.svg"}
-            alt={post.alt[currentLang]}
+            src={asset(post.images[0].src) || "/placeholder.svg"}
+            alt={post.images[0].alt[currentLang]}
             loading="lazy"
             decoding="async"
             className="h-full w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.025]"
@@ -134,7 +134,7 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
             }}
         >
           <div ref={contentRef} className="prose-journal">
-            <ReactMarkdown>{post.content[currentLang]}</ReactMarkdown>
+            <ReactMarkdown>{post.content[currentLang].description}</ReactMarkdown>
           </div>
           {!expanded && needsCollapse && (
             <div

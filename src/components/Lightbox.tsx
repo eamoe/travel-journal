@@ -39,7 +39,7 @@ export default function Lightbox({ post, lang, onClose }: LightboxProps) {
 
   if (!open || !post) return null
 
-  const currentAlt = post.alt[lang]
+  const currentAlt = post.images[0].alt[lang]
 
   return (
       <div
@@ -78,14 +78,14 @@ export default function Lightbox({ post, lang, onClose }: LightboxProps) {
 
         <figure className="lightbox-zoom relative max-h-full max-w-[1100px] w-full">
           <img
-              src={asset(post.image) || "/placeholder.svg"}
+              src={asset(post.images[0].src) || "/placeholder.svg"}
               alt={currentAlt}
               className="mx-auto block max-h-[82vh] w-auto rounded-md object-contain shadow-[0_20px_60px_-20px_rgba(0,0,0,0.6)]"
               style={{ willChange: "transform, opacity" }}
           />
           <figcaption className="mt-4 text-center">
             <div className="font-serif text-[15px] tracking-tight text-paper">
-              {post.location[lang]}
+              {post.location.name[lang]}
             </div>
             <div className="mt-1 text-[12px] uppercase tracking-[0.12em] text-paper/50">
               {currentAlt}
