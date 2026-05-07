@@ -1,36 +1,17 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Header from "./components/Header"
 import PostCard from "./components/PostCard"
 import Lightbox from "./components/Lightbox"
 import ScrollToTop from "./components/ScrollToTop"
 import type { Language, Post } from "./types"
 import { UI_STRINGS } from "./translations.ts";
-import { loadPosts } from "./services/posts"
+import { usePosts } from "./hooks/usePosts.ts";
+
 
 export default function App() {
     const [lang, setLang] = useState<Language>('en');
-    const [posts, setPosts] = useState<Post[] | null>(null)
-    const [error, setError] = useState<string | null>(null)
-    const [activePost, setActivePost] = useState<Post | null>(null)
-
-    useEffect(() => {
-        let cancelled = false;
-
-        loadPosts()
-            .then((data) => {
-                if (cancelled) return
-                setPosts(data)
-            })
-            .catch((e: unknown) => {
-                if (cancelled) return
-
-                setError(e instanceof Error ? e.message : "Failed to load posts")
-            })
-
-        return () => {
-            cancelled = true
-        }
-        }, [])
+    const { posts, error, loading } = usePosts();
+    const [activePost, setActivePost] = useState<Post | null>(null);
 
     return (
         <div className="min-h-screen bg-paper text-ink">
