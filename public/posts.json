@@ -58,6 +58,34 @@
           "en": "Terracotta rooftops of Florence with the Duomo in soft afternoon light",
           "local": "Терракотовые крыши Флоренции с видом на Дуомо в мягком дневном свете"
         }
+      },
+      {
+        "src": "images/rome.jpg",
+        "alt": {
+          "en": "A Roman streetscape glimpsed earlier in the trip, kept as a counterpoint",
+          "local": "Римская улица, увиденная ранее, как контрапункт"
+        }
+      },
+      {
+        "src": "images/tuscany.jpg",
+        "alt": {
+          "en": "Tuscan hills passed by train on the way to Florence",
+          "local": "Тосканские холмы, увиденные из окна поезда по пути во Флоренцию"
+        }
+      },
+      {
+        "src": "images/cinque-terre.jpg",
+        "alt": {
+          "en": "Coastal pastel houses, a memory carried into the city",
+          "local": "Прибрежные пастельные дома, воспоминание, перенесенное в город"
+        }
+      },
+      {
+        "src": "images/venice.jpg",
+        "alt": {
+          "en": "Quiet Venetian canal at dawn, kept on the camera roll",
+          "local": "Тихий венецианский канал на рассвете, оставшийся в камере"
+        }
       }
     ]
   },
@@ -120,6 +148,13 @@
           "en": "Rolling Tuscan hills with a cypress-lined road at sunrise",
           "local": "Холмы Тосканы с дорогой, обсаженной кипарисами, на рассвете"
         }
+      },
+      {
+        "src": "images/florence.jpg",
+        "alt": {
+          "en": "A glimpse of Florence rooftops on the drive south to Pienza",
+          "local": "Кадр с крышами Флоренции по дороге на юг, в Пьенцу"
+        }
       }
     ]
   },
@@ -150,6 +185,41 @@
         "alt": {
           "en": "A quiet Venetian canal at dawn with soft mist on the water",
           "local": "Тихий венецианский канал на рассвете с легким туманом над водой"
+        }
+      },
+      {
+        "src": "images/florence.jpg",
+        "alt": {
+          "en": "Florence rooftops kept on the camera roll between trips",
+          "local": "Крыши Флоренции, сохранённые в камере между поездками"
+        }
+      },
+      {
+        "src": "images/cinque-terre.jpg",
+        "alt": {
+          "en": "Pastel cliffside houses recalled from an earlier morning",
+          "local": "Пастельные дома на скалах, вспомнившиеся в это утро"
+        }
+      },
+      {
+        "src": "images/tuscany.jpg",
+        "alt": {
+          "en": "Tuscan hills passed in the days before Venice",
+          "local": "Тосканские холмы, увиденные в дни перед Венецией"
+        }
+      },
+      {
+        "src": "images/rome.jpg",
+        "alt": {
+          "en": "Rome at sunset, an early frame of the journey",
+          "local": "Рим на закате, ранний кадр путешествия"
+        }
+      },
+      {
+        "src": "images/amalfi.jpg",
+        "alt": {
+          "en": "Amalfi cliffs, a postcard from later in the journal",
+          "local": "Скалы Амальфи, открытка из более поздних страниц дневника"
         }
       }
     ]
