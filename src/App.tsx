@@ -11,7 +11,7 @@ import { usePosts } from "./hooks/usePosts.ts";
 export default function App() {
     const [lang, setLang] = useState<Language>('en');
     const { posts, error, loading } = usePosts();
-    const [activePost, setActivePost] = useState<Post | null>(null);
+    const [active, setActive] = useState<{ post: Post; index: number } | null>(null);
 
     return (
         <div className="min-h-screen bg-paper text-ink">
@@ -42,7 +42,7 @@ export default function App() {
                     <ol className="flex flex-col gap-20 sm:gap-24">
                         {posts.map((post, i) => (
                             <li key={post.id}>
-                                <PostCard post={post} index={i} onOpenImage={setActivePost} currentLang={lang} />
+                                <PostCard post={post} index={i} onOpenImage={(p, idx) => setActive({ post: p, index: idx })} currentLang={lang} />
                             </li>
                         ))}
                     </ol>
@@ -64,7 +64,7 @@ export default function App() {
                 </div>
             </footer>
 
-            <Lightbox post={activePost} lang={lang} onClose={() => setActivePost(null)} />
+            <Lightbox post={active?.post ?? null} startIndex={active?.index ?? 0} lang={lang} onClose={() => setActive(null)} />
             <ScrollToTop />
         </div>
     )

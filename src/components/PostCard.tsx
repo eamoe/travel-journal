@@ -7,7 +7,7 @@ import { UI_STRINGS } from "../translations.ts";
 interface PostCardProps {
   post: Post
   index: number
-  onOpenImage: (post: Post) => void
+  onOpenImage: (post: Post, index: number) => void
   currentLang: Language
 }
 
@@ -81,7 +81,7 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
         return (
           <button
             type="button"
-            onClick={() => onOpenImage(post)}
+            onClick={() => onOpenImage(post, 0)}
             className="group relative block w-full overflow-hidden rounded-md bg-muted/40 ring-0 transition-shadow duration-300 hover:shadow-[0_8px_30px_-12px_rgba(31,31,31,0.18)] focus-visible:outline-none"
             aria-label={`Open image: ${hero.alt[currentLang]}`}
           >
