@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from "react"
 import ReactMarkdown from "react-markdown"
 import type { Language, Post } from "../types"
-import { asset, buildImageSources, formatDate } from "../lib/format"
+import { formatDate } from "../lib/format"
 import { UI_STRINGS } from "../translations.ts";
+import PostImage from "./PostImage"
 
 interface PostCardProps {
   post: Post
@@ -77,7 +78,6 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
       {/* Image */}
       {(() => {
         const hero = post.images[0]
-        const heroSources = buildImageSources(hero.src)
         const thumbs = post.images.slice(1, 5)
         const extraCount = Math.max(0, post.images.length - 5)
         return (
@@ -89,19 +89,13 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
               aria-label={`Open image: ${hero.alt[currentLang]}`}
             >
               <div className="aspect-[4/3] w-full overflow-hidden sm:aspect-[3/2]">
-                <picture>
-                  {heroSources.avif && <source type="image/avif" srcSet={heroSources.avif} sizes="(min-width: 700px) 700px, 100vw" />}
-                  {heroSources.webp && <source type="image/webp" srcSet={heroSources.webp} sizes="(min-width: 700px) 700px, 100vw" />}
-                  <img
-                    src={heroSources.fallback || asset(hero.src) || "/placeholder.svg"}
-                    srcSet={heroSources.jpg || undefined}
-                    sizes="(min-width: 700px) 700px, 100vw"
-                    alt={hero.alt[currentLang]}
-                    loading="lazy"
-                    decoding="async"
-                    className="h-full w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.025]"
-                  />
-                </picture>
+                <PostImage
+                  src={hero.src}
+                  alt={hero.alt[currentLang]}
+                  sizes="(min-width: 700px) 700px, 100vw"
+                  loading="lazy"
+                  className="h-full w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.025]"
+                />
               </div>
             </button>
 
@@ -109,7 +103,6 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
               <ul className="mt-3 grid grid-cols-4 gap-2 sm:gap-3">
                 {thumbs.map((img, i) => {
                   const fullIndex = i + 1
-                  const t = buildImageSources(img.src)
                   const isLast = i === thumbs.length - 1 && extraCount > 0
                   return (
                     <li key={`${post.id}-thumb-${fullIndex}`}>
@@ -120,19 +113,13 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
                         aria-label={`Open image: ${img.alt[currentLang]}`}
                       >
                         <div className="aspect-square w-full overflow-hidden">
-                          <picture>
-                            {t.avif && <source type="image/avif" srcSet={t.avif} sizes="120px" />}
-                            {t.webp && <source type="image/webp" srcSet={t.webp} sizes="120px" />}
-                            <img
-                              src={t.fallback || asset(img.src) || "/placeholder.svg"}
-                              srcSet={t.jpg || undefined}
-                              sizes="120px"
-                              alt={img.alt[currentLang]}
-                              loading="lazy"
-                              decoding="async"
-                              className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
-                            />
-                          </picture>
+                          <PostImage
+                            src={img.src}
+                            alt={img.alt[currentLang]}
+                            sizes="120px"
+                            loading="lazy"
+                            className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.04]"
+                          />
                           {isLast && (
                             <div
                               aria-hidden="true"

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import type { Language, Post } from "../types"
-import { asset, buildImageSources } from "../lib/format"
+import { buildImageSources } from "../lib/format"
+import PostImage from "./PostImage"
 
 interface LightboxProps {
   post: Post | null
@@ -87,7 +88,6 @@ export default function Lightbox({ post, startIndex, lang, onClose }: LightboxPr
 
   const image = post.images[activeIndex]
   const currentAlt = image.alt[lang]
-  const sources = buildImageSources(image.src)
   const atStart = activeIndex === 0
   const atEnd = activeIndex === total - 1
 
@@ -157,21 +157,15 @@ export default function Lightbox({ post, startIndex, lang, onClose }: LightboxPr
         onPointerUp={onPointerUp}
         onPointerCancel={() => { pointer.current = null }}
       >
-        <picture>
-          {sources.avif && <source type="image/avif" srcSet={sources.avif} sizes="100vw" />}
-          {sources.webp && <source type="image/webp" srcSet={sources.webp} sizes="100vw" />}
-          <img
-            key={`${post.id}-${activeIndex}`}
-            src={sources.fallback || asset(image.src) || "/placeholder.svg"}
-            srcSet={sources.jpg || undefined}
-            sizes="100vw"
-            alt={currentAlt}
-            decoding="async"
-            className="mx-auto block max-h-[82vh] w-auto rounded-md object-contain shadow-[0_20px_60px_-20px_rgba(0,0,0,0.6)]"
-            style={{ willChange: "transform, opacity" }}
-            draggable={false}
-          />
-        </picture>
+        <PostImage
+          src={image.src}
+          alt={currentAlt}
+          sizes="100vw"
+          loading="eager"
+          draggable={false}
+          style={{ willChange: "transform, opacity" }}
+          className="mx-auto block max-h-[82vh] w-auto rounded-md object-contain shadow-[0_20px_60px_-20px_rgba(0,0,0,0.6)]"
+        />
         <figcaption className="mt-4 text-center">
           <div className="font-serif text-[15px] tracking-tight text-paper">
             {post.location.name[lang]}
