@@ -95,6 +95,17 @@ Each post follows a multi-layered, localized format to support map integration a
 
 * Content supports **Markdown**
 * Images should be placed in `/public/images/`
+* The `images` array supports multiple entries — the first becomes the hero; up to four more render as thumbnails under the card and open the lightbox at their own index. A `+N` overlay appears on the fourth thumbnail when more remain.
+
+### Image optimization
+
+Source photos go in `/public/images/` as a single `.jpg` (or `.png`) per entry. A build-time script generates AVIF / WebP / JPG variants at 400, 800, and 1600 widths into `/public/images/optimized/`, served via `<picture>` + `srcset`.
+
+```bash
+pnpm run images
+```
+
+The script is idempotent (skips up-to-date variants) and runs automatically as `prebuild` before `pnpm run build`. Commit the generated `/public/images/optimized/` folder so `pnpm run dev` works without a prior build step.
 
 ---
 
