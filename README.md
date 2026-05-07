@@ -51,29 +51,45 @@ http://localhost:5173
 
 ## 📝 Editing Content
 
-All posts are stored in:
+All posts are stored in a centralized JSON database:
 
 ```
 /public/posts.json
 ```
 
-Example structure:
+Each post follows a multi-layered, localized format to support map integration and internationalization:
 
 ```json
 {
-  "id": "2026-06-04-1610-amalfi",
-  "name": "Amalfi Coast - Early Summer Arrival",
-  "location": "Amalfi Coast, Italy",
-  "date": "2026-06-04T16:10:00",
-  "image": "images/amalfi.jpg",
-  "alt": {
-    "en": "Amalfi coast cliffs",
-    "local": "Scogliere della Costiera Amalfitana"
+  "id": "2026-04-12-1430-rome",
+  "date": "2026-04-12T14:30:00",
+  "location": {
+    "lat": 41.9099533,
+    "lng": 12.3711899,
+    "name": {
+      "en": "Rome, Italy",
+      "local": "Roma, Italia"
+    }
   },
   "content": {
-    "en": "English Markdown content...",
-    "local": "Contenuto in un'altra lingua..."
-  }
+    "en": {
+      "title": "Rome - First Arrival",
+      "description": "Arrived in Rome on a Saturday afternoon... [Markdown supported]"
+    },
+    "local": {
+      "title": "Roma - Primo Arrivo",
+      "description": "Arrivato a Roma un sabato pomeriggio, quel tipo di pomeriggio in cui la città sembra addolcirsi ai bordi... [Markdown supportato]"
+    }
+  },
+  "images": [
+    {
+      "src": "images/rome.jpg",
+      "alt": {
+        "en": "View of the Colosseum at sunset",
+        "local": "Vista del Colosseo al tramonto"
+      }
+    }
+  ]
 }
 ```
 
