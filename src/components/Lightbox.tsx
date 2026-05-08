@@ -1,7 +1,10 @@
 import { useEffect, useRef, useState } from "react"
 import type { Language, Post } from "../types"
-import { buildImageSources } from "../lib/format"
+import { asset, buildImageSources } from "../lib/format"
+import { UI_STRINGS } from "../translations.ts"
 import PostImage from "./PostImage"
+
+const basename = (p: string) => p.split("/").pop() ?? p
 
 interface LightboxProps {
   post: Post | null
@@ -18,6 +21,7 @@ export default function Lightbox({ post, startIndex, lang, onClose }: LightboxPr
   const open = post !== null
   const total = post?.images.length ?? 0
   const hasMany = total > 1
+  const t = UI_STRINGS[lang]
 
   // Reset index whenever a new post opens or startIndex changes.
   useEffect(() => {
@@ -105,28 +109,56 @@ export default function Lightbox({ post, startIndex, lang, onClose }: LightboxPr
         if (e.target === e.currentTarget) onClose()
       }}
     >
-      <button
-        ref={closeBtnRef}
-        type="button"
-        onClick={onClose}
-        aria-label="Close image"
-        className="absolute right-4 top-4 z-10 inline-flex h-10 w-10 items-center justify-center rounded-full bg-paper/90 text-ink shadow-md transition-all hover:scale-110 hover:bg-paper sm:right-6 sm:top-6"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="h-5 w-5"
-          aria-hidden="true"
+      <div className="absolute right-4 top-4 z-10 flex items-center gap-2 sm:right-6 sm:top-6">
+        <a
+          href={asset(image.src)}
+          download={basename(image.src)}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={t.downloadImage}
+          title={t.downloadImage}
+          className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-paper/90 text-ink shadow-md transition-all hover:scale-110 hover:bg-paper"
         >
-          <path d="M18 6 6 18" />
-          <path d="m6 6 12 12" />
-        </svg>
-      </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="h-5 w-5"
+            aria-hidden="true"
+          >
+            <path d="M12 3v12" />
+            <path d="m6 11 6 6 6-6" />
+            <path d="M5 21h14" />
+          </svg>
+        </a>
+        <button
+          ref={closeBtnRef}
+          type="button"
+          onClick={onClose}
+          aria-label={t.closeImage}
+          title={t.closeImage}
+          className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-paper/90 text-ink shadow-md transition-all hover:scale-110 hover:bg-paper"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="h-5 w-5"
+            aria-hidden="true"
+          >
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
+          </svg>
+        </button>
+      </div>
 
       {hasMany && (
         <>
