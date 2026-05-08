@@ -7,6 +7,11 @@ export const UI_STRINGS: Record<Language, {
     footerText: string;
     readMore: string;
     showLess: string;
+    closeImage: string;
+    previousImage: string;
+    nextImage: string;
+    downloadImage: string;
+    goToImage: string;
 }> = {
     en: {
         journalTitle: "The Italian Journal 2026",
@@ -15,6 +20,11 @@ export const UI_STRINGS: Record<Language, {
         footerText: "Until the next journey",
         readMore: "Read more",
         showLess: "Show less",
+        closeImage: "Close image",
+        previousImage: "Previous image",
+        nextImage: "Next image",
+        downloadImage: "Download image",
+        goToImage: "Go to image {n}",
     },
     local: { // Wildcard: Update to match your language
         journalTitle: "The Italian Journal 2026",
@@ -23,5 +33,10 @@ export const UI_STRINGS: Record<Language, {
         footerText: "До следующего путешествия",
         readMore: "Читать далее",
         showLess: "Свернуть",
+        closeImage: "Закрыть изображение",
+        previousImage: "Предыдущее изображение",
+        nextImage: "Следующее изображение",
+        downloadImage: "Скачать изображение",
+        goToImage: "Перейти к изображению {n}",
     }
 } as const;
