@@ -104,7 +104,7 @@ export default function Lightbox({ post, startIndex, lang, onClose }: LightboxPr
       role="dialog"
       aria-modal="true"
       aria-label={`Image ${safeIndex + 1} of ${total}: ${currentAlt}`}
-      className="lightbox-fade lightbox-overlay fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-8"
+      className="lightbox-fade lightbox-overlay fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-8"
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose()
       }}
@@ -166,8 +166,9 @@ export default function Lightbox({ post, startIndex, lang, onClose }: LightboxPr
             type="button"
             onClick={() => setActiveIndex((i) => Math.max(0, i - 1))}
             disabled={atStart}
-            aria-label="Previous image"
-            className="absolute left-2 top-1/2 z-10 inline-flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-paper/90 text-ink shadow-md transition-all hover:scale-110 hover:bg-paper disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:scale-100 sm:left-4"
+            aria-label={t.previousImage}
+            title={t.previousImage}
+            className="absolute left-2 top-1/2 z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-paper/90 text-ink shadow-md transition-all hover:scale-110 hover:bg-paper disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:scale-100 sm:inline-flex sm:left-4"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5" aria-hidden="true">
               <path d="m15 18-6-6 6-6" />
@@ -177,8 +178,9 @@ export default function Lightbox({ post, startIndex, lang, onClose }: LightboxPr
             type="button"
             onClick={() => setActiveIndex((i) => Math.min(total - 1, i + 1))}
             disabled={atEnd}
-            aria-label="Next image"
-            className="absolute right-2 top-1/2 z-10 inline-flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-paper/90 text-ink shadow-md transition-all hover:scale-110 hover:bg-paper disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:scale-100 sm:right-4"
+            aria-label={t.nextImage}
+            title={t.nextImage}
+            className="absolute right-2 top-1/2 z-10 hidden h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-paper/90 text-ink shadow-md transition-all hover:scale-110 hover:bg-paper disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:scale-100 sm:inline-flex sm:right-4"
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5" aria-hidden="true">
               <path d="m9 18 6-6-6-6" />
@@ -200,7 +202,7 @@ export default function Lightbox({ post, startIndex, lang, onClose }: LightboxPr
           loading="eager"
           draggable={false}
           style={{ willChange: "transform, opacity" }}
-          className="mx-auto block max-h-[82vh] w-auto rounded-md object-contain shadow-[0_20px_60px_-20px_rgba(0,0,0,0.6)]"
+          className="mx-auto block max-h-[88vh] w-auto rounded-md object-contain shadow-[0_20px_60px_-20px_rgba(0,0,0,0.6)] sm:max-h-[82vh]"
         />
         <figcaption className="mt-4 text-center">
           <div className="font-serif text-[15px] tracking-tight text-paper">
@@ -209,21 +211,61 @@ export default function Lightbox({ post, startIndex, lang, onClose }: LightboxPr
           <div className="mt-1 text-[12px] uppercase tracking-[0.12em] text-paper/50">
             {currentAlt}
           </div>
-          {hasMany && (
-            <div className="mt-3 flex items-center justify-center gap-2 text-[11px] uppercase tracking-[0.18em] text-paper/60">
-              {total <= 8 ? (
-                <span className="flex items-center gap-1.5" aria-hidden="true">
-                  {post.images.map((_, i) => (
-                    <span
-                      key={i}
-                      className={`block h-1.5 w-1.5 rounded-full transition-colors ${i === safeIndex ? "bg-paper" : "bg-paper/30"}`}
-                    />
-                  ))}
-                </span>
-              ) : null}
-              <span>{safeIndex + 1} / {total}</span>
-            </div>
-          )}
+          {hasMany && (() => {
+            const dotsCounter = (
+              <span className="inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.18em] text-paper/60">
+                {total <= 8 ? (
+                  <span className="inline-flex items-center gap-1.5">
+                    {post.images.map((_, i) => (
+                      <button
+                        key={i}
+                        type="button"
+                        onClick={() => setActiveIndex(i)}
+                        aria-label={t.goToImage.replace("{n}", String(i + 1))}
+                        aria-current={i === safeIndex || undefined}
+                        className={`block h-2 w-2 rounded-full transition-colors ${i === safeIndex ? "bg-paper" : "bg-paper/30 hover:bg-paper/60"}`}
+                      />
+                    ))}
+                  </span>
+                ) : null}
+                <span>{safeIndex + 1} / {total}</span>
+              </span>
+            )
+            return (
+              <>
+                {/* Mobile: [prev] [dots/counter] [next] in a single row. */}
+                <div className="mt-3 flex items-center justify-between gap-3 sm:hidden">
+                  <button
+                    type="button"
+                    onClick={() => setActiveIndex((i) => Math.max(0, i - 1))}
+                    disabled={atStart}
+                    aria-label={t.previousImage}
+                    className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-paper/90 text-ink shadow-md transition-all hover:scale-110 hover:bg-paper disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:scale-100"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4" aria-hidden="true">
+                      <path d="m15 18-6-6 6-6" />
+                    </svg>
+                  </button>
+                  {dotsCounter}
+                  <button
+                    type="button"
+                    onClick={() => setActiveIndex((i) => Math.min(total - 1, i + 1))}
+                    disabled={atEnd}
+                    aria-label={t.nextImage}
+                    className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-paper/90 text-ink shadow-md transition-all hover:scale-110 hover:bg-paper disabled:cursor-not-allowed disabled:opacity-30 disabled:hover:scale-100"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4" aria-hidden="true">
+                      <path d="m9 18 6-6-6-6" />
+                    </svg>
+                  </button>
+                </div>
+                {/* Desktop: dots/counter centred (edge buttons handle nav). */}
+                <div className="mt-3 hidden items-center justify-center sm:flex">
+                  {dotsCounter}
+                </div>
+              </>
+            )
+          })()}
         </figcaption>
       </figure>
     </div>
