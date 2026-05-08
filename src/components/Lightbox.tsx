@@ -104,7 +104,7 @@ export default function Lightbox({ post, startIndex, lang, onClose }: LightboxPr
       role="dialog"
       aria-modal="true"
       aria-label={`Image ${safeIndex + 1} of ${total}: ${currentAlt}`}
-      className="lightbox-fade lightbox-overlay fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-8"
+      className="lightbox-fade lightbox-overlay fixed inset-0 z-50 flex items-center justify-center p-1 sm:p-8"
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose()
       }}
@@ -202,7 +202,7 @@ export default function Lightbox({ post, startIndex, lang, onClose }: LightboxPr
           loading="eager"
           draggable={false}
           style={{ willChange: "transform, opacity" }}
-          className="mx-auto block max-h-[88vh] w-auto rounded-md object-contain shadow-[0_20px_60px_-20px_rgba(0,0,0,0.6)] sm:max-h-[82vh]"
+          className="mx-auto block h-auto w-full max-h-[88vh] rounded-md object-contain shadow-[0_20px_60px_-20px_rgba(0,0,0,0.6)] sm:max-h-[82vh] sm:w-auto"
         />
         <figcaption className="mt-4 text-center">
           <div className="font-serif text-[15px] tracking-tight text-paper">
