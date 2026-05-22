@@ -1,7 +1,87 @@
 [
   {
-    "id": "2026-05-20-1400-berlin",
-    "date": "2026-05-20T14:00:00",
+    "id": "2026-05-22-1400-berlin",
+    "date": "2026-05-22T14:00:00",
+    "location": {
+      "lat": "52.4387206",
+      "lng": "13.410324",
+      "name": {
+        "en": "Britzer Garten, Berlin",
+        "local": "Бритцер Гартен, Берлин"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Britzer Garten - A Day in the Park",
+        "description": "Spent the entire day having a picnic at **Britzer Garten**. Located in the southern part of the city, this massive park was originally created for the Federal Horticultural Show (BUGA) in 1985 to provide a vast green escape for West Berliners during the division.\n\nIt is a meticulously designed landscape featuring large lakes, themed gardens, and open lawns. We found a quiet spot on the grass, set up our lunch, and just watched the day pass. It is completely isolated from the city traffic, making it an ideal place to slow down for a few hours."
+      },
+      "local": {
+        "title": "Бритцер Гартен - день в парке",
+        "description": "Провели целый день на пикнике в **Бритцер Гартен**. Этот огромный парк на юге города был разбит специально для Федеральной садовой выставки (BUGA) 1985 года, чтобы дать жителям изолированного Западного Берлина масштабную зеленую зону для отдыха.\n\nПарк представляет собой детально продуманный ландшафт с большими озерами, тематическими садами и открытыми лужайками. Мы нашли тихое место на траве, разложили обед и просто наблюдали за тем, как проходит день. Здесь полностью отрешаешься от городского шума, так что это идеальное место, чтобы замедлить темп на несколько часов."
+      }
+    },
+    "images": [
+      {
+        "src": "images/britzer-garten-berlin-01.jpg",
+        "alt": {
+          "en": "",
+          "local": ""
+        }
+      },
+      {
+        "src": "images/britzer-garten-berlin-02.jpg",
+        "alt": {
+          "en": "",
+          "local": ""
+        }
+      },
+      {
+        "src": "images/britzer-garten-berlin-03.jpg",
+        "alt": {
+          "en": "",
+          "local": ""
+        }
+      },
+      {
+        "src": "images/britzer-garten-berlin-04.jpg",
+        "alt": {
+          "en": "",
+          "local": ""
+        }
+      },
+      {
+        "src": "images/britzer-garten-berlin-05.jpg",
+        "alt": {
+          "en": "",
+          "local": ""
+        }
+      },
+      {
+        "src": "images/britzer-garten-berlin-06.jpg",
+        "alt": {
+          "en": "",
+          "local": ""
+        }
+      },
+      {
+        "src": "images/britzer-garten-berlin-07.jpg",
+        "alt": {
+          "en": "",
+          "local": ""
+        }
+      },
+      {
+        "src": "images/britzer-garten-berlin-08.jpg",
+        "alt": {
+          "en": "",
+          "local": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "2026-05-21-1400-berlin",
+    "date": "2026-05-21T14:00:00",
     "location": {
       "lat": "52.5064187",
       "lng": "13.0951221",
