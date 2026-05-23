@@ -7,4 +7,8 @@ import tailwindcss from "@tailwindcss/vite"
 export default defineConfig({
   base: "/travel-journal/",
   plugins: [react(), tailwindcss()],
+  define: {
+    // Stamped at build time so posts.json is re-fetched after every deploy.
+    __BUILD_TS__: JSON.stringify(Date.now().toString()),
+  },
 })
