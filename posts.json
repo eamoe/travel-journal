@@ -1,5 +1,64 @@
 [
   {
+    "id": "2026-05-23-1400-berlin-gemaldegalerie",
+    "date": "2026-05-23T14:00:00",
+    "location": {
+      "lat": "52.5084965",
+      "lng": "13.3584815",
+      "name": {
+        "en": "Gemäldegalerie, Berlin",
+        "local": "Гемальдегалерея, Берлин"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Gemäldegalerie - European Masters",
+        "description": "Visited the **Gemäldegalerie** yesterday afternoon. Located at the Kulturforum, it holds one of the world's leading collections of European painting from the 13th to the 18th centuries. The gallery is laid out chronologically, showcasing the evolution of German, Netherlandish, Italian, and French schools."
+      },
+      "local": {
+        "title": "Гемальдегалерея - европейские мастера",
+        "description": "Вчера побывали в **Гемальдегалерее**. Расположенный в Культурфоруме музей хранит одну из главных в мире коллекций европейской живописи XIII–XVIII веков. Залы организованы в хронологическом порядке, наглядно показывая эволюцию немецкой, нидерландской, итальянской и французской школ."
+      }
+    },
+    "images": [
+      {
+        "src": "images/berlin-gemaldegalerie-01-raffael.jpg",
+        "alt": {
+          "en": "Raphael's Terranuova Madonna painting showing the Virgin Mary, infant Jesus, and young John the Baptist",
+          "local": "Картина Рафаэля «Мадонна Террануова» с изображением Девы Марии, младенца Иисуса и юного Иоанна Крестителя"
+        }
+      },
+      {
+        "src": "images/berlin-gemaldegalerie-02-caravaggio.jpg",
+        "alt": {
+          "en": "Caravaggio's Amor Vincit Omnia painting depicting a winged Cupid standing over scattered symbols of human ambition",
+          "local": "Картина Караваджо «Амур-победитель», изображающая крылатого Купидона над разбросанными символами человеческих достижений"
+        }
+      },
+      {
+        "src": "images/berlin-gemaldegalerie-03-botticelli.jpg",
+        "alt": {
+          "en": "Botticelli's The Virgin and Child with Singing Angels tondo painting",
+          "local": "Картина-тондо Боттичелли «Мадонна с младенцем и поющими ангелами»"
+        }
+      },
+      {
+        "src": "images/berlin-gemaldegalerie-04-tiepolo.png",
+        "alt": {
+          "en": "Tiepolo's Rinaldo and Armida in Armida's Enchanted Garden painting with rich drapery and dramatic composition",
+          "local": "Картина Тьеполо «Ринальдо и Армида в волшебных садах Армиды» с богатыми драпировками и драматичной композицией"
+        }
+      },
+      {
+        "src": "images/berlin-gemaldegalerie-05-bellini.jpg",
+        "alt": {
+          "en": "Giovanni Bellini's Doge Leonardo Loredan with Four Companions historical portrait painting",
+          "local": "Исторический портрет работы Джованни Беллини «Дож Леонардо Лоредан с четырьмя компаньонами»"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-05-22-1400-berlin",
     "date": "2026-05-22T14:00:00",
     "location": {
