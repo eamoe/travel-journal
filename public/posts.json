@@ -1,10 +1,97 @@
 [
   {
+    "id": "2026-05-24-2030-munich",
+    "date": "2026-05-24T20:30:00",
+    "location": {
+      "lat": "48.154793",
+      "lng": "11.3769773",
+      "name": {
+        "en": "Munich, Germany",
+        "local": "Мюнхен, Германия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Munich - Evening Walk and Bavarian Dinner",
+        "description": "Started our first evening at **Marienplatz** to see the Gothic town hall, though we missed the movement of the Glockenspiel figures since they only perform earlier in the day. From there, we walked over to the **Frauenkirche**. It was already closed for the evening, but the sheer scale and height of its twin towers are impressive from the outside.\n\nWe continued through the historic **Karlstor** gate just as the sun was setting, ending up by the fountain at Karlsplatz. To wrap up the day, we headed to the **Hofbräuhaus** for a traditional Bavarian dinner, where we had a one-liter mass of beer, pretzels, and a pork knuckle."
+      },
+      "local": {
+        "title": "Мюнхен - вечерняя прогулка и баварский ужин",
+        "description": "Начали наш первый вечер на площади **Мариенплац**, чтобы посмотреть на готическую ратушу. Сами фигурки на часах мы в движении не застали, так как они двигаются только днем. Оттуда мы дошли до собора **Фрауэнкирхе** — внутрь зайти не удалось из-за позднего времени, но его башни-близнецы снаружи выглядят огромными.\n\nЗатем мы прошли через исторические ворота **Карлстор** прямо на закате и вышли к фонтану на площади Карлсплац. Завершили день в пивной **Хофбройхаус**, где устроили традиционный баварский ужин с литровой кружкой пива, брецелями и свиной рулькой."
+      }
+    },
+    "images": [
+      {
+        "src": "images/munich-01.jpg",
+        "alt": {
+          "en": "The towering Gothic facade of the New Town Hall at Marienplatz",
+          "local": "Готический фасад Новой ратуши на площади Мариенплац"
+        }
+      },
+      {
+        "src": "images/munich-02.jpg",
+        "alt": {
+          "en": "Another angle of Marienplatz and the ornate town hall architecture",
+          "local": "Другой ракурс на Мариенплац и богато украшенную архитектуру ратуши"
+        }
+      },
+      {
+        "src": "images/munich-03.jpg",
+        "alt": {
+          "en": "Close-up of the Glockenspiel clock tower with its decorative figures",
+          "local": "Крупный план башни Глокеншпиль с декоративными фигурками"
+        }
+      },
+      {
+        "src": "images/munich-04.jpg",
+        "alt": {
+          "en": "Detailed view of the mechanical dolls inside the town hall tower",
+          "local": "Детальный вид механических кукол внутри ратушной башни"
+        }
+      },
+      {
+        "src": "images/munich-05.jpg",
+        "alt": {
+          "en": "Looking up at the massive brick towers of the Frauenkirche cathedral",
+          "local": "Взгляд снизу вверх на массивные кирпичные башни собора Фрауэнкирхе"
+        }
+      },
+      {
+        "src": "images/munich-06.jpg",
+        "alt": {
+          "en": "The historic Karlstor medieval gate at sunset",
+          "local": "Исторические средневековые ворота Карлстор на закате"
+        }
+      },
+      {
+        "src": "images/munich-07.jpg",
+        "alt": {
+          "en": "Karlsplatz fountain",
+          "local": "Фонтан на площади Карлсплац"
+        }
+      },
+      {
+        "src": "images/munich-08.jpg",
+        "alt": {
+          "en": "A one-liter mug of Bavarian beer on a wooden table at Hofbräuhaus",
+          "local": "Литровая кружка баварского пива на деревянном столе в Хофбройхаусе"
+        }
+      },
+      {
+        "src": "images/munich-09.jpg",
+        "alt": {
+          "en": "A traditional roasted pork knuckle served at the tavern",
+          "local": "Традиционная запеченная свиная рулька, поданная в таверне"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-05-24-1530-berlin-munich-train",
     "date": "2026-05-24T15:30:00",
     "location": {
-      "lat": "50.431238",
-      "lng": "11.023412",
+      "lat": "48.154793",
+      "lng": "11.3769773",
       "name": {
         "en": "Munich, Germany",
         "local": "Мюнхен, Германия"
@@ -13,11 +100,11 @@
     "content": {
       "en": {
         "title": "ICE 1509 - Berlin to Munich",
-        "description": "Traveling from Berlin Hauptbahnhof to München Hauptbahnhof aboard the ICE 1509 train. The route takes just over 4 hours, cutting straight through the country via Halle, Erfurt, and Nuremberg.\n\nMoving at speeds around 275 km/h, the landscape shifts rapidly between flat fields and forested hills. Right after Berlin, the landscape was lined with wind turbines, which later gave way to massive solar panel fields near Nuremberg. The train passes through numerous tunnels along the hilly sections; each entry and exit triggers a quick, noticeable shift in cabin air pressure as the elevation changes."
+        "description": "Traveling from Berlin Hauptbahnhof to München Hauptbahnhof aboard the ICE 1509 train (~600km). The route takes just over 4 hours, cutting straight through the country via Halle, Erfurt, and Nuremberg.\n\nMoving at speeds around 275 km/h, the landscape shifts rapidly between flat fields and forested hills. Right after Berlin, the landscape was lined with wind turbines, which later gave way to massive solar panel fields near Nuremberg. The train passes through numerous tunnels along the hilly sections; each entry and exit triggers a quick, noticeable shift in cabin air pressure as the elevation changes."
       },
       "local": {
         "title": "ICE 1509 - Из Берлина в Мюнхен",
-        "description": "Едем на поезде ICE 1509 от огромного вокзала Берлин-Главный в Мюнхен-Главный. Весь маршрут занимает чуть больше 4 часов и проходит через Галле, Эрфурт и Нюрнберг.\n\nПоезд идет со скоростью около 275 км/ч, из-за чего пейзаж за окном меняется очень быстро: леса сменяются открытыми полями. Сразу на выезде из Берлина тянулись ветряные генераторы, а ближе к Нюрнбергу пошли большие поля солнечных батарей. На холмистых участках трасса проходит через множество туннелей — при каждом въезде и выезде из-за изменения высоты в вагоне резко меняется давление."
+        "description": "Едем на поезде ICE 1509 от огромного вокзала Берлин-Главный в Мюнхен-Главный (~600км). Весь маршрут занимает чуть больше 4 часов и проходит через Галле, Эрфурт и Нюрнберг.\n\nПоезд идет со скоростью около 275 км/ч, из-за чего пейзаж за окном меняется очень быстро: леса сменяются открытыми полями. Сразу на выезде из Берлина тянулись ветряные генераторы, а ближе к Нюрнбергу пошли большие поля солнечных батарей. На холмистых участках трасса проходит через множество туннелей — при каждом въезде и выезде из-за изменения высоты в вагоне резко меняется давление."
       }
     },
     "images": [
