@@ -1,5 +1,57 @@
 [
   {
+    "id": "2026-05-25-1230-munich-verona-train",
+    "date": "2026-05-25T12:30:00",
+    "location": {
+      "lat": "47.0017806",
+      "lng": "11.4957681",
+      "name": {
+        "en": "Brenner Pass, Austria-Italy Border",
+        "local": "Перевал Бреннер, Австро-Итальянская граница"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "ÖBB Railjet 83 - Munich to Verona via the Brenner Pass",
+        "description": "Left München Hauptbahnhof at 9:33 AM on the ÖBB Railjet 83, bound for Verona Porta Nuova with a 3:01 PM scheduled arrival. The 445 km journey takes about 5.5 hours, pulled by the classic red ÖBB Taurus locomotive, reaching speeds up to 230 km/h on the faster stretches.\n\nThe route crosses the western side of Austria, cutting through the Alps with a brief stop in Innsbruck before climbing up the historic **Brenner Pass**. At 1,370 meters above sea level, this pass is one of the lowest and oldest alpine crossings, used since the Roman Empire and serving as a key continental divide. The view shifts dramatically from flat Bavarian plains to massive, snow-peaked Austrian valleys before the descent into Italy."
+      },
+      "local": {
+        "title": "ÖBB Railjet 83 - Из Мюнхена в Верону через перевал Бреннер",
+        "description": "Выехали с главного вокзала Мюнхена в 9:33 на поезде ÖBB Railjet 83 в направлении Вероны (Porta Nuova) с прибытием в 15:01. Маршрут длиной 445 км занимает около 5,5 часов; состав везет классический красный электровоз ÖBB Taurus, разгоняющийся на быстрых участках до 230 км/ч.\n\nПуть проходит через западную часть Австрии, рассекая Альпы с короткой остановкой в Инсбруке, после чего поезд поднимается на исторический **перевал Бреннер**. Расположенный на высоте 1370 метров над уровнем моря, этот перевал является одним из самых низких и старых альпийских переходов, использовавшимся еще со времен Римской империи. Пейзаж за окном меняется кардинально: от плоских баварских равнин к масштабным австрийским долинам со снежными пиками на фоне перед спуском в Италию."
+      }
+    },
+    "images": [
+      {
+        "src": "images/munich-verona-route-01.jpg",
+        "alt": {
+          "en": "The red passenger carriage of the ÖBB Railjet train at the platform",
+          "local": "Красный пассажирский вагон поезда ÖBB Railjet у платформы"
+        }
+      },
+      {
+        "src": "images/munich-verona-route-02.jpg",
+        "alt": {
+          "en": "First mountain ridges appearing along the Germany-Austria border",
+          "local": "Первые горные хребты, появляющиеся на границе Германии и Австрии"
+        }
+      },
+      {
+        "src": "images/munich-verona-route-03.jpg",
+        "alt": {
+          "en": "A wide Austrian valley after Innsbruck with mountains rising in the background",
+          "local": "Широкая австрийская долина после Инсбрука с горами на заднем плане"
+        }
+      },
+      {
+        "src": "images/munich-verona-route-04.jpg",
+        "alt": {
+          "en": "Alpine landscape with sharp, snow-covered peaks under a clear sky",
+          "local": "Альпийский пейзаж с острыми заснеженными пиками под ясным небом"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-05-24-2030-munich",
     "date": "2026-05-24T20:30:00",
     "location": {
