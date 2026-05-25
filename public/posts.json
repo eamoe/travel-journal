@@ -1,5 +1,78 @@
 [
   {
+    "id": "2026-05-25-1600-verona",
+    "date": "2026-05-25T16:00:00",
+    "location": {
+      "lat": "45.442898",
+      "lng": "10.999561",
+      "name": {
+        "en": "Verona, Italy",
+        "local": "Верона, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Verona - Ancient Gates and Empty Squares",
+        "description": "Arrived in Verona at 3:00 PM, stepping right into the quiet of the Italian siesta. Almost all traditional restaurants and trattorias were closed, remaining shut until dinner service starts around 7:30 PM. We spent the afternoon walking through the nearly empty stone streets.\n\nWe entered the historic center through **Porta Borsari**, a 1st-century AD Roman gate on the ancient Via Postumia, once called Porta Iovia due to a nearby temple of Jupiter. From there, we walked to **Piazza delle Erbe**, the former Roman forum now bordered by the Scaliger family's Gothic palaces and the 84-meter **Lamberti Tower**. We finished our walk at the **Verona Arena**, a massive 1st-century Roman amphitheater that predates the Colosseum and still serves as a giant open-air opera venue."
+      },
+      "local": {
+        "title": "Верона - древние ворота и пустые площади",
+        "description": "Прибыли в Верону в 15:00, попав в самый разгар итальянской сиесты. Практически все традиционные заведения были закрыты до начала ужина в 19:30, поэтому вторую половину дня мы провели, гуляя по опустевшим каменным улицам.\n\nМы вошли в исторический центр через **Порта Борсари** — парадные римские ворота I века н.э. на древней дороге Виа Постумия, изначально называвшиеся Porta Iovia в честь храма Юпитера. Оттуда дошли до **Пьяцца делле Эрбе**, разбитой поверх римского форума и окруженной готическими дворцами семьи Скалигеров, над которыми возвышается 84-метровая **Башня Ламберти**. Завершили прогулку у **Арены ди Верона** — огромного римского амфитеатра I века, который старше Колизея и сегодня служит действующей оперной сценой под открытым небом."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-veneto-verona-01.jpg",
+        "alt": {
+          "en": "Agricultural fields and a small village backed by green mountains in Northern Italy",
+          "local": "Сельскохозяйственные поля и небольшая деревня на фоне зеленых гор в Северной Италии"
+        }
+      },
+      {
+        "src": "images/italy-veneto-verona-02.jpg",
+        "alt": {
+          "en": "A narrow, quiet street in Verona during the afternoon siesta",
+          "local": "Узкая и тихая улица Вероны во время дневной сиесты"
+        }
+      },
+      {
+        "src": "images/italy-veneto-verona-03.jpg",
+        "alt": {
+          "en": "Porta Borsari, the monumental 1st-century Roman gate with its double arch and limestone facade",
+          "local": "Порта Борсари, монументальные римские ворота I века с двойной аркой и известняковым фасадом"
+        }
+      },
+      {
+        "src": "images/italy-veneto-verona-04.jpg",
+        "alt": {
+          "en": "A closer look at the ancient Latin inscriptions and architectural details on Porta Borsari",
+          "local": "Более близкий ракурс на древние латинские надписи и архитектурные детали Порта Борсари"
+        }
+      },
+      {
+        "src": "images/italy-veneto-verona-05.jpg",
+        "alt": {
+          "en": "Piazza delle Erbe showing the surrounding frescoed facades",
+          "local": "Пьяцца делле Эрбе с окружающими фасадами, украшенными фресками"
+        }
+      },
+      {
+        "src": "images/italy-veneto-verona-06.jpg",
+        "alt": {
+          "en": "The towering Lamberti Tower rising above the Piazza delle Erbe",
+          "local": "84-метровая Башня Ламберти, возвышающаяся над Пьяцца делле Эрбе"
+        }
+      },
+      {
+        "src": "images/italy-veneto-verona-07.jpg",
+        "alt": {
+          "en": "The well-preserved Verona Arena",
+          "local": "Хорошо сохранившаяся Арена ди Верона"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-05-25-1230-munich-verona-train",
     "date": "2026-05-25T12:30:00",
     "location": {
