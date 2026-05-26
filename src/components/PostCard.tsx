@@ -177,7 +177,7 @@ export default function PostCard({ post, index, onOpenImage, currentLang }: Post
         <div
             className={`relative overflow-hidden transition-[max-height] transition-editorial`}
             style={{
-              maxHeight: expanded || !needsCollapse ? "1000px" : "7.5rem",
+              maxHeight: expanded || !needsCollapse ? "9999px" : "7.5rem",
             }}
         >
           <div ref={contentRef} className="prose-journal">
