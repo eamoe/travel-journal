@@ -1,5 +1,78 @@
 [
   {
+    "id": "2026-05-26-1200-verona-to-venice",
+    "date": "2026-05-26T12:00:00",
+    "location": {
+      "lat": "45.442898",
+      "lng": "10.999561",
+      "name": {
+        "en": "Verona, Italy",
+        "local": "Верона, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Verona Morning and Italo to Venice",
+        "description": "Before departing Verona Porta Nuova, we started our day with excellent Italian coffee and a slice of Torta Russa (Russian Cake). Despite its name, this dessert is a purely Veronese specialty from the 20th century, made of a flaky puff pastry crust packed with a soft, sweet almond and crushed amaretti filling resembling a traditional ushanka hat.\n\nEven in the morning, the summer heat was intense. Walking through Verona's deep, narrow medieval streets made us realize how crucial this ancient urban layout is—the tall stone walls create persistent channels of shade and trap fresh air, preventing you from overheating. We used these cool alleys to visit the Arena di Verona from the inside, exploring the vast stone tiers that hold 30,000 spectators. It is an incredible open-air opera scene, though the famous evening performances don't start until later in June. Afterward, we explored the Castelvecchio museum, a massive red-brick medieval fortress featuring an ingenious fortified bridge across the Adige River, built by the Scaliger family specifically as a secure escape route in case of local revolutions.\n\nLater, we caught the high-speed Italo Treno for the 120 km journey to Venezia Santa Lucia station. The trip took just over an hour, bringing us to our base where we are staying for the next 3 nights."
+      },
+      "local": {
+        "title": "Утро в Вероне и поезд Italo в Венецию",
+        "description": "Перед отправлением с вокзала Верона Порта Нуова мы начали утро с отличного итальянского кофе и кусочка Torta Russa («Русского пирога»). Несмотря на название, этот десерт — исконно веронское изобретение XX века из слоеного теста со сладкой начинкой из миндаля и крошек печенья амаретти, по форме напоминающее шапку-ушанку.\n\nДаже утром летняя жара ощущалась очень сильно. Прогулка по глубоким и узким средневековым улицам Вероны помогла понять, насколько важна такая историческая планировка: высокие каменные стены создают постоянные коридоры тени и сохраняют прохладный воздух, спасая от перегрева. По этим тенистым переулкам мы дошли до Арены ди Верона и осмотрели её изнутри, поднявшись на массивные каменные трибуны, вмещающие 30 000 зрителей. Это грандиозная оперная сцена под открытым небом, хотя знаменитые вечерние постановки начинаются только в июне. Следом мы посетили музей Кастельвеккьо — огромную средневековую крепость из красного кирпича с укрепленным мостом через реку Адидже, который семья Скалигеров построила как тайный путь отступления на случай народных восстаний.\n\nЗатем мы сели на скоростной поезд Italo Treno и преодолели 120 км до вокзала Венеция Санта-Лючия чуть больше чем за час. Мы прибыли на место нашей новой базы, где проведем следующие 3 ночи."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-veneto-verona-to-vinezia-01.jpg",
+        "alt": {
+          "en": "Interior view of the Arena di Verona showing the remaining wing of the outer ring after historical earthquakes",
+          "local": "Внутренний вид Арены ди Верона с уцелевшим фрагментом внешнего кольца после исторических землетрясений"
+        }
+      },
+      {
+        "src": "images/italy-veneto-verona-to-vinezia-02.jpg",
+        "alt": {
+          "en": "Looking down at the open-air opera stage and central floor from the highest stone tiers of the amphitheater",
+          "local": "Вид сверху на оперную сцену под открытым небом и центральную часть со старинных каменных трибун"
+        }
+      },
+      {
+        "src": "images/italy-veneto-verona-to-vinezia-03.jpg",
+        "alt": {
+          "en": "An inner stone staircase leading through the ancient corridors up to the top rows of the Arena",
+          "local": "Внутренняя каменная лестница, ведущая через древние коридоры к верхним рядам Арены"
+        }
+      },
+      {
+        "src": "images/italy-veneto-verona-to-vinezia-04.jpg",
+        "alt": {
+          "en": "A traditional breakfast setting featuring a slice of Torta Russa, pineapple juice, and a cold cappuccino",
+          "local": "Традиционный завтрак со слоеным пирогом Torta Russa, ананасовым соком и холодным капучино"
+        }
+      },
+      {
+        "src": "images/italy-veneto-verona-to-vinezia-05.jpg",
+        "alt": {
+          "en": "The open inner courtyard of the medieval Castelvecchio fortress with its stone walls and defensive ramparts",
+          "local": "Открытый внутренний двор средневековой крепости Кастельвеккьо с каменными стенами и зубчатыми укреплениями"
+        }
+      },
+      {
+        "src": "images/italy-veneto-verona-to-vinezia-06.jpg",
+        "alt": {
+          "en": "View of the Adige River rushing past the heavy brick fortifications of Castelvecchio",
+          "local": "Вид на реку Адидже, протекающую мимо мощных кирпичных укреплений замка Кастельвеккьо"
+        }
+      },
+      {
+        "src": "images/italy-veneto-verona-to-vinezia-07.jpg",
+        "alt": {
+          "en": "An internal view of the Castelvecchio complex showing a defensive tower against the sky",
+          "local": "Внутренний вид комплекса Кастельвеккьо с оборонительной башней на фоне неба"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-05-25-1600-verona",
     "date": "2026-05-25T16:00:00",
     "location": {
