@@ -1,5 +1,85 @@
 [
   {
+    "id": "2026-05-26-2100-venice-arrival",
+    "date": "2026-05-26T20:00:00",
+    "location": {
+      "lat": "45.4044247",
+      "lng": "12.2225256",
+      "name": {
+        "en": "Venice, Italy",
+        "local": "Венеция, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "First Evening in Venice - A World on Water",
+        "description": "We arrived at Venezia Santa Lucia station at 3:00 PM, dropped our bags at the hotel, and spent the entire evening losing ourselves in this incredible floating labyrinth. Experiencing Venice for the first time is surreal because it is a city completely devoid of wheels—no cars, no buses, not even bicycles or skateboards are permitted. The canals serve as the roads, and boats—from public water buses (vaporetti) to sleek delivery vessels—are the only vehicles.\n\nWalking past the hidden residential calli (alleys), we discovered fascinating details about how Venice was built. The entire city rests on an estimated 10 million wooden piles driven deep into the lagoon's mud and clay centuries ago. Cut off from oxygen, this submerged forest of oak and larch from the Balkans has petrified rather than rotted, supporting massive stone palaces for over a thousand years. Even the local vocabulary is unique: Venice has only one true square, Piazza San Marco; every other open area is a 'campo' (historically meaning an open field). We watched the afternoon light soften against flower-covered balconies and caught the iconic silhouette of traditional black gondolas navigating the waterways as the sun set over the lagoon, turning the water into liquid gold before dusk."
+      },
+      "local": {
+        "title": "Первый вечер в Венеции — мир на воде",
+        "description": "Мы прибыли на вокзал Венеция Санта-Лючия в 15:00, оставили вещи в отеле и весь вечер провели, блуждая по этому невероятному плавучему лабиринту. Первое знакомство с Венецией ошеломляет, ведь здесь полностью отсутствуют колеса: в городе нет машин, автобусов, запрещены даже велосипеды и скейтборды. Каналы выполняют роль дорог, а лодки — от общественных речных трамваев (вапоретто) до юрких грузовых катеров — служат единственным транспортом.\n\nГуляя по укромным calli (жилым переулкам), мы узнали поразительные факты об устройстве города. Вся Венеция держится на примерно 10 миллионах деревянных свай, вбитых в ил и глину лагуны много веков назад. Без доступа кислорода этот затопленный лес из балканского дуба и лиственницы не сгнил, а окаменел, удерживая тяжелые каменные дворцы уже больше тысячи лет. Даже местная топонимика уникальна: в Венеции есть лишь одна настоящая площадь — Пьяцца Сан-Марко, а все остальные открытые пространства называются «кампо» (исторически — поле). Мы провожали закат, глядя, как дневной свет угасает на утопающих в цветах балконах, а традиционные черные гондолы скользят по воде, окрашенной в золото заходящего солнца."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-venice-day-1-01.jpg",
+        "alt": {
+          "en": "Afternoon view of a quiet narrow canal flanked by historic brick and plaster buildings",
+          "local": "Дневной вид на тихий узкий канал, зажатый между историческими кирпичными и штукатурными домами"
+        }
+      },
+      {
+        "src": "images/italy-venice-day-1-02.jpg",
+        "alt": {
+          "en": "Sunlight filtering into a slender waterway",
+          "local": "Солнечный свет, проникающий в узкий водный проулок"
+        }
+      },
+      {
+        "src": "images/italy-venice-day-1-03.jpg",
+        "alt": {
+          "en": "Looking down a narrow Venetian canal in the warm afternoon glow with small footbridges in the distance",
+          "local": "Ракурс вдоль узкого венецианского канала в теплых лучах солнца с небольшими пешеходными мостиками вдали"
+        }
+      },
+      {
+        "src": "images/italy-venice-day-1-04.jpg",
+        "alt": {
+          "en": "Intimate perspective of a secluded water lane between aged residential buildings in the afternoon",
+          "local": "Уединенный водный переулок между старыми жилыми домами в послеполуденные часы"
+        }
+      },
+      {
+        "src": "images/italy-venice-day-1-05.jpg",
+        "alt": {
+          "en": "Detailed view of an old Venetian building facade featuring balconies covered in vibrant hanging flowers",
+          "local": "Крупный план фасада старого венецианского дома с балконами, украшенными яркими свисающими цветами"
+        }
+      },
+      {
+        "src": "images/italy-venice-day-1-06.jpg",
+        "alt": {
+          "en": "Evening scene on a canal with a traditional black wooden gondola",
+          "local": "Вечерний пейзаж на канале с традиционной черной деревянной гондолой"
+        }
+      },
+      {
+        "src": "images/italy-venice-day-1-07.jpg",
+        "alt": {
+          "en": "Late evening view of a winding canal as twilight sets over the historic city buildings",
+          "local": "Вид на извилистый канал поздним вечером, когда сумерки опускаются на старинные городские постройки"
+        }
+      },
+      {
+        "src": "images/italy-venice-day-1-08.jpg",
+        "alt": {
+          "en": "Night view of a Venetian canal catching the rich colors of a deep sunset on the horizon",
+          "local": "Ночной вид на венецианский канал, отражающий насыщенные краски глубокого заката на горизонте"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-05-26-1200-verona-to-venice",
     "date": "2026-05-26T12:00:00",
     "location": {
