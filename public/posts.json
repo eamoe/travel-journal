@@ -1,5 +1,78 @@
 [
   {
+    "id": "2026-05-27-2130-venice-day-2",
+    "date": "2026-05-27T11:30:00",
+    "location": {
+      "lat": "45.434035",
+      "lng": "12.338426",
+      "name": {
+        "en": "Piazza San Marco, Venice, Italy",
+        "local": "Площадь Сан-Марко, Венеция, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Venice Day 2 - From the Fish Market to San Marco",
+        "description": "We spent our second day navigating a complex, winding route from the Riva de Biasio vaporetto terminal all the way to Piazza San Marco. Without a digital map, it is genuinely impossible to find your way through this labyrinth—the path folds back on itself constantly with sharp turns, blind dead-ends, and dozens of steep stone footbridges to cross.\n\nOur first major stop was the historic **Rialto Fish Market (Mercato di Rialto)** in the morning, where generations of Venetians have bought fresh seafood caught directly from the lagoon and the Adriatic Sea. From there, we pushed on toward **Piazza San Marco** during a moody, rainy morning. Seeing the **Basilica di San Marco** under gray clouds highlights its architectural style—a blend of Byzantine and Gothic elements reflecting Venice's historical trade dominance with the East. Right next to it stands the **Torre dell'Orologio** (St. Mark's Clocktower), an engineering marvel from the late 15th century featuring two bronze giants that strike the hours. We walked past the gothic masterwork of the **Palazzo Ducale** (Doge's Palace) and paused at the famous **Ponte dei Sospiri** (Bridge of Sighs), which connects the palace to the old prisons.\n\nIn the evening, we had a classic Venetian seafood dinner: a fresh, tender octopus salad, a grilled local fish, and a rich, traditional fish soup packed with aromatic broth. We finished the night the Italian way—with a short, strong cup of hot espresso."
+      },
+      "local": {
+        "title": "Венеция, день 2 — от рыбного рынка до Сан-Марко",
+        "description": "Второй день мы провели в долгом и запутанном путешествии от причала вапоретто Riva de Biasio до самой площади Сан-Марко. Без карты ориентироваться в этом лабиринте решительно невозможно: маршрут состоит из бесконечных петель, узких проходов и десятков крутых каменных мостов.\n\nУтром нашей первой ключевой точкой стал исторический **рыбный рынок Риальто (Mercato di Rialto)**, где местные жители веками покупают свежие морепродукты, выловленные в лагуне и Адриатическом море. Оттуда мы вышли к **Пьяцца Сан-Марко** в дождливое, пасмурное утро. Собор **Базилика ди Сан-Марко** в каплях дождя выглядит особенно монументально, подчеркивая свой византийско-готический стиль — свидетельство былого торгового господства Венеции на Востоке. Рядом возвышается часовая башня **Torre dell'Orologio**, чудо инженерной мысли конца XV века с двумя бронзовыми гигантами, бьющими в колокол. Мы прошли мимо готического шедевра **Палаццо Дукале** (Дворца дожей) и остановились у легендарного **Понте деи Соспири** (Моста Вздохов). Этот крытый мост соединяет дворец со старыми тюрьмами.\n\nВечером мы устроились в ресторане и заказали классический венецианский ужин: салат из нежного осьминога, рыбу на гриле и насыщенный традиционный рыбный суп. Завершили этот насыщенный день по-итальянски — чашечкой крепкого эспрессо."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-venice-day-2-01.jpg",
+        "alt": {
+          "en": "Rainy morning view of Basilica di San Marco and the tall brick Campanile in the square",
+          "local": "Дождливое утро на площади Сан-Марко с видом на собор Базилика ди Сан-Марко и высокую кирпичную кампанилу"
+        }
+      },
+      {
+        "src": "images/italy-venice-day-2-02.jpg",
+        "alt": {
+          "en": "The ornate blue and gold astronomical clock face of the Torre dell'Orologio",
+          "local": "Роскошный сине-золотой циферблат астрономических часов на башне Торре делль'Оролоджо"
+        }
+      },
+      {
+        "src": "images/italy-venice-day-2-03.jpg",
+        "alt": {
+          "en": "The grand Gothic facade and arched arcades of the Palazzo Ducale next to the lagoon",
+          "local": "Величественный готический фасад и арочные галереи Палаццо Дукале рядом с лагуной"
+        }
+      },
+      {
+        "src": "images/italy-venice-day-2-04.jpg",
+        "alt": {
+          "en": "The enclosed white limestone Bridge of Sighs spanning across a narrow canal between stone structures",
+          "local": "Закрытый мост Вздохов из белого известняка, переброшенный через узкий канал между каменными зданиями"
+        }
+      },
+      {
+        "src": "images/italy-venice-day-2-06.jpg",
+        "alt": {
+          "en": "Evening view of the historic architecture along the Grand Canal",
+          "local": "Вечерний вид на историческую архитектуру вдоль Гранд-канала"
+        }
+      },
+      {
+        "src": "images/italy-venice-day-2-07.jpg",
+        "alt": {
+          "en": "Twilight reflecting off the ripples of the Grand Canal near the waterfront buildings",
+          "local": "Сумерки, отражающиеся в ряби Гранд-канала рядом с прибрежными городскими зданиями"
+        }
+      },
+      {
+        "src": "images/italy-venice-day-2-08.jpg",
+        "alt": {
+          "en": "Evening scenery of Venice",
+          "local": "Вечерний пейзаж Венеции"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-05-26-2100-venice-arrival",
     "date": "2026-05-26T20:00:00",
     "location": {
