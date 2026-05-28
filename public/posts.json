@@ -1,5 +1,64 @@
 [
   {
+    "id": "2026-05-28-1130-san-marco-basilica",
+    "date": "2026-05-28T11:30:00",
+    "location": {
+      "lat": "45.434035",
+      "lng": "12.338426",
+      "name": {
+        "en": "St. Mark's Basilica, Venice, Italy",
+        "local": "Собор Святого Марка, Венеция, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "The Golden Basilica of Saint Mark",
+        "description": "At 11:30 AM, we stepped inside the breathtaking Basilica di San Marco, a masterpiece that stands as the ultimate symbol of the Venetian Republic's historical power, wealth, and maritime ambition. For centuries, this church operated not as the city's official cathedral, but as the private chapel of the Doge, physically connected to the adjacent Palazzo Ducale (Doge's Palace) via a direct internal doorway so the rulers could attend services securely.\n\nThe very foundation of the basilica is rooted in a legendary tale of 9th-century international espionage. In 828 AD, two daring Venetian merchants named Buono da Malamocco and Rustico da Torcello smuggled the sacred relics of Saint Mark the Evangelist out of Alexandria, Egypt. To slip past the city's Muslim port guards, they cleverly packed the holy remains into barrels underneath layers of pork, knowing the guards would refuse to touch it. Once safe in Venice, Saint Mark replaced Saint Theodore as the city’s patron saint, instantly elevating Venice's spiritual prestige on the global stage. Over the following centuries, Venetian law required every merchant ship returning from the East to bring back a precious gift—marbles, columns, or artwork—to adorn the 'Golden Church.' Much of the structure's jaw-dropping interior, including its 500 ancient columns and massive caches of gold, was looted directly from Constantinople during the Fourth Crusade in 1204.\n\nLooking up at the interior roofs, we were surrounded by over 8,000 square meters of shimmering gold-leaf mosaics. However, a glance downward reveals an equally incredible masterpiece: a vast, undulating 12th-century mosaic floor made of rich geometric marble (opus sectile). Because the basilica was built on unstable lagoon mud and shifting wooden piles, the floor has warped dramatically over a thousand years, buckling into heavy, rolling waves that make walking through the nave feel like stepping across a frozen, petrified ocean."
+      },
+      "local": {
+        "title": "Золотая базилика Святого Марка",
+        "description": "В 11:30 утра мы вошли под своды грандиозной Базилики ди Сан-Марко — шедевра, ставшего главным символом могущества, богатства и морских амбиций Венецианской республики. На протяжении веков этот собор выполнял роль не городского кафедрального собора, а личной капеллы дожа, соединенной с соседним Палаццо Дукале (Дворцом дожей) прямым внутренним переходом, чтобы правители могли безопасно посещать службы.\n\nСамо основание базилики связано с легендарной историей средневекового шпионажа. В 828 году два венецианских купца, Буоно из Маламокко и Рустико из Торчелло, тайно вывезли мощи святого Марка Евангелиста из Александрии Египетской. Чтобы пройти мусульманскую таможню в порту, они спрятали останки на дне корзин под слоями свинины, к которой стражники брезговали прикасаться. По прибытии в Венецию святой Марк сменил святого Феодора на посту покровителя города, мгновенно подняв религиозный статус республики. В последующие века венецианские законы обязывали каждое торговое судно, возвращающееся с Востока, привозить ценный дар — редкий мрамор, колонны или рельефы — для украшения собора. Огромная часть сокровищ храма, включая 500 античных колонн, была вывезена в качестве трофеев при разграблении Константинополя в ходе Четвертого крестового похода в 1204 году.\n\nРассматривая интерьер, мы были поражены более чем 8000 квадратных метров мерцающей золотой мозаики на потолках и сводах. Однако, если опустить взгляд, открывается не менее удивительное зрелище: огромный мраморный мозаичный пол XII века. Из-за того, что собор построен на нестабильном иле лагуны и проседающих деревянных сваях, за тысячу лет пол деформировался и пошел тяжелыми волнообразными складками. Прогулка по главному нефу создает полное ощущение, будто идешь по застывшему каменному морю."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-vinice-san-marco-basilica-01.jpg",
+        "alt": {
+          "en": "Distanced view of the grand exterior facade of St. Mark's Basilica with its multi-domed Byzantine architecture under the sky",
+          "local": "Вид издалека на величественный внешний фасад собора Святого Марка с его многокупольной византийской архитектурой на фоне неба"
+        }
+      },
+      {
+        "src": "images/italy-vinice-san-marco-basilica-02.jpg",
+        "alt": {
+          "en": "The stunning interior perspective looking up at the vaulted ceilings coated in glittering gold-leaf mosaics",
+          "local": "Потрясающий вид изнутри на сводчатые потолки собора, покрытые сверкающей золотой мозаикой"
+        }
+      },
+      {
+        "src": "images/italy-vinice-san-marco-basilica-03.jpg",
+        "alt": {
+          "en": "A detailed row of sacred figures and statues standing on the marble colonnade in front of the high altar",
+          "local": "Детализированный ряд священных фигур и статуй, установленных на мраморной колоннаде перед главным алтарем"
+        }
+      },
+      {
+        "src": "images/italy-vinice-san-marco-basilica-04.jpg",
+        "alt": {
+          "en": "A top-down view of the complex geometric marble patterns and icons making up the historic mosaic floor",
+          "local": "Вид сверху на сложные геометрические узоры из цветного мрамора, составляющие исторический мозаичный пол"
+        }
+      },
+      {
+        "src": "images/italy-vinice-san-marco-basilica-05.jpg",
+        "alt": {
+          "en": "Another perspective of the undulating, wavy mosaic floor demonstrating the subsidence of the building over centuries",
+          "local": "Еще один ракурс на неровный, идущий волнами мозаичный пол, демонстрирующий просадку здания за долгие века"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-05-27-2130-venice-day-2",
     "date": "2026-05-27T11:30:00",
     "location": {
