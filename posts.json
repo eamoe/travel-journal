@@ -1,5 +1,57 @@
 [
   {
+    "id": "2026-05-29-1105-venice-to-florence",
+    "date": "2026-05-29T11:05:00",
+    "location": {
+      "lat": "45.441044",
+      "lng": "12.321035",
+      "name": {
+        "en": "Venezia Santa Lucia Railway Station, Venice, Italy",
+        "local": "Железнодорожный вокзал Венеция Санта-Лючия, Венеция, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Farewell Venice - Onward to Florence",
+        "description": "At 11:05 AM, we boarded our train out of Venezia Santa Lucia, looking back one last time from the station's wide stone steps at the grand expanse of the Grand Canal. Our 3-night stay in this extraordinary city on the water was absolutely unforgettable. It lived up to every bit of its romantic reputation, leaving us with memories of quiet early morning alleys, heavy gold basilicas, and the constant, soothing lap of water against ancient brick.\n\nBefore heading to the platform, we had a nice walk. Watching a solitary seagull claim its perch on one of the weathered wooden mooring piles (briccole) that dot the main channels felt like the perfect, poetic closing image of the lagoon. Now, we are trading water buses for high-speed rail on a 2-hour dash south to Florence (Firenze Santa Maria Novella), with an expected arrival at 1:20 PM, ready to trade Venetian Byzantine architecture for the birthplace of the Italian Renaissance."
+      },
+      "local": {
+        "title": "Прощай, Венеция — путь во Флоренцию",
+        "description": "В 11:05 мы сели на поезд, отправляющийся с вокзала Венеция Санта-Лючия, бросив прощальный взгляд с широких каменных ступеней станции на панораму Гранд-канала. Наши три ночи в этом удивительном городе на воде были абсолютно незабываемыми. Венеция полностью оправдала свою романтичную репутацию, оставив в памяти тихие утренние переулки, сияющие золотом базилики и постоянный, успокаивающий плеск волн о вековые кирпичные стены палаццо.\n\nПеред тем как пройти на платформу, мы успели прогуляться. Чайка, гордо замершая на одной из старых деревянных свай (briccole), вбитых в дно Гранд-канала, стала идеальным, поэтичным прощальным образом лагуны. Теперь мы меняем речные трамваи на скоростной поезд и за два часа перенесемся на юг, во Флоренцию (вокзал Санта-Мария-Новелла), куда прибудем в 13:20, готовые сменить византийские мотивы Венеции на колыбель итальянского Ренессанса."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-venice-florence-01.jpg",
+        "alt": {
+          "en": "Panoromic final view of the Grand Canal and San Simeon Piccolo church taken from the steps of Santa Lucia station",
+          "local": "Финальный панорамный вид на Гранд-канал и церковь Сан-Симеон-Пикколо со ступеней вокзала Санта-Лючия"
+        }
+      },
+      {
+        "src": "images/italy-venice-florence-02.jpg",
+        "alt": {
+          "en": "The historic Gothic facade of the house where the Renaissance painter Tintoretto lived in Venice",
+          "local": "Исторический готический фасад дома в Венеции, где жил художник эпохи Возрождения Тинторетто"
+        }
+      },
+      {
+        "src": "images/italy-venice-florence-03.jpg",
+        "alt": {
+          "en": "A lone seagull perched perfectly on top of a weathered wooden mooring pile in the middle of the Grand Canal",
+          "local": "Одинокая чайка, застывшая на вершине старой деревянной причальной сваи посреди Гранд-канала"
+        }
+      },
+      {
+        "src": "images/italy-venice-florence-04.jpg",
+        "alt": {
+          "en": "A peaceful narrow residential canal crossed by a classic, small arched footbridge",
+          "local": "Спокойный узкий жилой канал, через который перекинут классический маленький арочный мостик"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-05-28-1130-san-marco-basilica",
     "date": "2026-05-28T11:30:00",
     "location": {
