@@ -1,5 +1,120 @@
 [
   {
+    "id": "2026-05-29-1900-florence-day-1",
+    "date": "2026-05-29T17:00:00",
+    "location": {
+      "lat": "43.7799286",
+      "lng": "11.1585673",
+      "name": {
+        "en": "Florence, Italy",
+        "local": "Флоренция, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Arriving in Florence - Cradle of the Renaissance",
+        "description": "Our high-speed train pulled into Firenze Santa Maria Novella at 13:40, carrying a minor 20-minute delay that did absolutely nothing to dampen our excitement. Stepping out into Florence is an instant shift in atmosphere; if Venice felt like a floating medieval dream, Florence feels incredibly grounded, solid, and structural. This is the undisputed birthplace of the Italian Renaissance, a city shaped by the immense wealth of the Medici family, humanistic philosophy, and an explosion of artistic genius that permanently shifted Western civilization.\n\nOur very first stop was the magnificent **Basilica of Santa Maria Novella**, located right near the station. Its striking green-and-white marble facade is a masterpiece of Renaissance symmetry designed by Leon Battista Alberti. This church holds a prominent place in world literature: it is precisely within Santa Maria Novella that Giovanni Boccaccio sets the opening of his 14th-century masterpiece, *The Decameron*. In the novel, seven young women and three young men meet inside this empty basilica during the devastating Black Death plague of 1348 and decide to flee the infected city to a countryside villa, where they spend their days telling the 100 witty, romantic, and tragic stories that make up the book. Walking through the cavernous nave, looking up at the high vaulted ceilings and the soaring, intricately detailed stained-glass windows (vitrages), you can easily picture Boccaccio's characters sheltering in these exact shadows.\n\nFrom there, we walked into the heart of the city to confront the colossal **Cattedrale di Santa Maria del Fiore** (The Duomo). The sheer size of this cathedral is staggering—it is so massive that when you stand in the piazza, it is physically impossible to capture the entire building in a single camera frame without it getting cut off. The exterior is wrapped in an intricate mosaic of pink, white, and green marble panels that look almost textiles-like up close. Crowning the cathedral is Filippo Brunelleschi’s legendary dome, completed in 1436. It remains the largest brick-and-mortar dome ever constructed. Brunelleschi built it without any temporary wooden scaffolding, inventing entirely new hoisting machines and a revolutionary herringbone brick-laying pattern to keep the structure from collapsing inward under its own weight. We spent the early evening watching the golden hour light trace the contours of the dome and the neighboring Giotto’s Campanile, saving our tour of the interior for tomorrow."
+      },
+      "local": {
+        "title": "Прибытие во Флоренцию — колыбель Ренессанса",
+        "description": "Наш скоростной поезд прибыл на вокзал Фиренце Санта-Мария-Новелла в 13:40 с небольшой 20-минутной задержкой, которая ничуть не испортила нам настроения. Выход в город сразу дает почувствовать смену атмосферы: если Венеция казалась парящим средневековым сном, то Флоренция ощущается невероятно монументальной, основательной и тектоничной. Это бесспорная колыбель итальянского Возрождения, город, сформированный огромным богатством семьи Медичи, философией гуманизма и взрывом художественного гения, который навсегда изменил западную цивилизацию.\n\nНашей первой остановкой стала великолепная **Базилика Санта-Мария-Новелла**, расположенная прямо у вокзала. Её знаменитый зелено-белый мраморный фасад — шедевр ренессансной симметрии, разработанный Леоном Баттистой Альберти. Эта церковь занимает особое место в мировой литературе: именно в Санта-Мария-Новелла Джованни Боккаччо помещает завязку своего шедевра XIV века — «Декамерона». По сюжету, семь молодых дам и трое юношей встречаются в пустой базилике во время опустошительной чумы 1348 года и решают бежать из зараженного города на загородную виллу, где они проводят время, рассказывая те самые 100 новелл. Прогуливаясь по просторному нефу и разглядывая уходящие вверх своды и старинные витражи, легко представить героев Боккаччо, укрывающихся в этих стенах.\n\nОттуда мы направились в самое сердце города, к колоссальному собору **Санта-Мария-дель-Фьоре** (Дуомо). Масштабы собора ошеломляют: он настолько огромен, что, стоя на площади, физически невозможно поймать всё здание в один кадр. Экстерьер облицован сложнейшим узором из розовых, белых и зеленых мраморных панелей, которые вблизи напоминают изысканную ткань. Венчает собор легендарный купол Филиппо Брунеллески, завершенный в 1436 году. Он до сих пор остается самым большим кирпичным куполом в мире. Брунеллески возвел его без использования временных деревянных лесов, изобретя совершенно новые подъемные механизмы и революционную кирпичную кладку «ёлочкой», которая удерживала стены от обрушения внутрь под собственным весом. Мы провели предвечерние часы, наблюдая, как лучи заходящего солнца подчеркивают контуры купола и соседней кампанилы Джотто, отложив осмотр интерьера на завтра."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-florence-day-1-01.jpg",
+        "alt": {
+          "en": "The iconic geometric green and white marble facade of Santa Maria Novella Basilica",
+          "local": "Знаменитый геометрический фасад базилики Санта-Мария-Новелла из зеленого и белого мрамора"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-1-02.jpg",
+        "alt": {
+          "en": "Interior view inside Santa Maria Novella showing the high vaulted gothic arches from the floor to the roof",
+          "local": "Внутренний вид Санта-Мария-Новелла, показывающий высокие готические своды от пола до самого потолка"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-1-03.jpg",
+        "alt": {
+          "en": "Distanced view of the grand colorful stained-glass window behind the main altar of the basilica",
+          "local": "Вид издалека на величественный красочный витраж за главным алтарем базилики"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-1-04.jpg",
+        "alt": {
+          "en": "A close-up detailed section of the intricate stained-glass window panels depicting religious figures",
+          "local": "Крупный план прорисованной секции витража со сложными панелями, изображающими религиозные фигуры"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-1-05.jpg",
+        "alt": {
+          "en": "The massive exterior structure of Santa Maria del Fiore cathedral towering over the crowded piazza",
+          "local": "Массивный внешний контур собора Санта-Мария-дель-Фьоре, возвышающийся над заполненной людьми площадью"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-1-06.jpg",
+        "alt": {
+          "en": "A zoomed-in look at the multi-colored marble decorative details on the walls of the Duomo",
+          "local": "Приближенный вид на декоративные детали из разноцветного мрамора на стенах Дуомо"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-1-07.jpg",
+        "alt": {
+          "en": "Even closer zoom focusing on the intricate stone carvings, moldings, and patterns of the cathedral exterior",
+          "local": "Еще более близкий ракурс на сложную каменную резьбу, лепнину и орнаменты экстерьера собора"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-1-08.jpg",
+        "alt": {
+          "en": "Extreme close-up of the delicate white and pink marble relief work and architectural trimmings",
+          "local": "Максимальное приближение нежнейших барельефов и архитектурной отделки из белого и розового мрамора"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-1-09.jpg",
+        "alt": {
+          "en": "An extreme close-up of a different section of the marble facade displaying detailed Gothic niche work",
+          "local": "Максимальное приближение другого участка мраморного фасада с готическими нишами тонкой работы"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-1-10.jpg",
+        "alt": {
+          "en": "Brunelleschi's massive terracotta dome of Santa Maria del Fiore captured in the soft early evening light",
+          "local": "Грандиозный терракотовый купол Брунеллески собора Санта-Мария-дель-Фьоре в мягком предвечернем свете"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-1-11.jpg",
+        "alt": {
+          "en": "The main facade of the Florence Duomo illuminated beautifully at dusk",
+          "local": "Главный фасад флорентийского Дуомо в красивой вечерней подсветке на закате"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-1-12.jpg",
+        "alt": {
+          "en": "A partial composition showing the dome, Giotto's bell tower, and a section of the facade together",
+          "local": "Фрагментарная композиция, объединяющая купол, колокольню Джотто и часть фасада в одном кадре"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-1-13.jpg",
+        "alt": {
+          "en": "Distanced view of both the main facade and the towering dome against the darkening evening sky",
+          "local": "Вид издалека на главный фасад и возвышающийся купол на фоне темнеющего вечернего неба"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-05-29-1105-venice-to-florence",
     "date": "2026-05-29T11:05:00",
     "location": {
