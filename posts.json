@@ -1,5 +1,120 @@
 [
   {
+    "id": "2026-05-30-1700-florence-day-2",
+    "date": "2026-05-30T14:00:00",
+    "location": {
+      "lat": "43.7799286",
+      "lng": "11.1585673",
+      "name": {
+        "en": "Florence, Italy",
+        "local": "Флоренция, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Florence Day 2 - Pantheon of Greats, Masterpieces, and Duomo's Core",
+        "description": "We spent our second full day in Florence immersing ourselves in the dense history and staggering artistic legacy of the city. Our morning began at the magnificent **Basilica di Santa Croce**, the largest Franciscan church in the world. Santa Croce serves as the 'Temple of Italian Glories'—the final resting place for some of the most brilliant minds in human history. Walking through the monumental nave, we stood before the grand tombs of Michelangelo Buonarroti, Niccolò Machiavelli, and Galileo Galilei.\n\nFrom Santa Croce, we walked over to the world-famous **Uffizi Gallery**, home to an overwhelming collection of Renaissance masterworks. Standing in front of Sandro Botticelli's *The Birth of Venus* was mesmerizing, as was confronting the raw, dramatic intensity of Caravaggio’s shield painting of *Medusa*. Between looking at canvases, the gallery’s large upper-floor windows offered sweeping views over the terracotta tile roofs of Florence and the rolling green hills of Tuscany on the horizon. For lunch, we decided to try the city's ultimate, historic street food: **Lampredotto**. It is a strictly Florentine specialty consisting of the fourth stomach of a cow (the abomasum), slow-cooked in a rich broth with tomatoes, onions, celery, and parsley. It's chopped up, stuffed into a crusty bread roll (semelle) dipped in the savory broth, and topped with a vibrant green herb sauce (salsa verde). It is incredibly tender and full of flavor—a true taste of working-class Florence.\n\nWe spent our afternoon inside the colossal **Cattedrale di Santa Maria del Fiore**. While the exterior facade is a dizzying pattern of colored marbles, the interior is surprisingly stark, vast, and cavernous, dominated by massive stone columns. Standing directly under Brunelleschi's dome is a hypnotic experience. Looking straight up from the cathedral floor, you are treated to a stunning view of Giorgio Vasari and Federico Zuccari's massive fresco. Zooming in on the details of the dome's interior architecture reveals the sheer, mind-boggling scale of the engineering that anchors this mountain of bricks high above the city."
+      },
+      "local": {
+        "title": "Флоренция, день 2 — пантеон великих, шедевры Уффици и сердце Дуомо",
+        "description": "Наш второй день во Флоренции был полностью посвящен величайшему историческому и художественному наследию города. Мы начали утро с великолепной **Базилики Санта-Кроче** — крупнейшей францисканской церкви в мире. Санта-Кроче называют «Пантеоном итальянской славы», ведь она служит местом упокоения величайших гениев человечества. Прогуливаясь по монументальному нефу, мы увидели гробницы Микеланджело Буонарроти, Никколо Макиавелли и Галилео Галилея.\n\nЗатем мы направились в знаменитую **Галерею Уффици**, хранящую невероятную коллекцию ренессансных шедевров. Было незабываемо увидеть вживую «Рождение Венеры» Сандро Боттичелли и столкнуться взглядом с драматичной, пугающей «Медузой» Караваджо, написанной на деревянном щите. В перерывах между залами из окон галереи открывались живописные виды на терракотовые крыши Флоренции и тосканские холмы на горизонте. На обед мы решили попробовать главное историческое уличное блюдо города — **Лампредотто**. Это сугубо флорентийский специалитет из четвертого желудка коровы (сычуга), который долго варят в наваристом бульоне с томатами, луком, сельдереем и петрушкой. Его мелко режут, заправляют острым или зеленым соусом (salsa verde) и подают в круглой булочке, макнув верхнюю половинку в ароматный бульон. Мясо получается нежнейшим — настоящий вкус старой рабочей Флоренции.\n\nВторую половину дня мы провели внутри колоссального собора **Санта-Мария-дель-Фьоре**. Если снаружи он поражает цветным мрамором, то изнутри собор удивляет своей строгой, лаконичной пустотой и гигантскими колоннами. Настоящий гипноз — стоять прямо под куполом Брунеллески. Глядя строго вверх от пола, рассматриваешь грандиозную фреску Джорджо Вазари и Федерико Цуккари, а приближение камеры к деталям свода позволяет осознать масштаб этого сложнейшего инженерного сооружения."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-florence-day-2-01.jpg",
+        "alt": {
+          "en": "Dramatic floor-to-roof perspective of the expansive, high-ceilinged gothic interior of Santa Croce Basilica",
+          "local": "Драматичный ракурс от пола до потолка, показывающий просторный готический интерьер базилики Санта-Кроче"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-2-02.jpg",
+        "alt": {
+          "en": "The ornate tomb and monument dedicated to Michelangelo Buonarroti inside Santa Croce",
+          "local": "Пышная гробница и мемориал, посвященный Микеланджело Буонарроти внутри Санта-Кроче"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-2-03.jpg",
+        "alt": {
+          "en": "The monumental tomb of the astronomer Galileo Galilei featuring carved stone figures",
+          "local": "Монументальное надгробие астронома Галилео Галилея с резными каменными фигурами"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-2-04.jpg",
+        "alt": {
+          "en": "Sandro Botticelli's Renaissance masterpiece painting The Birth of Venus on display in the Uffizi Gallery",
+          "local": "Шедевр эпохи Возрождения — картина Сандро Боттичелли «Рождение Венеры» в зале Галереи Уффици"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-2-05.jpg",
+        "alt": {
+          "en": "Caravaggio's famous Medusa shield painting showing the severed head with snakes for hair",
+          "local": "Знаменитая картина Караваджо «Медуза», написанная на круглом щите и изображающая отрубленную голову со змеями вместо волос"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-2-06.jpg",
+        "alt": {
+          "en": "Scenic view looking out across the clay tile roofs of Florence from a viewing room in the Uffizi Gallery",
+          "local": "Живописный вид на черепичные крыши Флоренции из панорамного окна Галереи Уффици"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-2-07.jpg",
+        "alt": {
+          "en": "Distanced panorama of the green Tuscan hills and countryside villas wrapping around Florence",
+          "local": "Далекая панорама зеленых тосканских холмов и загородных вилл, окружающих Флоренцию"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-2-08.jpg",
+        "alt": {
+          "en": "The grand colorful marble facade of Santa Maria del Fiore with a crowd of people gathered in the piazza",
+          "local": "Величественный фасад Санта-Мария-дель-Фьоре из цветного мрамора с толпой людей, собравшихся на площади"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-2-09.jpg",
+        "alt": {
+          "en": "The expansive, minimalist interior of the Duomo looking past the massive stone arches and columns",
+          "local": "Просторный, минималистичный интерьер Дуомо с видом на массивные каменные арки и колонны"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-2-10.jpg",
+        "alt": {
+          "en": "Looking directly up from the floor at the massive painted cupola of Santa Maria del Fiore",
+          "local": "Взгляд прямо снизу вверх от пола на огромный расписной купол собора Санта-Мария-дель-Фьоре"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-2-11.jpg",
+        "alt": {
+          "en": "A closer zoomed view of the Last Judgment frescos running along the inner tiers of the dome",
+          "local": "Более близкий ракурс фресок «Страшный суд», идущих по внутренним ярусам купола"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-2-12.jpg",
+        "alt": {
+          "en": "An extreme close-up view of the central lantern opening at the very apex of Brunelleschi's dome",
+          "local": "Максимальное приближение центрального отверстия фонаря на самой вершине купола Брунеллески"
+        }
+      },
+      {
+        "src": "images/italy-florence-day-2-13.jpg",
+        "alt": {
+          "en": "A traditional Florentine lampredotto sandwich served in a dipped bread roll with green sauce on a plate",
+          "local": "Традиционный флорентийский сэндвич с лампредотто, поданный в размоченной булочке с зеленым соусом на тарелке"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-05-29-1900-florence-day-1",
     "date": "2026-05-29T17:00:00",
     "location": {
