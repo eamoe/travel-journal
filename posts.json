@@ -1,6 +1,135 @@
 [
   {
-    "id": "2026-05-30-1700-florence-day-2",
+    "id": "2026-05-31-1400-siena-day-trip",
+    "date": "2026-05-31T14:00:00",
+    "location": {
+      "lat": "43.316001",
+      "lng": "11.2864497",
+      "name": {
+        "en": "Siena, Tuscany, Italy",
+        "local": "Сиена, Тоскана, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Day Trip to Siena - The Medieval Rival Frozen in Time",
+        "description": "Today we left Florence at 8:00 AM for a captivating day trip to Siena, returning back to our base by 5:00 PM. The journey covers a distance of roughly 75 kilometers (46 miles) and takes about 1.5 hours each way via a regional train. Unlike Italy's high-speed rail, this local train winds unhurriedly through the Tuscan countryside, stopping at several quiet towns along the way.\n\nArriving in Siena feels like stepping straight into a time capsule. While Florence transformed into a Renaissance powerhouse, Siena remained beautifully frozen in its medieval Gothic prime, characterized by a dizzying labyrinth of steep streets and alleys that climb up and down three distinct clay hills. The historic relationship between Florence and Siena was defined by fierce, bloody rivalry for economic and territorial dominance over Tuscany. This reached a dramatic climax at the Battle of Montaperti in 1260, where the Sienese routing of the Florentines became legendary, though Florence ultimately annexed Siena in 1555.\n\nAt the peak of its wealth, Siena set out to build what would have been the largest Christian cathedral on Earth. However, the catastrophic arrival of the Black Death plague in 1348 wiped out over half the city's population and permanently shattered their economy. The grand expansion was abandoned, leaving an uncompleted, towering exterior wall standing as a haunting monument to what could have been. Despite this, the actual **Duomo di Siena (Cathedral of Santa Maria Assunta)** that *was* finished is an absolute masterwork. Frankly, it is significantly more spectacular and visually arresting on the inside than Florence’s Santa Maria del Fiore. The interior is defined by alternating bands of black and white marble columns, leading up to a breathtaking hexagonal dome painted like a deep-blue night sky encrusted with golden stars (stellas). Even the floor is a work of art, featuring 56 intricate inlaid marble panels depicting complex allegories, historical narratives, and biblical stories filled with people and children.\n\nWhile exploring the steep, narrow stone streets, we noticed vibrant flags sporting dragon imagery hanging from the building walls. These represent the *Contrade*—the 17 historic districts or neighborhoods of Siena. These neighborhoods form the core of the city's cultural identity and are bound together by the world-famous **Palio di Siena**. Held twice every summer in the sloping, shell-shaped main square of **Piazza del Campo** (right outside the towering **Palazzo Pubblico**), the Palio is a wild, bareback horse race where the contrade compete fiercely against one another. It is not a tourist show, but a passionate, century-old ritual that dominates Sienese social life and keeps its medieval soul vibrantly alive."
+      },
+      "local": {
+        "title": "Поездка в Сиену — застывший во времени средневековый соперник",
+        "description": "Сегодня в 8:00 утра мы отправились из Флоренции в Сиену на однодневную экскурсию, вернувшись обратно к 17:00. Путь длиной около 75 километров занимает примерно 1,5 часа в одну сторону. В отличие от скоростных поездов, этот региональный состав неторопливо петляет среди тосканских холмов, делая несколько остановок в небольших городках.\n\nПрибытие в Сиену похоже на путешествие в машине времени. В то время как Флоренция превратилась в оплот Ренессанса, Сиена навсегда застыла в своем готическом средневековом величии. Город представляет собой лабиринт из крутых узких улочек, то взбегающих на холмы, то спускающихся в низины. Исторические отношения между Флоренцией и Сиеной всегда были отмечены жестоким соперничеством за экономическое и политическое господство в Тоскане. Кульминацией этого противостояния стала легендарная битва при Монтаперти в 1260 году, где сиенцы разгромили флорентийцев, хотя в итоге в 1555 году Флоренция всё же подчинила Сиену себе.\n\nНа пике своего могущества Сиена планировала возвести величайший и самый большой христианский собор на планете. Однако сокрушительная эпидемия чумы («Черная смерть») 1348 года унесла жизни более половины населения города и навсегда подорвала его экономику. Грандиозное строительство остановилось, оставив недостроенную огромную стену как памятник несбывшимся амбициям. Тем не менее, сам собор **Дуомо ди Сиена (Cattedrale di Santa Maria Assunta)**, который успели закончить, прекрасен. Признаться честно, внутри он выглядит значительно более впечатляющим, роскошным и зрелищным, чем Санта-Мария-дель-Фьоре во Флоренции. Интерьер поражает чередованием полос черного и белого мрамора на колоннах и стенах, которые ведут взгляд вверх к гипнотическому шестигранному куполу, расписанному под глубокое ночное небо с золотыми звездами. Даже пол собора — шедевр: он выложен 56 уникальными мраморными панелями с тончайшей инкрустацией, повествующими о библейских сюжетах и историях с множеством людей и младенцев.\n\nПрогуливаясь по холмистым мостовым, мы заметили яркие флаги с изображением дракона, развешанные на каменных фасадах. Это знаки *Контрад* — 17 исторических районов города. Контрады составляют основу самосознания сиенцев и объединены вокруг всемирно известного праздника **Палио**. Проходящее дважды за лето на главной полукруглой площади **Пьяцца-дель-Кампо** перед величественным **Палаццо Пубблико**, Палио представляет собой яростные и опасные скачки на лошадях без седел. Для жителей это не туристическое шоу, а священная многовековая традиция, которая определяет всю их общественную жизнь и сохраняет средневековую душу Сиены."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-siena-01.jpg",
+        "alt": {
+          "en": "Panoramic landscape view of the rolling green Tuscan hills and tiny villages surrounding Siena",
+          "local": "Панорамный пейзажный вид на холмы Тосканы и крошечные деревушки, окружающие Сиену"
+        }
+      },
+      {
+        "src": "images/italy-siena-02.jpg",
+        "alt": {
+          "en": "The terracotta tile roofs of Sienese buildings with the hazy Tuscan hills filling the background",
+          "local": "Терракотовые черепичные крыши домов Сиены на фоне синеющих тосканских холмов"
+        }
+      },
+      {
+        "src": "images/italy-siena-03.jpg",
+        "alt": {
+          "en": "A narrow medieval street with a colorful contrada flag featuring a dragon picture hanging on the wall",
+          "local": "Узкая средневековая улочка с ярким флагом контрады Дракона, закрепленным на каменной стене"
+        }
+      },
+      {
+        "src": "images/italy-siena-04.jpg",
+        "alt": {
+          "en": "The majestic Gothic facade of the Palazzo Pubblico and its towering Mangia tower",
+          "local": "Величественный готический фасад Палаццо Пубблико и его уходящая в небо башня Торре-дель-Манджа"
+        }
+      },
+      {
+        "src": "images/italy-siena-05.jpg",
+        "alt": {
+          "en": "The shell-shaped Piazza del Campo where the famous historic Palio horse race is performed",
+          "local": "Площадь Пьяцца-дель-Кампо в форме раковины, где проводятся знаменитые исторические скачки Палио"
+        }
+      },
+      {
+        "src": "images/italy-siena-06.jpg",
+        "alt": {
+          "en": "The grand marble stairs leading up towards the back entrance and baptistery of the Siena Cathedral",
+          "local": "Величественная мраморная лестница, ведущая к задней части собора и баптистерию Сиены"
+        }
+      },
+      {
+        "src": "images/italy-siena-07.jpg",
+        "alt": {
+          "en": "The stunning and ornate West front facade of Siena Cathedral decorated with pink and white marble sculptures",
+          "local": "Потрясающий богато украшенный главный фасад Сиенского собора со скульптурами из розового и белого мрамора"
+        }
+      },
+      {
+        "src": "images/italy-siena-08.jpg",
+        "alt": {
+          "en": "The tall Romanesque campanile bell tower clad in striking horizontal black and white striped marble",
+          "local": "Высокая романская колокольня (кампанила), облицованная контрастным черно-белым полосатым мрамором"
+        }
+      },
+      {
+        "src": "images/italy-siena-09.jpg",
+        "alt": {
+          "en": "Breathtaking interior view looking down the central nave from the main entrance of Siena Cathedral",
+          "local": "Захватывающий вид на интерьер центрального нефа собора Сиены прямо от главного входа"
+        }
+      },
+      {
+        "src": "images/italy-siena-10.jpg",
+        "alt": {
+          "en": "The striped black-and-white marble columns supporting the view up to the vaulted star-filled dome",
+          "local": "Полосатые черно-белые мраморные колонны, открывающие вид на усыпанный звездами сводчатый купол"
+        }
+      },
+      {
+        "src": "images/italy-siena-11.jpg",
+        "alt": {
+          "en": "A zoomed-in look inside the dome showing the painted golden stars against a deep blue ceiling background",
+          "local": "Приближенный вид на внутреннюю часть купола, показывающий золотые звезды на глубоком синем фоне"
+        }
+      },
+      {
+        "src": "images/italy-siena-12.jpg",
+        "alt": {
+          "en": "An even closer zoom-in on the gilded stucco stars and ornate coffered details of the cathedral dome",
+          "local": "Максимальное приближение позолоченных лепных звезд и роскошных кессонов купола собора"
+        }
+      },
+      {
+        "src": "images/italy-siena-13.jpg",
+        "alt": {
+          "en": "Another perspective of the majestic blue ceiling covered with a dense grid of golden stars",
+          "local": "Другой ракурс величественного синего потолка, покрытого густой сеткой золотых звезд"
+        }
+      },
+      {
+        "src": "images/italy-siena-14.jpg",
+        "alt": {
+          "en": "The starry blue ceiling framed perfectly by the bold geometry of the striped columns below",
+          "local": "Звездный синий потолок, идеально обрамленный строгой геометрией полосатых колонн снизу"
+        }
+      },
+      {
+        "src": "images/italy-siena-15.jpg",
+        "alt": {
+          "en": "A detailed element of the inlaid marble floor panel depicting a story with engraved people and children",
+          "local": "Детализированный элемент мозаичного мраморного пола, изображающий сцену с выгравированными людьми и младенцами"
+        }
+      }
+    ]
+  },
+  {
+    "id": "2026-05-30-1400-florence-day-2",
     "date": "2026-05-30T14:00:00",
     "location": {
       "lat": "43.7799286",
@@ -115,7 +244,7 @@
     ]
   },
   {
-    "id": "2026-05-29-1900-florence-day-1",
+    "id": "2026-05-29-1700-florence-day-1",
     "date": "2026-05-29T17:00:00",
     "location": {
       "lat": "43.7799286",
