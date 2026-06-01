@@ -1,5 +1,78 @@
 [
   {
+    "id": "2026-06-01-1100-florence-piazzale-michelangelo",
+    "date": "2026-06-01T11:00:00",
+    "location": {
+      "lat": "43.762923",
+      "lng": "11.265147",
+      "name": {
+        "en": "Piazzale Michelangelo, Florence, Italy",
+        "local": "Пьяццале Микеланджело, Флоренция, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Panoramic Perspectives from Piazzale Michelangelo",
+        "description": "We started our morning early, catching a bus at 8:30 AM under a moody, overcast sky to ascend the hills south of the Arno River. Our destination was **Piazzale Michelangelo**, internationally famous for offering the absolute definitive postcard view of Florence. Despite the cloudy weather, the terrace retains its incredible popularity, drawing travelers who line up along the stone balustrade just to witness the city's legendary skyline layout. From this vantage point, the sheer, staggering scale of Santa Maria del Fiore becomes completely undeniable—the cathedral and Brunelleschi's dome absolutely dwarf the surrounding sea of uniform terracotta residential buildings like a giant stone mountain.\n\nJust a short climb above the terrace sits the ancient **Basilica of San Miniato al Monte**. The steep, monumental stone staircase leading up toward this church holds a special place in literary history, being explicitly mentioned by Dante Alighieri in his *Divina Commedia* (*The Divine Comedy*). In *Purgatorio* (Canto XII), Dante compares the arduous, steep climb of the mountain of Purgatory to the familiar, well-worn steps that lead up the hill to San Miniato, bridging the gap between the earthly topography of his beloved Florence and his grand theological afterlife.\n\nLooking down from the viewpoint along the winding ribbon of the Arno River, our eyes were naturally drawn to the iconic **Ponte Vecchio** (Old Bridge). Visible stretching across the narrowest point of the river, this medieval stone arch bridge is world-renowned for still having functional, multi-story shops built along its span. Originally occupied by butchers and tanners in the Middle Ages, the Medici family later banned them due to the smell and replaced them with goldsmiths and jewelers, who continue to operate out of the timber-framed overhanging shops today. After soaking in the panoramic vistas, we descended back down the hillside, losing ourselves in the quiet and narrow Florentine alleys framed by high stone walls and distinctive green window shutters."
+      },
+      "local": {
+        "title": "Панорамные виды с площади Микеланджело",
+        "description": "Мы начали утро пораньше, сев на автобус в 8:30 под хмурым, пасмурным небом, чтобы подняться на холмы к югу от реки Арно. Нашей целью была **Пьяццале Микеланджело** — смотровая площадка, всемирно известная тем, что с неё открывается тот самый классический, открыточный вид на Флоренцию. Несмотря на облачную погоду, терраса невероятно популярна: путешественники выстраиваются вдоль каменной балюстрады, чтобы запечатлеть легендарный силуэт города. С этой точки истинный, ошеломляющий масштаб собора Санта-Мария-дель-Фьоре становится очевидным — собор и купол Брунеллески буквально возвышаются над морем однотипных терракотовых жилых домов, напоминая исполинскую каменную гору.\n\nЧуть выше площади находится старинная **Базилика Сан-Миньято-аль-Монте**. Монументальная лестница, ведущая вверх к этому храму, занимает особое место в истории литературы: она напрямую упоминается Данте Алигьери в его «Божественной комедии». В «Чистилище» (Песнь XII) Данте сравнивает тяжелое, крутое восхождение по горе Чистилища со знакомыми ему ступенями, ведущими на холм к Сан-Миньято, искусно связывая земную географию родной Флоренции с миром своей грандиозной поэмы.\n\nВглядываясь с высоты в изгибы реки Арно, мы сразу заметили культовый мост **Понте Веккьо** (Старый мост). Этот средневековый каменный арочный мост знаменит тем, что вдоль его пролетов до сих пор выстроены жилые и торговые лавки. В Средние века здесь торговали мясники и кожевники, однако позже семья Медичи изгнала их из-за резкого запаха, отдав лавки ювелирам и золотых дел мастерам, которые работают там и по сей день. Вдоволь налюбовавшись панорамами, мы спустились обратно, затерявшись среди типичных узких флорентийских переулков, зажатых высокими каменными стенами с характерными зелеными ставнями на окнах."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-florence-panoramic-view-01.jpg",
+        "alt": {
+          "en": "The main panoramic view of Florence highlighting the massive scale of Santa Maria del Fiore over the surrounding buildings",
+          "local": "Главный панорамный вид на Флоренцию, подчеркивающий колоссальный масштаб собора Санта-Мария-дель-Фьоре над окружающими домами"
+        }
+      },
+      {
+        "src": "images/italy-florence-panoramic-view-02.jpg",
+        "alt": {
+          "en": "Lush green Tuscan hillsides meeting the outer edge of the historic Florentine city valley",
+          "local": "Пышные зеленые тосканские холмы, спускающиеся к окраине исторической долины Флоренции"
+        }
+      },
+      {
+        "src": "images/italy-florence-panoramic-view-03.jpg",
+        "alt": {
+          "en": "Overlooking the dense urban rooftops of Florence settling into the valley below distant mountains",
+          "local": "Вид сверху на плотную городскую застройку Флоренции, раскинувшуюся в долине у подножия далеких гор"
+        }
+      },
+      {
+        "src": "images/italy-florence-panoramic-view-04.jpg",
+        "alt": {
+          "en": "A wide view capturing the interaction between Tuscan nature and the medieval architectural borders of Florence",
+          "local": "Широкий план, запечатлевший сочетание тосканской природы и средневековых архитектурных границ Флоренции"
+        }
+      },
+      {
+        "src": "images/italy-florence-panoramic-view-05.jpg",
+        "alt": {
+          "en": "The distinct shape of the Duomo dome and city towers framed by the vantage point from Pitti Palace grounds",
+          "local": "Узнаваемый силуэт купола Дуомо и городских башен в ракурсе со стороны территории Палаццо Питти"
+        }
+      },
+      {
+        "src": "images/italy-florence-panoramic-view-06.jpg",
+        "alt": {
+          "en": "A long view focusing on the historic jewelry shops of the Ponte Vecchio bridge crossing the Arno River",
+          "local": "Вид издалека, сфокусированный на исторических ювелирных лавках моста Понте Веккьо через реку Арно"
+        }
+      },
+      {
+        "src": "images/italy-florence-panoramic-view-07.jpg",
+        "alt": {
+          "en": "A quiet, narrow, empty traditional Florentine street flanked by tall stone walls with green window curtains",
+          "local": "Тихая, узкая и пустая традиционная улица Флоренции между высоких каменных стен с зелеными оконными занавесками"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-05-31-1400-siena-day-trip",
     "date": "2026-05-31T14:00:00",
     "location": {
