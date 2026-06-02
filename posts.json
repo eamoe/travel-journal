@@ -1,5 +1,99 @@
 [
   {
+    "id": "2026-06-02-1500-pisa-day-trip",
+    "date": "2026-06-02T15:00:00",
+    "location": {
+      "lat": "43.722839",
+      "lng": "10.396576",
+      "name": {
+        "en": "Pisa, Tuscany, Italy",
+        "local": "Пиза, Тоскана, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Pisa - Maritime Power and Republic Day Preparations",
+        "description": "After a quick breakfast, we caught a train out of Florence at 10:28 AM and pulled into Pisa exactly one hour later at 11:28 AM. Today, June 2nd, is **Festa della Repubblica** (Republic Day) in Italy, and the city was buzzing with festive energy. Pisa was preparing to host its traditional historical boat regatta later in the day. Though our tight schedule meant we had to board our next train to Cinque Terre (Manarola) at 4:56 PM and miss the race itself, it was incredible to witness the city's colorful holiday preparations winding along the river.\n\nPisa feels entirely different from the landlocked Tuscan giants we previously explored, like Florence or Siena. While Florence is defined by its elegant Renaissance humanism and Siena by its rigid medieval Gothic aesthetic, Pisa's soul is deeply maritime. From the 11th to the 14th centuries, Pisa was one of Italy's four great Maritime Republics, alongside Venice, Genoa, and Amalfi. Its immense wealth was generated through seafaring trade, naval dominance, and military crusades across the Mediterranean. This global exposure directly influenced its unique architecture, known as Pisan Romanesque, which beautifully blends classical Roman elements with striking Byzantine and Islamic design accents.\n\nOur first stop was the legendary Piazza dei Miracoli, home to the iconic **Leaning Tower** and the grand **Pisa Cathedral (Duomo)**, which currently shows some scaffolding due to active reconstruction works on its right side. Nearby sits the massive, round **Baptistery**—a dedicated Christian religious structure used exclusively for the sacrament of baptism, symbolizing spiritual entry into the church community. Inside the cathedral, the design feels incredibly grand, featuring a spectacular, deeply carved gilded wooden ceiling and an enormous, majestic apse mosaic. Later, we walked across the **Ponte di Mezzo** for beautiful views of the historic colorful buildings lining the Arno River, and tracked down the infamous **Torre della Muda** (also known as the Tower of Hunger). This tower holds a dark place in literary history, as it is featured prominently in Dante’s *Divina Commedia*, where Count Ugolino della Gherardesca was famously imprisoned and starved to death alongside his children."
+      },
+      "local": {
+        "title": "Пиза — морское могущество и подготовка к Дню Республики",
+        "description": "Быстро позавтракав, мы выехали на поезде из Флоренции в 10:28 и ровно через час, в 11:28, прибыли в Пизу. Сегодня, 2 июня, в Италии отмечается **День Республики** (Festa della Repubblica), и город был наполнен праздничной суетой. Пиза вовсю готовилась к проведению традиционной исторической лодочной регаты. Хотя из-за плотного графика нам пришлось сесть на поезд до Чинкве-Терре (Манарола) в 16:56 и пропустить саму гонку, было здорово застать колоритные праздничные приготовления вдоль набережной.\n\nПиза кардинально отличается от сухопутных тосканских гигантов, которые мы посетили до этого — Флоренции и Сиены. Если Флоренция олицетворяет утонченный гуманизм Ренессанса, а Сиена — строгую средневековую готику, то душа Пизы неразрывно связана с морем. С XI по XIV век Пиза была одной из четырех великих Морских республик Италии наряду с Венецией, Генуей и Амальфи. Её богатство ковалось за счет морской торговли, сильного флота и военных походов по всему Средиземноморью. Это сильное внешнее влияние породило уникальный архитектурный стиль — пизанский романский, сочетающий классические римские элементы со штрихами византийского и исламского зодчества.\n\nПервым делом мы отправились на знаменитую Площадь Чудес, чтобы увидеть культовую **Пизанскую башню** и монументальный **Пизанский собор (Дуомо)**, правая сторона которого сейчас частично закрыта лесами из-за реставрационных работ. Рядом стоит огромный круглый **Баптистерий** — отдельное христианское сооружение, предназначенное исключительно для таинства крещения и символизирующее духовное вхождение верующего в общину. Внутри собор поражает своим величественным резным позолоченным потолком и грандиозной мозаикой в апсиде. Позже мы прошлись по мосту **Понте-ди-Меццо**, любуясь видом на реку Арно и выстроившиеся по обеим сторонам яркие фасады, и отыскали мрачную башню **Торре-делла-Муда** (также известную как Башня голода). Она вошла в историю литературы благодаря «Божественной комедии» Данте, где был заточен и обречен на голодную смерть вместе со своими детьми граф Уголино делла Герардеска."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-pisa-01.jpg",
+        "alt": {
+          "en": "A detailed, zoomed-in view focusing on the intricate white marble colonnades of the Leaning Tower of Pisa",
+          "local": "Крупный, приближенный план, показывающий изящные беломраморные колоннады Пизанской башни"
+        }
+      },
+      {
+        "src": "images/italy-pisa-02.jpg",
+        "alt": {
+          "en": "A wide, distant shot displaying the entire structure of the Leaning Tower of Pisa tilting against the sky",
+          "local": "Широкий план издалека, демонстрирующий всю Пизанскую башню целиком, наклоненную на фоне неба"
+        }
+      },
+      {
+        "src": "images/italy-pisa-03.jpg",
+        "alt": {
+          "en": "The front facade of Pisa Cathedral with ongoing reconstruction scaffolding visible on its right side",
+          "local": "Главный фасад Пизанского собора с реставрационными строительными лесами, заметными с правой стороны"
+        }
+      },
+      {
+        "src": "images/italy-pisa-04.jpg",
+        "alt": {
+          "en": "The massive, round Pisa Baptistery building showing its blend of Romanesque and Gothic architectural styles",
+          "local": "Массивное круглое здание Пизанского баптистерия, сочетающее в себе романский и готический стили"
+        }
+      },
+      {
+        "src": "images/italy-pisa-05.jpg",
+        "alt": {
+          "en": "The grand interior view of Pisa Cathedral looking down the nave towards the magnificent main altar",
+          "local": "Величественный вид на интерьер Пизанского собора, смотрящий вдоль нефа в сторону главного алтаря"
+        }
+      },
+      {
+        "src": "images/italy-pisa-06.jpg",
+        "alt": {
+          "en": "The intricately decorated, geometric coffered gilded wooden ceiling inside Pisa Cathedral",
+          "local": "Богато украшенный геометрический кессонный потолок из позолоченного дерева внутри Пизанского собора"
+        }
+      },
+      {
+        "src": "images/italy-pisa-07.jpg",
+        "alt": {
+          "en": "A zoomed-in close-up of the masterfully crafted historic Christian scene depicted in the cathedral's apse",
+          "local": "Приближенный детальный снимок мастерски выполненной исторической христианской сцены в апсиде собора"
+        }
+      },
+      {
+        "src": "images/italy-pisa-08.jpg",
+        "alt": {
+          "en": "The historic stone facade of Torre della Muda, the infamous Hunger Tower mentioned by Dante",
+          "local": "Исторический каменный фасад Торре-делла-Муда, знаменитой «Башни голода», упомянутой Данте"
+        }
+      },
+      {
+        "src": "images/italy-pisa-09.jpg",
+        "alt": {
+          "en": "A quiet, narrow, and completely empty residential street in Pisa during the peaceful morning hours",
+          "local": "Тихая, узкая и абсолютно пустая жилая улочка в Пизе в мирные утренние часы"
+        }
+      },
+      {
+        "src": "images/italy-pisa-10.jpg",
+        "alt": {
+          "en": "Scenic perspective from Ponte di Mezzo looking down the Arno River at historic buildings lining both banks",
+          "local": "Живописный вид с моста Понте-ди-Меццо вдоль реки Арно на старинные здания, выстроившиеся по обоим берегам"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-06-01-1100-florence-piazzale-michelangelo",
     "date": "2026-06-01T11:00:00",
     "location": {
