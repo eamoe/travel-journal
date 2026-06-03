@@ -1,5 +1,71 @@
 [
   {
+    "id": "2026-06-03-1100-cinque-terre-manarola",
+    "date": "2026-06-03T11:00:00",
+    "location": {
+      "lat": "44.107246",
+      "lng": "9.728792",
+      "name": {
+        "en": "Manarola, Cinque Terre, Italy",
+        "local": "Манарола, Чинкве-Терре, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Cinque Terre - Coastal Magic in Manarola and Via dell'Amore",
+        "description": "We arrived in the Cinque Terre yesterday evening, pulling into the transport hub of La Spezia at 6:00 PM before jumping onto a local train for a quick, 10-minute ride into Manarola. This marks an exciting new chapter in our journey as we leave the rolling hills of Tuscany behind and cross the regional border into rugged, dramatic Liguria. Cinque Terre, meaning 'Five Lands', is a world-famous UNESCO World Heritage site comprising five historic fishing villages—Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore—clinging precariously to near-vertical cliffs above the blue expanses of the Ligurian Sea. This specific arm of the Mediterranean is noted for its deep waters close to the shore, creating striking deep-blue and turquoise gradients, while its historic trade routes once sustained the great maritime power of nearby Genoa. What makes this area so profoundly special is how centuries of human grit have shaped the landscape. For generations, locals carved narrow stone terraces directly into the mountainsides to cultivate grapes, olives, and citrus trees, creating a stunning harmony between wild coastal nature and human architecture.\n\nManarola itself is arguably the most romantic and visually arresting of the five towns. Built along a deep ravine, its signature multicolored pastel houses look like they are tumbling down into a tiny natural harbor. Today, we had the privilege of walking along the Via dell'Amore. This paved cliffside path traces the coastline to connect Manarola with its neighbor, Riomaggiore. Walking this route offered us sweeping views of the Ligurian Sea waves crashing violently against the rocky shore below, an up-close look at the Manarola train station as local trains zipped along the edge of the cliffs, and an approach into Riomaggiore itself."
+      },
+      "local": {
+        "title": "Чинкве-Терре — прибрежная магия Манаролы и Виа-делль-Аморе",
+        "description": "Мы прибыли в Чинкве-Терре вчера вечером, приехав на крупный транспортный узел Ла-Специя в 18:00, после чего пересели на местную электричку и всего за 10 минут добрались до Манаролы. Это знаменует начало новой главы нашего путешествия: мы оставили позади холмы Тосканы и пересекли региональную границу, оказавшись в суровой и живописной Лигурии. Чинкве-Терре (в переводе «Пять земель») — это всемирно известный заповедник под охраной ЮНЕСКО, состоящий из пяти исторических рыбацких деревень: Монтероссо, Вернацца, Корнилья, Манарола и Риомаджоре. Они невероятным образом жмутся к отвесным скалам прямо над синей гладью Лигурийского моря. Эта часть Средиземноморья примечательна своими большими глубинами прямо у побережья, что создаёт потрясающие переливы от глубокого синего до бирюзового, а её древние торговые пути когда-то обеспечивали величие соседней Генуэзской морской республики. Особенность этого края кроется в вековом упорстве людей, покоривших сложнейший рельеф. Поколения местных жителей вручную выбивали в скалах узкие каменные террасы для выращивания винограда, олив и цитрусов, создав удивительный союз дикой природы и рукотворной архитектуры.\n\nСама Манарола, пожалуй, самый романтичный и фотогеничный городок из всей пятерки. Выстроенные вдоль глубокого ущелья разноцветные пастельные дома кажутся каскадом, спускающимся к крошечной естественной гавани. Сегодня мы совершили прогулку по Виа-делль-Аморе. Эта пешеходная дорожка, вырубленная прямо в скале над морем, соединяет Манаролу с соседней деревней Риомаджоре. Во время прогулки нам открывались захватывающие виды на волны Лигурийского моря, с шумом разбивающиеся о прибрежные валуны, панорама железнодорожной станции Манаролы с прибывающими поездами, а также вид на открывающийся впереди Риомаджоре."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-cinque-terre-manarola-01.jpg",
+        "alt": {
+          "en": "Classic panoramic view of Manarola's pastel houses cascading down the cliffside into the sea from the main viewpoint",
+          "local": "Классический панорамный вид на пастельные дома Манаролы, спускающиеся по скале к морю, с главной смотровой площадки"
+        }
+      },
+      {
+        "src": "images/italy-cinque-terre-manarola-02.jpg",
+        "alt": {
+          "en": "A landscape view looking out over the village roofs and coastline in the late evening twilight",
+          "local": "Вид из окна на крыши домов и береговую линию в поздних вечерних сумерках"
+        }
+      },
+      {
+        "src": "images/italy-cinque-terre-manarola-03.jpg",
+        "alt": {
+          "en": "Looking down from Via dell'Amore at a local train arriving at the coastal Manarola train station",
+          "local": "Вид сверху с Виа-делль-Аморе на региональный поезд, прибывающий на прибрежную станцию Манаролы"
+        }
+      },
+      {
+        "src": "images/italy-cinque-terre-manarola-04.jpg",
+        "alt": {
+          "en": "View from Via dell'Amore of turquoise sea waves rushing and crashing against giant coastal stones near the shore",
+          "local": "Вид с Виа-делль-Аморе на бирюзовые морские волны, набегающие и разбивающиеся о гигантские прибрежные камни у берега"
+        }
+      },
+      {
+        "src": "images/italy-cinque-terre-manarola-05.jpg",
+        "alt": {
+          "en": "Approaching the colorful village of Riomaggiore, viewed directly from the cliffside path of Via dell'Amore",
+          "local": "Приближение к колоритной деревне Риомаджоре, вид на которую открывается прямо с обрыва Виа-делль-Аморе"
+        }
+      },
+      {
+        "src": "images/italy-cinque-terre-manarola-06.jpg",
+        "alt": {
+          "en": "Looking back along the engineered cliffside path of Via dell'Amore tracing the rocky coast towards Manarola",
+          "local": "Взгляд назад на вырубленный в скалах пешеходный маршрут Виа-делль-Аморе, тянущийся вдоль каменистого берега в сторону Манаролы"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-06-02-1500-pisa-day-trip",
     "date": "2026-06-02T15:00:00",
     "location": {
