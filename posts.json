@@ -1,5 +1,50 @@
 [
   {
+    "id": "2026-06-04-1500-monterosso-beach-lemons",
+    "date": "2026-06-04T15:00:00",
+    "location": {
+      "lat": "44.146241",
+      "lng": "9.654876",
+      "name": {
+        "en": "Monterosso al Mare, Cinque Terre, Italy",
+        "local": "Монтероссо-аль-Маре, Чинкве-Терре, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "A Relaxing Beach Day in Monterosso and the Aromas of Liguria",
+        "description": "Today we had a beautifully slow and relaxing day, keeping Manarola as our base but spending most of our time in **Monterosso al Mare**, the northernmost village of the Cinque Terre. Monterosso is just a quick 15-minute hop away via the local regional train, which runs efficiently several times an hour through the coastal tunnels. While Manarola boasts a dramatic, deep-water rocky harbor perfect for adventurous cliff-jumping, Monterosso is entirely unique in this aspect because it offers the only extensive, proper sandy beach in the region. The coastline features vibrant rows of umbrellas and a pristine shoreline. We managed to take a clean shot of the clear water with no one in frame, but only because all the swimmers happened to be crowded together just out of view to the left!\n\nBack in Manarola, we spent the cooler part of the afternoon wandering past the terraced stone gardens, where we noticed many **lemon trees** bursting with bright yellow fruit. These trees thrive here due to the region's specific microclimate: the towering Appenine cliffs block cold northern winds, while the sea absorbs heat during the day and radiates it back at night, keeping the climate mild year-round. These lemons are essential to local life, used to make the famous, sweet *Limoncino* liqueur and various citrus-infused seafood dishes.\n\nOur culinary exploration also reached a high point today as we indulged in Liguria's most iconic culinary staples: **Pesto** and **Focaccia**. Pesto Genovese is a rich, vibrant green sauce born in this region, traditionally crafted by crushing fresh aromatic Ligurian basil, pine nuts, garlic, coarse salt, Parmigiano-Reggiano, and Pecorino cheese together with local extra virgin olive oil. It paired perfectly with Focaccia—a flat, oven-baked Italian yeast bread that is distinctively dimpled by hand, generously drizzled with olive oil, and sprinkled with sea salt before baking to give it a crispy exterior and pillowy interior."
+      },
+      "local": {
+        "title": "Пляжный отдых в Монтероссо и ароматы Лигурии",
+        "description": "Сегодняшний день мы провели в неспешном, расслабленном темпе. Нашей базой оставалась Манарола, но большую часть дня мы провели в **Монтероссо-аль-Маре** — самой северной деревушке Чинкве-Терре. До Монтероссо всего 15 минут езды на местной электричке, которая очень удобно курсирует через скальные туннели по несколько раз в час. Если Манарола известна своей глубокой каменистой гаванью, идеально подходящей для прыжков со скал, то Монтероссо в этом плане уникален: здесь находится единственный в регионе полноценный песчаный пляж. Побережье застроено рядами ярких пляжных зонтиков. Нам удалось поймать кадр с прозрачной водой без людей, но только потому, что все купающиеся как раз сместились чуть левее, оставшись за границей кадра!\n\nВернувшись в Манаролу, в прохладные предвечерние часы мы прогулялись мимо террасных каменных садов и обратили внимание на невероятное количество **лимонных деревьев**, усыпанных ярко-желтыми плодами. Лимоны растут здесь повсюду благодаря уникальному микроклимату: высокие скалы защищают побережье от холодных северных ветров, а море за день накапливает тепло и отдает его ночью, обеспечивая мягкую погоду круглый год. Местные лимоны — важная часть жизни региона, из них делают знаменитый сладкий ликер лимончино и используют в традиционных рыбных блюдах.\n\nНаше гастрономическое знакомство с краем сегодня тоже вышло на новый уровень: мы наконец-то попробовали главные кулинарные визитные карточки Лигурии — **Песто** и **Фокаччу**. Песто — это густой, ароматный ярко-зеленый соус, родившийся именно в этом регионе. Его традиционно растирают в ступке и состоит он из свежего лигурийского базилика, кедровых орешков, чеснока, крупной соли, сыров пармиджано-реджано и пекорино с добавлением местного оливкового масла. Соус составил идеальную пару к фокачче — традиционной итальянской лепешке. Перед выпеканием тесто разминают пальцами, оставляя характерные ямочки, щедро поливают оливковым маслом и посыпают морской солью, благодаря чему фокачча приобретает хрустящую корочку и нежнейшую текстуру."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-cinque-terre-manarola-day-2-01.jpg",
+        "alt": {
+          "en": "A clean view of the blue sea and sandy shoreline of Monterosso beach, with swimmers out of frame to the left",
+          "local": "Чистый вид на синее море и песчаную береговую линию пляжа в Монтероссо, отдыхающие остались за кадром слева"
+        }
+      },
+      {
+        "src": "images/italy-cinque-terre-manarola-day-2-02.jpg",
+        "alt": {
+          "en": "A beautiful lemon tree bearing ripe yellow fruits inside a cozy local terraced garden in Manarola",
+          "local": "Красивое лимонное дерево со спелыми желтыми плодами в уютном частном террасном саду в Манароле"
+        }
+      },
+      {
+        "src": "images/italy-cinque-terre-manarola-day-2-03.jpg",
+        "alt": {
+          "en": "Another lush lemon tree loaded with citrus fruits growing behind a stone wall in a village garden",
+          "local": "Еще одно пышное лимонное дерево, усыпанное цитрусовыми плодами, растущее за каменным забором в деревенском саду"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-06-03-1100-cinque-terre-manarola",
     "date": "2026-06-03T11:00:00",
     "location": {
