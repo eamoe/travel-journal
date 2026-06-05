@@ -1,5 +1,92 @@
 [
   {
+    "id": "2026-06-05-1900-parma-arrival-exploration",
+    "date": "2026-06-05T19:00:00",
+    "location": {
+      "lat": "44.801485",
+      "lng": "10.327903",
+      "name": {
+        "en": "Parma, Emilia-Romagna, Italy",
+        "local": "Парма, Эмилия-Романья, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Welcome to Parma - Culinary Excellence and Elegant History",
+        "description": "Today we bid farewell to the rocky shores of Manarola and caught a regional connection to the La Spezia train station. Leaving Liguria at 12:00 PM sharp, we embarked on a highly scenic train ride crossing the Apennine Mountains to drop into the vast, fertile Po Valley. Our destination was **Parma**, located in the powerhouse northern region of **Emilia-Romagna**, spanning a rail distance of approximately 113 kilometers.\n\nParma is completely special because it represents a refined, aristocratic facet of Italian history, feeling markedly distinct from the intense medieval or Renaissance character of Florence or Pisa. Historically a powerhouse territory, it serves as the capital of the historical Duchy of Parma and Piacenza, long ruled by the powerful Farnese family and later by Napoleon's wife, Empress Marie Louise, who introduced a deep-seated love for French refinement. Globally, Parma is synonymous with legendary culinary staples; it is the ultimate birthplace of authentic *Parmigiano-Reggiano* cheese and the famously delicate, cured *Prosciutto di Parma* ham. It is also deeply woven into world literature—the French author Stendhal used the city as the central setting for his novel, *The Charterhouse of Parma* (*La Chartreuse de Parme*), forever casting an aura of high-society romantic intrigue over its streets.\n\nOur exploration focused around the Piazza Duomo. We marveled at the Romanesque facade of the **Parma Cathedral**, stepping inside to look from bottom to ceiling at its interior fresco cycle, dominated by Antonio da Correggio’s breathtaking high-Renaissance masterpiece painted directly onto the central dome. Just opposite stands the octagonal pink-marble **Baptistery (Battistero)**. Its outer bands of columns give way to an interior, where centuries-old painted walls stretch upward into a multi-ribbed vaulted ceiling. After a full day of historical awe, we returned into our home for the stay—an apartment nestled along a quiet, and winding street painted in a palette of pastel yellow, green, and red buildings."
+      },
+      "local": {
+        "title": "Добро пожаловать в Парму — кулинарную столицу с изящной историей",
+        "description": "Сегодня мы попрощались со скалистыми берегами Манаролы и доехали на местном поезде до вокзала Ла-Специи. Покинув Лигурию ровно в 12:00 дня, мы отправились в путешествие на поезде, который пересек Апеннинские горы и спустился в бескрайнюю плодородную Паданскую равнину. Нашей целью стала **Парма**, расположенная в богатом северном регионе **Эмилия-Романья**. Расстояние по железной дороге составило около 113 километров.\n\nПарма абсолютно уникальна: она олицетворяет утонченную, аристократическую сторону итальянской истории, заметно отличаясь от сурового средневекового или ренессансного духа Флоренции и Пизы. В прошлом это было могущественное суверенное государство — столица Пармского герцогства, которым долгое время управляла влиятельная династия Фарнезе, а позже — супруга Наполеона, императрица Мария-Луиза, придавшая городу французский шик. На весь мир Парма знаменита своими кулинарными шедеврами: именно здесь родились подлинный сыр *Пармиджано-Реджано* (пармезан) и знаменитая нежная сыровяленая ветчина *Прошутто ди Парма*. Кроме того, город прочно вошел в мировую литературу: французский писатель Стендаль сделал его местом действия своего романа «Пармская обитель», навсегда окутав город атмосферой светских интриг и романтики.\n\nНаше знакомство с городом началось на Соборной площади. Мы полюбовались романским фасадом **Пармского собора**, а зайдя внутрь, замерли, разглядывая от пола до потолка фрески, среди которых выделяется шедевр Высокого Возрождения работы Антонио да Корреджо, украшающий центральный купол. Прямо напротив собора стоит восьмиугольный **Баптистерий** из розового мрамора. Его внешние ярусы колоннад сменяются интерьером, где старинные росписи на стенах уходят вверх к многогранному сводчатому потолку. После насыщенного дня мы вернулись в наше временное жилье — квартиру на тихой и извилистой улочке, застроенной пастельными домами желтого, зеленого и красного цветов."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-parma-01.jpg",
+        "alt": {
+          "en": "Front view of Parma Cathedral showing its grand Romanesque architecture and the tall historic bell tower beside it",
+          "local": "Вид на главный фасад Пармского собора в романском стиле и возвышающуюся рядом старинную колокольню"
+        }
+      },
+      {
+        "src": "images/italy-parma-02.jpg",
+        "alt": {
+          "en": "An interior perspective from the nave floor looking up toward the decorated ceiling and main altar stage of Parma Cathedral",
+          "local": "Перспектива интерьера из центрального нефа собора, смотрящая вверх на расписанный потолок и главный алтарь"
+        }
+      },
+      {
+        "src": "images/italy-parma-03.jpg",
+        "alt": {
+          "en": "Detailed interior view highlighting the historic stone walls",
+          "local": "Детальный вид интерьера собора, подчеркивающий исторические каменные стены"
+        }
+      },
+      {
+        "src": "images/italy-parma-04.jpg",
+        "alt": {
+          "en": "Close-up look at the painted frescoes by Correggio",
+          "local": "Крупный план фресок работы Корреджо"
+        }
+      },
+      {
+        "src": "images/italy-parma-05.jpg",
+        "alt": {
+          "en": "The detailed artwork and altars tucked into one of the side chapels of the cathedral",
+          "local": "Украшенные произведения искусства и алтари в одной из боковых капелл Пармского собора"
+        }
+      },
+      {
+        "src": "images/italy-parma-06.jpg",
+        "alt": {
+          "en": "The exterior of the distinctive octagonal Parma Baptistery built from striking pink Verona marble",
+          "local": "Внешний вид уникального восьмиугольного здания Баптистерия Пармы, возведенного из яркого розового веронского мрамора"
+        }
+      },
+      {
+        "src": "images/italy-parma-07.jpg",
+        "alt": {
+          "en": "The interior walls of the Baptistery showcasing detailed columns, niches, and historic painted narratives",
+          "local": "Внутренние стены Баптистерия с изящными колоннами, нишами и древними сюжетными росписями"
+        }
+      },
+      {
+        "src": "images/italy-parma-08.jpg",
+        "alt": {
+          "en": "The vaulted ceiling of the Baptistery divided into concentric rings of preserved medieval frescoes",
+          "local": "Сводчатый потолок Баптистерия, разделенный на концентрические круги сохранившихся средневековых фресок"
+        }
+      },
+      {
+        "src": "images/italy-parma-09.jpg",
+        "alt": {
+          "en": "A quiet, narrow, curving Florentine-style street in Parma lined with traditional yellow, green, and red pastel residential buildings",
+          "local": "Тихая, узкая и извилистая улочка Пармы, застроенная традиционными жилыми домами желтых, зеленых и красных пастельных оттенков"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-06-04-1500-monterosso-beach-lemons",
     "date": "2026-06-04T15:00:00",
     "location": {
