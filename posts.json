@@ -1,5 +1,106 @@
 [
   {
+    "id": "2026-06-06-1400-parma-food-tour",
+    "date": "2026-06-06T14:00:00",
+    "location": {
+      "lat": "44.801485",
+      "lng": "10.327903",
+      "name": {
+        "en": "Parma, Emilia-Romagna, Italy",
+        "local": "Парма, Эмилия-Романья, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "The Secrets of Parma's Culinary Gold: Parmigiano and Prosciutto",
+        "description": "On our second day in Parma, we went on a food excursion to see how the city's culinary treasures are made. Authentic **Parmigiano-Reggiano** is fiercely protected and can only be legally produced in a strictly defined zone within the provinces of Parma, Reggio Emilia, and Modena. It relies on just three pristine ingredients: raw milk, salt, and rennet. The production begins in massive copper-lined vats, where roughly 1,100 liters of milk are coagulated; only about one-tenth of this volume turns into the actual solid cheese mass. This curd mass is brought together and split into exactly two twin wheels, each initially resting in plastic and metal molds to form its signature rounded edges. The wheels then spend nearly a month submerged in deep brine tanks filled with highly concentrated saltwater to draw out moisture and form the rind before moving to massive aging rooms. We stood in awe inside a maturation cellar where the massive shelves held wheels stacked 20 blocks high and about 50 deep per row, with each completed wheel weighing around 40 to 50 kilograms.\n\nNext, we explored the production of world-famous **Prosciutto di Parma**. Just like the cheese, true Prosciutto di Parma has a strict Protected Designation of Origin (PDO) and requires only two basic ingredients: a premium pig's leg and sea salt. Crucially, only the heavy back leg of the pig can be used to make the authentic version. We toured the curing rooms, tracking the leg's transformation from raw meat hanging in chilled fridges to the phase where the exposed muscle is smeared with a protective layer of lard and salt to prevent it from drying out too quickly. After a long, natural air-curing process, the hams undergo a rigorous quality check; only the finest pass the test to receive the official Ducal Crown brand burnt into the skin. To prepare it for commercial sale and export, each leg is traditionally deboned and vacuum-sealed into four neat chunks. We wrapped up this day with a magnificent tasting lunch featuring 24-month-aged Parmigiano chunks, paper-thin ribbons of prosciutto, and a basket of warm **Torta Fritta**—the puffed, fried dough pockets that locals split open to stuff with prosciutto."
+      },
+      "local": {
+        "title": "Секреты гастрономического золота Пармы: Пармезан и Прошутто",
+        "description": "На второй день в Парме мы отправились на гастрономическую экскурсию, чтобы своими глазами увидеть производство деликатесов. Настоящий сыр **Пармиджано-Реджано** строго защищен по происхождению и может производиться только в строго определенных зонах провинций Парма, Реджо-Эмилия и Модена. Его рецепт включает всего три чистейших ингредиента: сырое коровье молоко, соль и сычужный фермент. Процесс начинается в огромных медных чанах, где около 1100 литров молока створаживаются, и лишь одна десятая часть этого объема превращается в сырную массу. Эту массу собирают со дна и делят ровно на две головки-близнеца, которые затем помещают в пластиковые, а затем металлические формы для прессования и придания округлых краев. После этого сырные круги проводят около месяца в глубоких бассейнах с очень соленой водой, чтобы впитать соль и запустить формирование корочки. Мы были поражены масштабом созревательных погребов, где стеллажи уходят вверх на 20 ярусов, а в каждом ряду зреет около 50 головок, причем каждая из них весит порядка 40-50 килограммов.\n\nЗатем мы переехали на фабрику по производству знаменитого **Прошутто ди Парма**. Как и в случае с сыром, для подлинного прошутто действуют строжайшие правила, а ингредиентов всего два: отборный свиной окорок и морская соль. Важно отметить, что для настоящего прошутто используется исключительно задняя нога. Мы прошли по залам вяления, наблюдая путь окорока от сырого мяса в холодильных камерах до этапа, когда открытая мясная часть покрывается защитной смесью из свиного жира и соли для защиты от пересыхания. После долгого созревания на воздухе окорока проходят строгую проверку, и на кожу лучших из них выжигается клеймо в виде пятиконечной герцогской короны. Перед продажей каждую ногу очищают от кости и делят на 4 удобных куска для вакуумации. Наш день завершился великолепным дегустационным обедом: кусочками пармезана 24-месячной выдержки, тончайшей нарезкой прошутто и корзинкой горячих пышек **Торта Фритта** — обжаренных в масле кусочков теста, которые местные жители надрезают, кладут внутрь прошутто и едят."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-parma-day-2-01.jpg",
+        "alt": {
+          "en": "Massive warehouse shelves stacked 20 levels high with aging golden wheels of Parmigiano-Reggiano cheese",
+          "local": "Огромные стеллажи склада, уходящие вверх на 20 уровней, заставленные созревающими золотистыми головками пармезана"
+        }
+      },
+      {
+        "src": "images/italy-parma-day-2-02.jpg",
+        "alt": {
+          "en": "Rows of conical copper-lined vats where fresh milk begins its coagulation process into cheese curd",
+          "local": "Ряды конических чанов с медным покрытием, где свежее молоко начинает процесс створаживания в сырную массу"
+        }
+      },
+      {
+        "src": "images/italy-parma-day-2-03.jpg",
+        "alt": {
+          "en": "A single compact cheese mass being brought together inside a copper vat during production",
+          "local": "Единая плотная сырная масса, собранная на дне медного чана в процессе производства"
+        }
+      },
+      {
+        "src": "images/italy-parma-day-2-04.jpg",
+        "alt": {
+          "en": "A young wheel of fresh cheese being kept under pressure in a white plastic mold to drain excess whey",
+          "local": "Молодая головка свежего сыра под прессом в белой пластиковой форме для удаления излишков сыворотки"
+        }
+      },
+      {
+        "src": "images/italy-parma-day-2-05.jpg",
+        "alt": {
+          "en": "Multiple young cheese wheels resting in heavy metal molds to help shape their iconic rounded edges",
+          "local": "Несколько молодых сырных головок в тяжелых металлических обручах, придающих им характерную округлую форму"
+        }
+      },
+      {
+        "src": "images/italy-parma-day-2-06.jpg",
+        "alt": {
+          "en": "Large brine pools inside the factory where cheese blocks float in highly concentrated saltwater",
+          "local": "Большие бассейны с рассолом на фабрике, где сырные блоки плавают в высококонцентрированной соленой воде"
+        }
+      },
+      {
+        "src": "images/italy-parma-day-2-07.jpg",
+        "alt": {
+          "en": "Rows of raw prosciutto pig legs hanging in temperature-controlled refrigerated aging rooms",
+          "local": "Ряды сырых свиных окороков прошутто, подвешенных в холодильных камерах с контролем температуры"
+        }
+      },
+      {
+        "src": "images/italy-parma-day-2-08.jpg",
+        "alt": {
+          "en": "Curing prosciutto legs hanging in a cellar with exposed meat parts coated in a protective lard mixture",
+          "local": "Вялящиеся окорока прошутто в погребе, открытые мясные части которых покрыты защитной смесью из жира"
+        }
+      },
+      {
+        "src": "images/italy-parma-day-2-09.jpg",
+        "alt": {
+          "en": "Fully cured Prosciutto di Parma legs displaying the official burnt-in brand stamps and product labels",
+          "local": "Полностью готовые окорока Прошутто ди Парма с официальными выжженными клеймами и товарными этикетками"
+        }
+      },
+      {
+        "src": "images/italy-parma-day-2-10.jpg",
+        "alt": {
+          "en": "A premium chunk of Prosciutto di Parma positioned on a professional slicing machine inside the facility",
+          "local": "Отборный кусок Прошутто ди Парма, закрепленный на профессиональном слайсере для нарезки"
+        }
+      },
+      {
+        "src": "images/italy-parma-day-2-11.jpg",
+        "alt": {
+          "en": "Our tasting lunch featuring chunks of aged parmesan, thin prosciutto folds, and golden puffed torta fritta pastry",
+          "local": "Наш дегустационный обед с кусочками выдержанного пармезана, тонкой нарезкой прошутто и золотистой пышной тортой фриттой"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-06-05-1900-parma-arrival-exploration",
     "date": "2026-06-05T19:00:00",
     "location": {
