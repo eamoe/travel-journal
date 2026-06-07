@@ -1,5 +1,113 @@
 [
   {
+    "id": "2026-06-07-1130-milan-arrival-landmarks",
+    "date": "2026-06-07T11:30:00",
+    "location": {
+      "lat": "45.464204",
+      "lng": "9.189982",
+      "name": {
+        "en": "Milan, Lombardy, Italy",
+        "local": "Милан, Ломбардия, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Magnificent Milan - Gothic Spires, Sforza Might, and the Arch of Peace",
+        "description": "This morning at 10:15 AM, we departed Parma and took a fast train directly to the Milano Centrale station, arriving by 11:05 AM. We immediately hopped onto the underground metro straight into the beating heart of **Milan**, the dynamic capital of Italy's northern **Lombardy** region. Historically, Milan has always held a pivotal, powerhouse role—first as a major Western Roman capital, then as a wealthy medieval duchy ruled by the fiercely competitive Visconti and Sforza dynasties, and today as Italy's undisputed global economic and fashion powerhouse.\n\nOur first destination was the **Duomo di Milano** (Milan Cathedral). This astonishing Gothic masterpiece took nearly six centuries to complete and is constructed entirely from stunning pink-hued Candoglia marble. Looking up from the closest point along the outer walls, we were amazed by the pure verticality and detail, seeing how the walls consist of thousands of intricate statues, flying buttresses, and delicate openwork spires. The front view of the cathedral facade was framed by large stage structures set up for a concert. Stepping inside, the cathedral opens up into a vast sanctuary supported by staggeringly massive stone columns. We walked down the nave to view the towering stained-glass window (vitrage) illuminating the apse, and caught magnificent side vitrages glowing brilliantly as the bright afternoon sun shone straight through the historical glass.\n\nFrom there, we walked down to the **Sforza Castle (Castello Sforzesco)**. Built in the 15th century by Francesco Sforza on the remains of a medieval fortification, this massive red-brick citadel serves as a physical symbol of the Renaissance military might of Milan's former rulers. We were greeted by a grand, spraying fountain situated right in front of the central entrance tower. We explored the outer fortifications, admiring how the colossal rounded stone towers connect to high defensive brick walls, and looked down from a bridge into the exceptionally deep, dry moat that separates the castle from the sprawling greenery of Sempione Park. Wandering through the park, we even spotted a friendly little squirrel running through the trees.\n\nAt the far edge of Sempione Park, we stood before the white-marble **Arco della Pace** (Arch of Peace). The story of this triumphal arch is interesting: its construction was originally ordered in 1807 by Napoleon Bonaparte to celebrate his military victories and mark the entry point of the historic road connecting Milan directly to Paris. However, following Napoleon's defeat and the fall of the Kingdom of Italy, the project was halted, only to be finished decades later by the Austrian Emperor Francis I, who completely re-dedicated the monument to commemorate the European peace achieved at the 1815 Congress of Vienna."
+      },
+      "local": {
+        "title": "Величественный Милан — готические шпили, мощь Сфорца и Арка мира",
+        "description": "Сегодня утром, в 10:15, мы выехали из Пармы и на скоростном поезде отправились прямиком на вокзал Милано Чентрале, куда прибыли к 11:05. Пересев на метро, мы сразу же поехали в самый центр **Милана** — динамичной столицы северного итальянского региона **Ломбардия**. Исторически Милан всегда играл ключевую, доминирующую роль: сначала как важная столица Западной Римской империи, затем как богатейшее средневековое герцогство под властью соперничавших династий Висконти и Сфорца, а сегодня — как главная экономическая и модная столица Италии.\n\nНашей первой точкой стал **Миланский собор (Дуомо)**. Этот шедевр пламенеющей готики строился почти шесть веков из уникального розоватого кандолийского мрамора. Рассматривая стены собора вплотную, поражаешься их невероятной вертикальности: фасад состоит из тысяч сложнейших скульптур, контрфорсов и изящных ажурных шпилей. Снаружи перед главным фасадом собора как раз монтировали (или демонтировали) сцену, поэтому элементы металлоконструкций попали в кадр. Внутри собор встречает огромным пространством, которое удерживают массивные каменные колонны. Мы прошли вглубь, чтобы рассмотреть гигантский витраж в главной апсиде, а также полюбовались боковыми витражами, которые буквально горели яркими красками под лучами полуденного солнца.\n\nОттуда мы направились к **Замку Сфорца (Кастелло Сфорцеско)**. Возведенная в XV веке Франческо Сфорца на фундаментах старой крепости, эта огромная цитадель из красного кирпича служит живым символом военного могущества правителей Милана эпохи Возрождения. Прямо перед главным входом нас встретил большой работающий фонтан. Мы обошли укрепления, любуясь мощными круглыми башнями и фрагментами высоких крепостных стен, и заглянули с мостика в очень глубокий сухой ров, отделяющий замок от обширного парка Семпионе. Гуляя среди деревьев парка, мы даже встретили очаровательную маленькую белку.\n\nНа противоположном конце парка Семпионе мы вышли к беломраморной **Арке мира (Arco della Pace)**. История этого сооружения очень интересна: её строительство началось в 1807 году по приказу Наполеона Бонапарта в честь его военных триумфов, и она должна была символизировать парадный въезд в город со стороны исторической дороги из Парижа. Однако после поражения Наполеона и падения его итальянского королевства стройку заморозили. Завершил её спустя десятилетия уже австрийский император Франциск I, полностью изменив смысл монумента и посвятив его европейскому миру, достигнутому на Венском конгрессе в 1815 году."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-milan-01.jpg",
+        "alt": {
+          "en": "Looking directly up from the base of the Milan Cathedral wall showing the dizzying vertical array of marble carvings and Gothic decorations",
+          "local": "Взгляд вертикально вверх от самого основания стены Миланского собора, демонстрирующий головокружительное обилие мраморной резьбы и готических элементов"
+        }
+      },
+      {
+        "src": "images/italy-milan-02.jpg",
+        "alt": {
+          "en": "The iconic front facade of Duomo di Milano with temporary concert stage scaffolding partially visible in the foreground",
+          "local": "Знаменитый главный фасад Миланского собора с частично видимыми металлоконструкциями концертной сцены на переднем плане"
+        }
+      },
+      {
+        "src": "images/italy-milan-03.jpg",
+        "alt": {
+          "en": "An angled view looking up along the exterior marble wall illustrating the thousands of individual stones, relief figures, and small spires that make up the facade",
+          "local": "Перспективный взгляд вверх вдоль внешней мраморной стены, показывающий тысячи отдельных камней, барельефов и мелких шпилей, из которых собран фасад"
+        }
+      },
+      {
+        "src": "images/italy-milan-04.jpg",
+        "alt": {
+          "en": "Interior view of the cathedral showing the rows of massive dark stone columns supporting the high vaulted ceiling",
+          "local": "Интерьер собора, демонстрирующий ряды массивных темных каменных колонн, поддерживающих высокий сводчатый потолок"
+        }
+      },
+      {
+        "src": "images/italy-milan-05.jpg",
+        "alt": {
+          "en": "Looking down the dark central nave toward the brightly lit, main stained glass window in the cathedral apse",
+          "local": "Вид вдоль темного центрального нефа собора в сторону ярко освещенного главного витража в апсиде"
+        }
+      },
+      {
+        "src": "images/italy-milan-06.jpg",
+        "alt": {
+          "en": "A close-up of a side stained-glass window with vibrant afternoon sunlight streaming through the colorful historic glass scenes",
+          "local": "Крупный план бокового витражного окна со струящимся сквозь цветные исторические стекла ярким дневным светом"
+        }
+      },
+      {
+        "src": "images/italy-milan-07.jpg",
+        "alt": {
+          "en": "The grand entrance of Sforza Castle with the large decorative public fountain spraying water in the foreground",
+          "local": "Парадный вход в Замок Сфорца с большим работающим декоративным фонтаном на переднем плане"
+        }
+      },
+      {
+        "src": "images/italy-milan-08.jpg",
+        "alt": {
+          "en": "A view of the large outdoor fountain positioned next to one of the massive rounded brick defensive towers of the castle",
+          "local": "Вид на большой фонтан, расположенный рядом с одной из могучих круглых кирпичных оборонительных башен замка"
+        }
+      },
+      {
+        "src": "images/italy-milan-09.jpg",
+        "alt": {
+          "en": "A corner of Castello Sforzesco highlighting the imposing rounded corner tower and a fragment of the high connecting brick wall",
+          "local": "Угол замка Кастелло Сфорцеско, подчеркивающий внушительную круглую угловую башню и фрагмент соединяющей их высокой кирпичной стены"
+        }
+      },
+      {
+        "src": "images/italy-milan-10.jpg",
+        "alt": {
+          "en": "Looking down from the entrance bridge into the deep and wide dry defensive moat at the edge of Sempione Park",
+          "local": "Вид сверху с входного моста в глубокий и широкий сухой оборонительный ров на границе с парком Семпионе"
+        }
+      },
+      {
+        "src": "images/italy-milan-11.jpg",
+        "alt": {
+          "en": "A little wild squirrel looking up attentively",
+          "local": "Маленькая дикая белка, внимательно смотрящая вверх"
+        }
+      },
+      {
+        "src": "images/italy-milan-12.jpg",
+        "alt": {
+          "en": "The monumental white marble Arco della Pace standing at the edge of the public square",
+          "local": "Монументальная белокаменная Арка мира, возвышающаяся на краю площади"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-06-06-1400-parma-food-tour",
     "date": "2026-06-06T14:00:00",
     "location": {
