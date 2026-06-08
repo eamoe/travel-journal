@@ -1,5 +1,64 @@
 [
   {
+    "id": "2026-06-08-1100-milan-art-opera-canals",
+    "date": "2026-06-08T11:00:00",
+    "location": {
+      "lat": "45.464204",
+      "lng": "9.189982",
+      "name": {
+        "en": "Milan, Lombardy, Italy",
+        "local": "Милан, Ломбардия, Италия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Milan's Artistic Soul - Ambrosiana Masters, La Scala, and Navigli Canals",
+        "description": "We dedicated our second day in Milan to exploring the city's artistic and musical heritage, starting with the prestigious **Pinacoteca Ambrosiana**. Founded in 1618 by Cardinal Federico Borromeo, this library and art gallery houses some of the world's most breathtaking Renaissance masterpieces. We came with Caravaggio's *Basket of Fruit* (*Canestra di frutta*), a groundbreaking still-life painting that pioneered the genre by showcasing realistic, wilting leaves and insect-damaged fruit rather than idealized perfection. We also admired Leonardo da Vinci's enigmatic *Portrait of a Musician*. Beyond the paintings, we were captivated by a small marble panel filled with tiny carved figures; the sheer amount of microscopic labor and dedication required to execute such extreme structural detail is mind-boggling.\n\nFrom the canvas, we moved to the performing arts at the legendary **Teatro alla Scala**, one of the most prestigious opera houses in the world since its inauguration in 1778. We toured the fascinating La Scala Museum, which displays historic stage costumes, set designs, and instruments used by opera masters like Giuseppe Verdi and Giacomo Puccini. The absolute highlight, however, was stepping into one of the elegant golden loggias (theater boxes) to catch a rare, live glimpse of an ongoing rehearsal on the main stage. While taking photos of the stage was prohibited to protect the production and prevent disturbing the repetition, watching the performers project their craft into the empty, velvet-lined theater was an unforgettable experience.\n\nTo wrap up the day, we went to the Navigli district near the Porta Genova subway station to walk along the historic canals. Many travelers are surprised to learn that inland Milan once functioned as a bustling canal port. Dating back to the 12th century, the *Navigli* system was built to connect landlocked Milan to nearby rivers and lakes, fundamentally serving as vital trade arteries to transport goods and the heavy Candoglia marble used to build the Duomo. Leonardo da Vinci spent nearly two decades in Milan under the patronage of Ludovico Sforza, during which time he made major contributions to the city. He famously optimized the canal network by designing an innovative system of miter locks (the Leonardo locks) to smoothly regulate water levels, a brilliant engineering feat that permanently links his legacy to the fluid history of Milan."
+      },
+      "local": {
+        "title": "Художественная душа Милана — шедевры Амброзианы, Ла Скала и каналы Навильи",
+        "description": "Наш второй день в Милане мы посвятили художественному и музыкальному наследию города, начав с престижной **Пинакотеки Амброзиана**. Основанная в 1618 году кардиналом Федерико Борромео, эта галерея хранит величайшие сокровища эпохи Возрождения. Мы увидели «Корзину с фруктами» Караваджо — новаторский натюрморт, заложивший основы жанра благодаря реалистичному, неидеализированному изображению увядающих листьев и тронутых насекомыми плодов. Также мы видели «Портрет музыканта» Леонардо да Винчи — единственный мужской портрет кисти мастера. Помимо живописи, нас впечатлил изящный мраморный барельеф с крошечными фигурами: поразительно, сколько труда и ювелирной точности потребовалось, чтобы проработать столь мелкие детали.\n\nЗатем мы переключились на музыку, отправившись в оперный театр **Ла Скала**, который с момента своего открытия в 1778 году считается главным оперным театром планеты. Мы посетили музей театра, где выставлены старинные сценические костюмы, эскизы декораций и личные инструменты великих композиторов — Джузеппе Верди и Джакомо Пуччини. Главным же моментом стало то, что нам разрешили заглянуть в одну из позолоченных лож и понаблюдать за идущей на сцене репетицией. Фотографировать саму сцену было запрещено, чтобы не нарушать рабочий процесс и не мешать артистам, но само ощущение присутствия в зале во время подготовки спектакля — незабываемо.\n\nЗавершили мы этот день прогулкой вдоль исторических каналов в районе Навилье. Многие удивляются, узнав, что сухопутный Милан когда-то был крупным речным портом. Система каналов *Навильи*, заложенная еще в XII веке, связывала город с окрестными реками и озерами. По этим водным артериям доставляли товары, а главное — тяжелые блоки кандолийского мрамора для строительства Дуомо. Именно с миланскими каналами связано имя Леонардо да Винчи, который прожил в Милане почти 20 лет под покровительством Лодовико Сфорца. Леонардо усовершенствовал эту водную систему, разработав инновационную конструкцию шлюзов с поворотными воротами для регулирования уровня воды — гениальное инженерное решение, которое навсегда связало его имя с историей города."
+      }
+    },
+    "images": [
+      {
+        "src": "images/italy-milan-day-2-01.jpg",
+        "alt": {
+          "en": "Caravaggio's pioneering still-life painting Basket of Fruit showing highly detailed hyper-realistic fruit in a woven basket",
+          "local": "Новаторский натюрморт Караваджо «Корзина с фруктами», демонстрирующий высокодетализированные реалистичные плоды в плетеной корзине"
+        }
+      },
+      {
+        "src": "images/italy-milan-day-2-02.jpg",
+        "alt": {
+          "en": "A close-up look at an exquisitely detailed small marble panel featuring microscopic carved relief figures inside the gallery",
+          "local": "Крупный план изящного маленького мраморного барельефа с микроскопической проработкой резных рельефных фигур в залах галереи"
+        }
+      },
+      {
+        "src": "images/italy-milan-day-2-03.jpg",
+        "alt": {
+          "en": "The famous Portrait of a Musician by Leonardo da Vinci displayed inside the Pinacoteca Ambrosiana",
+          "local": "Знаменитый «Портрет музыканта» работы Леонардо да Винчи, выставленный в залах Пинакотеки Амброзиана"
+        }
+      },
+      {
+        "src": "images/italy-milan-day-2-04.jpg",
+        "alt": {
+          "en": "The understated Neoclassical front facade of the historic Teatro alla Scala facing the public square",
+          "local": "Сдержанный неоклассический главный фасад исторического театра Ла Скала, выходящий на одноименную площадь"
+        }
+      },
+      {
+        "src": "images/italy-milan-day-2-05.jpg",
+        "alt": {
+          "en": "A scenic view of a quiet urban Navigli canal reflecting surrounding buildings near the Porta Genova area",
+          "local": "Живописный вид на тихий городской канал Навилье, в котором отражаются окружающие дома, недалеко от района Порта Дженова"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-06-07-1130-milan-arrival-landmarks",
     "date": "2026-06-07T11:30:00",
     "location": {
