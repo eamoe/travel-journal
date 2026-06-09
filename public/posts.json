@@ -1,5 +1,36 @@
 [
   {
+    "id": "2026-06-09-2200-tbilisi-return",
+    "date": "2026-06-09T22:00:00",
+    "location": {
+      "lat": "41.693630",
+      "lng": "44.801681",
+      "name": {
+        "en": "Tbilisi, Georgia",
+        "local": "Тбилиси, Грузия"
+      }
+    },
+    "content": {
+      "en": {
+        "title": "Homeward Bound - Return to Rainy Tbilisi",
+        "description": "Our Italian journey draws to a close today. We departed from Milan by airplane at 3:00 PM and arrived back home to Tbilisi by 9:00 PM local time. The city greeted us with a rain, which began about an hour before our landing. Stepping out onto our balcony, the panoramic view of Tbilisi is beautifully atmospheric. According to the weather forecast, this rain is here to stay and is set to continue for the next two weeks—a striking, cozy contrast to the sun-drenched Italian plains we left behind."
+      },
+      "local": {
+        "title": "Дорога домой — возвращение в дождливый Тбилиси",
+        "description": "Наше итальянское путешествие сегодня подошло к концу. Мы вылетели из Милана на самолете в 15:00 и к 21:00 по местному времени уже приземлились в Тбилиси (полет длился около 4-х часов). Город встретил нас дождем, который начался примерно за час до нашей посадки. Из окна нашего балкона открывается панорамный, очень атмосферный вид на Тбилиси. Судя по прогнозу погоды, эти дожди зарядили надолго и продлятся ближайшие две недели — контрастный и уютный финал после залитых солнцем итальянских площадей."
+      }
+    },
+    "images": [
+      {
+        "src": "images/georgia-tbilisi-01.jpg",
+        "alt": {
+          "en": "A scenic atmospheric view looking out over the misty rooftops and hills of Tbilisi from our apartment balcony during a rainstorm",
+          "local": "Живописный атмосферный вид на крыши и холмы Тбилиси с нашего балкона во время проливного дождя"
+        }
+      }
+    ]
+  },
+  {
     "id": "2026-06-08-1100-milan-art-opera-canals",
     "date": "2026-06-08T11:00:00",
     "location": {
